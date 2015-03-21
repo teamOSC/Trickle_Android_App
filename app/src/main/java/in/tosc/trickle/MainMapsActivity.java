@@ -48,14 +48,14 @@ public class MainMapsActivity extends FragmentActivity
 
         SubActionButton mapItemButton1 = makeSAB(R.drawable.ic_hospital, this, mapItemBuilder);
         SubActionButton mapItemButton2 = makeSAB(R.drawable.ic_restaurant, this, mapItemBuilder);
-        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restrooms, this, mapItemBuilder);
+        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restroom, this, mapItemBuilder);
 
         FloatingActionMenu mapActionMenu = new FloatingActionMenu.Builder(this)
                 .addSubActionView(mapItemButton1)
                 .addSubActionView(mapItemButton2)
                 .addSubActionView(mapItemButton3)
                 .attachTo(mapActionButton)
-                .setRadius(400)
+                .setRadius(200)
                 .setStartAngle(0)
                 .setEndAngle(-90)
                 .build();
@@ -142,9 +142,10 @@ public class MainMapsActivity extends FragmentActivity
     private SubActionButton makeSAB (int resId, Context c, SubActionButton.Builder sBuilder) {
         ImageView icon = new ImageView(c);
         icon.setImageResource(resId);
+        icon.setPadding(20,20,20,20);
         int mySubActionButtonSize = getResources().getDimensionPixelSize(R.dimen.my_sub_action_button_size);
         int mySubActionButtonContentMargin = getResources().getDimensionPixelSize(R.dimen.my_sub_action_button_content_margin);
-        FrameLayout.LayoutParams newContentParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT);
+        FrameLayout.LayoutParams newContentParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);
         newContentParams.setMargins(mySubActionButtonContentMargin,
                 mySubActionButtonContentMargin,
                 mySubActionButtonContentMargin,
