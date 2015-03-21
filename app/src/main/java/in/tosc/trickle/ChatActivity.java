@@ -1,5 +1,7 @@
 package in.tosc.trickle;
 
+import android.app.Activity;
+import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,33 +12,91 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.apache.http.HttpRequest;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 
 
-public class ChatActivity extends ActionBarActivity {
+public class ChatActivity extends Activity {
 
     private RecyclerView chatRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
+    private EditText chatEditText;
+
     private ArrayList<Chat> chatList = new ArrayList<>();
+
+    private String url = "http://tosc.in:8087/adler?q=%s";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        chatEditText = (EditText) findViewById(R.id.new_chat_message);
+
         chatRecyclerView = (RecyclerView) findViewById(R.id.chat_recycler_view);
         chatRecyclerView.setHasFixedSize(true);
 
         mLayoutManager = new LinearLayoutManager(this);
         chatRecyclerView.setLayoutManager(mLayoutManager);
+        mAdapter = new ChatAdapter();
+        chatRecyclerView.setAdapter(mAdapter);
     }
 
+    private class AdlerResponse extends AsyncTask<Void, Void, String> {
+
+        private String message;
+
+        public AdlerResponse(String message) {
+            this.message = message;
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            HttpClient httpClient = new DefaultHttpClient();
+            try {
+                HttpResponse response = httpClient.execute(new HttpGet(
+                        String.format(url, URLEncoder.encode(message, "utf-8"))));
+                String result = EntityUtils.toString(response.getEntity());
+                return result;
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            chatList.add(new Chat(false, result));
+            mAdapter.notifyDataSetChanged();
+            gotToLast();
+        }
+    }
+
+    public void gotToLast() {
+        chatRecyclerView.post(new Runnable() {
+            @Override
+            public void run() {
+                chatRecyclerView.scrollToPosition(mAdapter.getItemCount() - 1);
+            }
+        });
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -104,6 +164,14 @@ public class ChatActivity extends ActionBarActivity {
         public int getItemCount() {
             return chatList.size();
         }
+    }
+
+    public void sendMessage(View unused) {
+        String message = chatEditText.getText().toString();
+        chatList.add(new Chat(true, message));
+        mAdapter.notifyDataSetChanged();
+        gotToLast();
+        new AdlerResponse(message).execute();
     }
 
     private static class Chat {
