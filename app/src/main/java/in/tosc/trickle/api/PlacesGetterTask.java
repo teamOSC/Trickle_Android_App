@@ -15,6 +15,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 
 /**
@@ -30,10 +33,11 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
     @Override
     protected ArrayList<PlaceObject> doInBackground(PlacesGetArgs... params) {
         PlacesGetArgs argObj = params[0];
-        String reqUrl = "http://tosc.in:8087/" +
+        String reqUrl ="http://tosc.in:8087/" +
                 "?lat="+ argObj.latitude +
                 "&long="+ argObj.longitude +
                 "&type=" + argObj.placetype;
+
         Log.d(TAG, "url = " + reqUrl );
 
         HttpClient client = new DefaultHttpClient();

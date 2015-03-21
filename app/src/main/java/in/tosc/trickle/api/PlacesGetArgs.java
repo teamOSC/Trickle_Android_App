@@ -6,9 +6,9 @@ package in.tosc.trickle.api;
 public class PlacesGetArgs {
     public enum Type {
         TYPE_ATM("atm"),
-        TYPE_RESTAURANT("restaurant|food|cafe"),
+        TYPE_RESTAURANT("restaurant,food,cafe"),
         TYPE_GAS_STATION("gas_station"),
-        TYPE_HOSPITAL("hospital|doctor");
+        TYPE_HOSPITAL("hospital,doctor");
 
         private final String text;
 
