@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -24,6 +26,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.URL;
@@ -83,7 +87,12 @@ public class ChatActivity extends Activity {
 
         @Override
         protected void onPostExecute(String result) {
-            chatList.add(new Chat(false, result));
+            try {
+                JSONObject object = new JSONObject(result);
+                chatList.add(new Chat(false, object.getString("response")));
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
             mAdapter.notifyDataSetChanged();
             gotToLast();
         }
@@ -124,11 +133,13 @@ public class ChatActivity extends Activity {
 
         public class ViewHolder extends RecyclerView.ViewHolder {
             // each data item is just a string in this case
+            public LinearLayout mLinearLayout;
             public RelativeLayout mRelativeLayout;
             public TextView chatTextVew;
-            public ViewHolder(RelativeLayout v) {
+            public ViewHolder(LinearLayout v) {
                 super(v);
-                mRelativeLayout = v;
+                mRelativeLayout = (RelativeLayout) v.findViewById(R.id.chat_relative_layout);
+                mLinearLayout = v;
                 chatTextVew = (TextView) mRelativeLayout.findViewById(R.id.chat_message);
             }
         }
@@ -138,7 +149,7 @@ public class ChatActivity extends Activity {
         public ChatAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
                                                        int viewType) {
             // create a new view
-            RelativeLayout v = (RelativeLayout) LayoutInflater.from(parent.getContext())
+            LinearLayout v = (LinearLayout) LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.chat_row, parent, false);
 
             ViewHolder vh = new ViewHolder(v);
@@ -152,8 +163,11 @@ public class ChatActivity extends Activity {
             // - replace the contents of the view with that element
             Chat chat = chatList.get(position);
             if (chat.isMine()) {
+                holder.mLinearLayout.setGravity(Gravity.RIGHT);
                 holder.mRelativeLayout.setBackgroundResource(R.drawable.speech_bubble_green);
+
             } else {
+                holder.mLinearLayout.setGravity(Gravity.LEFT);
                 holder.mRelativeLayout.setBackgroundResource(R.drawable.speech_bubble_orange);
             }
             holder.chatTextVew.setText(chatList.get(position).getMessage());
