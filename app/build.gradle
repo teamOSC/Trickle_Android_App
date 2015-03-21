@@ -24,4 +24,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:7.0.0'
     compile 'com.android.support:appcompat-v7:21.+'
     compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.+'
 }
