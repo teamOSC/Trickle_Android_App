@@ -1,22 +1,45 @@
 package in.tosc.trickle;
 
+import android.content.Context;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.FusedLocationProviderApi;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MainMapsActivity extends FragmentActivity {
+public class MainMapsActivity extends FragmentActivity
+        implements
+        GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
+    public static final String TAG = "Trickle MMActivity";
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
+    private GoogleApiClient mGoogleApiClient;
+    private Location mLastLocation;
+    LatLng mLatLng;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_maps);
+        buildGoogleApiClient();
         setUpMapIfNeeded();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mGoogleApiClient.connect();
     }
 
     @Override
@@ -60,6 +83,76 @@ public class MainMapsActivity extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+
+        // Enable MyLocation Layer of Google Map
+        mMap.setMyLocationEnabled(true);
+
+
+        // set map type
+        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+        try {
+            moveMapToMyLocation();
+        } catch (Exception e) {
+            // Y u do dis ?
+        }
+
+
+    }
+
+
+    protected synchronized void buildGoogleApiClient() {
+        Log.d(TAG, "buildGoogleApiClient");
+        if (mGoogleApiClient == null) {
+            mGoogleApiClient = new GoogleApiClient.Builder(this)
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(LocationServices.API)
+                    .build();
+        }
+    }
+
+    private void moveMapToMyLocation () {
+
+        mLatLng = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
+
+        if (mMap.getMyLocation() != null) {
+            mLatLng = new LatLng(mMap.getMyLocation().getLatitude(), mMap.getMyLocation().getLongitude());
+        }
+
+        Log.w(TAG, mLatLng.toString());
+        // Show the current location in Google Map
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(mLatLng));
+
+        // Zoom in the Google Map
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(14));
+
+    }
+
+
+
+
+    @Override
+    public void onConnected(Bundle connectionHint) {
+        Log.w(TAG, "onConnected");
+        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
+                mGoogleApiClient);
+        if (mLastLocation != null) {
+            moveMapToMyLocation();
+        }
+    }
+
+
+    @Override
+    public void onConnectionSuspended(int i) {
+        Log.w(TAG, "onConnectionSuspended");
+
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+        Log.w(TAG, "onConnectionFailed");
+
     }
 }
+
