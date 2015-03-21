@@ -41,7 +41,7 @@ public class MainMapsActivity extends FragmentActivity
         buildGoogleApiClient();
         setUpMapIfNeeded();
 
-        FloatingActionButton mapActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_BOTTOM_LEFT, this);
+        FloatingActionButton mapActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_TOP_CENTER, this);
 
         SubActionButton.Builder mapItemBuilder = new SubActionButton.Builder(this);
         // repeat many times:
@@ -49,21 +49,50 @@ public class MainMapsActivity extends FragmentActivity
         SubActionButton mapItemButton1 = makeSAB(R.drawable.ic_hospital, this, mapItemBuilder);
         SubActionButton mapItemButton2 = makeSAB(R.drawable.ic_restaurant, this, mapItemBuilder);
         SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restroom, this, mapItemBuilder);
+        SubActionButton mapItemButton4 = makeSAB(R.drawable.ic_atm, this, mapItemBuilder);
+        SubActionButton mapItemButton5 = makeSAB(R.drawable.ic_pump, this, mapItemBuilder);
+        SubActionButton mapItemButton6 = makeSAB(R.drawable.ic_taxi, this, mapItemBuilder);
 
         FloatingActionMenu mapActionMenu = new FloatingActionMenu.Builder(this)
                 .addSubActionView(mapItemButton1)
                 .addSubActionView(mapItemButton2)
                 .addSubActionView(mapItemButton3)
+                .addSubActionView(mapItemButton4)
+                .addSubActionView(mapItemButton5)
+                .addSubActionView(mapItemButton6)
                 .attachTo(mapActionButton)
-                .setRadius(200)
+                .setRadius(250)
                 .setStartAngle(0)
-                .setEndAngle(-90)
+                .setEndAngle(180)
                 .build();
 
 
 
 
-        FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_BOTTOM_RIGHT, this);
+        FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_heatmap, FloatingActionButton.POSITION_BOTTOM_CENTER, this);
+
+        SubActionButton.Builder heatItemBuilder = new SubActionButton.Builder(this);
+
+        SubActionButton heatItemButton1 = makeSAB(R.drawable.ic_crime, this, heatItemBuilder);
+        SubActionButton heatItemButton2 = makeSAB(R.drawable.ic_water, this, heatItemBuilder);
+        SubActionButton heatItemButton3 = makeSAB(R.drawable.ic_disaster, this, heatItemBuilder);
+        SubActionButton heatItemButton4 = makeSAB(R.drawable.ic_healthcare, this, heatItemBuilder);
+        SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_pollution, this, heatItemBuilder);
+        SubActionButton heatItemButton6 = makeSAB(R.drawable.ic_population, this, heatItemBuilder);
+
+        FloatingActionMenu heatActionMenu = new FloatingActionMenu.Builder(this)
+                .addSubActionView(heatItemButton1)
+                .addSubActionView(heatItemButton2)
+                .addSubActionView(heatItemButton3)
+                .addSubActionView(heatItemButton4)
+                .addSubActionView(heatItemButton5)
+                .addSubActionView(heatItemButton6)
+                .attachTo(heatActionButton)
+                .setRadius(250)
+                .setStartAngle(0)
+                .setEndAngle(-180)
+                .build();
+
     }
 
     @Override
