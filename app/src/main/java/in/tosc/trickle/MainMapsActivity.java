@@ -20,6 +20,8 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
@@ -241,6 +243,7 @@ public class MainMapsActivity extends FragmentActivity
                 mMap.getCameraPosition().target.longitude,
                 pType
         );
+        mMap.clear();
         PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask() {
             @Override
             protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
@@ -249,10 +252,21 @@ public class MainMapsActivity extends FragmentActivity
                     PlaceObject placeObject = iterator.next();
                     mMap.addMarker(new MarkerOptions()
                             .position(new LatLng(placeObject.latitude, placeObject.longitude))
-                            .title(placeObject.name));
+                            .title(placeObject.name)
+                            .icon(BitmapDescriptorFactory.defaultMarker(setMarkerColor(placeObject.rating))));
                 }
             }
         }.execute(argBungle);
+    }
+
+    private float setMarkerColor (float rating) {
+            switch ((int) rating) {
+                case 1: return BitmapDescriptorFactory.HUE_RED;
+                case 2: return BitmapDescriptorFactory.HUE_ROSE;
+                case 3:default: return BitmapDescriptorFactory.HUE_ORANGE;
+                case 4: return BitmapDescriptorFactory.HUE_YELLOW;
+                case 5: return BitmapDescriptorFactory.HUE_GREEN;
+            }
     }
 
 
