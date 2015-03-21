@@ -1,12 +1,15 @@
 package in.tosc.trickle;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -16,6 +19,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
+import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
+import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
 
 public class MainMapsActivity extends FragmentActivity
         implements
@@ -34,6 +40,30 @@ public class MainMapsActivity extends FragmentActivity
         setContentView(R.layout.activity_main_maps);
         buildGoogleApiClient();
         setUpMapIfNeeded();
+
+        FloatingActionButton mapActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_BOTTOM_LEFT, this);
+
+        SubActionButton.Builder mapItemBuilder = new SubActionButton.Builder(this);
+        // repeat many times:
+
+        SubActionButton mapItemButton1 = makeSAB(R.drawable.ic_hospital, this, mapItemBuilder);
+        SubActionButton mapItemButton2 = makeSAB(R.drawable.ic_restaurant, this, mapItemBuilder);
+        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restrooms, this, mapItemBuilder);
+
+        FloatingActionMenu mapActionMenu = new FloatingActionMenu.Builder(this)
+                .addSubActionView(mapItemButton1)
+                .addSubActionView(mapItemButton2)
+                .addSubActionView(mapItemButton3)
+                .attachTo(mapActionButton)
+                .setRadius(400)
+                .setStartAngle(0)
+                .setEndAngle(-90)
+                .build();
+
+
+
+
+        FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_BOTTOM_RIGHT, this);
     }
 
     @Override
@@ -98,6 +128,31 @@ public class MainMapsActivity extends FragmentActivity
         }
 
 
+    }
+
+    private FloatingActionButton makeFAB (int resId, int pos, Context c) {
+        ImageView icon = new ImageView(c);
+        icon.setImageResource(resId);
+        return new FloatingActionButton.Builder(this)
+                .setContentView(icon)
+                .setPosition(pos)
+                .build();
+    }
+
+    private SubActionButton makeSAB (int resId, Context c, SubActionButton.Builder sBuilder) {
+        ImageView icon = new ImageView(c);
+        icon.setImageResource(resId);
+        int mySubActionButtonSize = getResources().getDimensionPixelSize(R.dimen.my_sub_action_button_size);
+        int mySubActionButtonContentMargin = getResources().getDimensionPixelSize(R.dimen.my_sub_action_button_content_margin);
+        FrameLayout.LayoutParams newContentParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT);
+        newContentParams.setMargins(mySubActionButtonContentMargin,
+                mySubActionButtonContentMargin,
+                mySubActionButtonContentMargin,
+                mySubActionButtonContentMargin);
+        sBuilder.setLayoutParams(newContentParams);
+        FrameLayout.LayoutParams newParams = new FrameLayout.LayoutParams(mySubActionButtonSize, mySubActionButtonSize);
+        sBuilder.setLayoutParams(newParams);
+        return sBuilder.setContentView(icon).build();
     }
 
 

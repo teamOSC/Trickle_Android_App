@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_sub_action_button_size">48dp</dimen>
+    <dimen name="my_sub_action_button_content_margin">32dp</dimen>
+</resources>
