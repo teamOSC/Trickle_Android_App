@@ -24,12 +24,15 @@ import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.TileOverlayOptions;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 import in.tosc.trickle.api.PlaceObject;
 import in.tosc.trickle.api.PlacesGetArgs;
@@ -241,19 +244,35 @@ public class MainMapsActivity extends FragmentActivity
         PlacesGetArgs argBungle = new PlacesGetArgs(
                 mMap.getCameraPosition().target.latitude,
                 mMap.getCameraPosition().target.longitude,
-                pType
+                pType,
+                mMap.getCameraPosition().zoom
         );
         mMap.clear();
         PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask() {
             @Override
             protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
                 super.onPostExecute(placeObjects);
-                for (Iterator<PlaceObject> iterator = placeObjects.iterator(); iterator.hasNext(); ) {
-                    PlaceObject placeObject = iterator.next();
-                    mMap.addMarker(new MarkerOptions()
-                            .position(new LatLng(placeObject.latitude, placeObject.longitude))
-                            .title(placeObject.name)
-                            .icon(BitmapDescriptorFactory.defaultMarker(setMarkerColor(placeObject.rating))));
+
+                if (mMap.getCameraPosition().zoom > 11) {
+                    for (Iterator<PlaceObject> iterator = placeObjects.iterator(); iterator.hasNext(); ) {
+                        PlaceObject placeObject = iterator.next();
+                        mMap.addMarker(new MarkerOptions()
+                                .position(new LatLng(placeObject.latitude, placeObject.longitude))
+                                .title(placeObject.name)
+                                .icon(BitmapDescriptorFactory.defaultMarker(setMarkerColor(placeObject.rating))));
+                    }
+                } else {
+                    // make heatmap otherwise
+                    List<LatLng> pointList = new ArrayList<LatLng>();
+                    for (PlaceObject placeObject : placeObjects) {
+                        pointList.add(new LatLng(placeObject.latitude, placeObject.longitude));
+                    }
+                    HeatmapTileProvider provider =
+                            new HeatmapTileProvider.Builder()
+                            .data(pointList)
+                            .build();
+                    mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+
                 }
             }
         }.execute(argBungle);

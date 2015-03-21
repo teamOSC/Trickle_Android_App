@@ -28,15 +28,17 @@ public class PlacesGetArgs {
         }
     }
 
-    public PlacesGetArgs (double lat, double lng, Type t) {
+    public PlacesGetArgs (double lat, double lng, Type t, float z) {
         latitude = lat;
         longitude = lng;
         placetype = t;
+        zoom = z;
     }
 
 
     public double latitude;
     public double longitude;
     public Type placetype;
+    public float zoom;
 
 }
