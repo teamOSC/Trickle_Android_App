@@ -8,8 +8,10 @@ import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -19,9 +21,17 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import in.tosc.trickle.api.PlaceObject;
+import in.tosc.trickle.api.PlacesGetArgs;
+import in.tosc.trickle.api.PlacesGetterTask;
 
 public class MainMapsActivity extends FragmentActivity
         implements
@@ -66,6 +76,19 @@ public class MainMapsActivity extends FragmentActivity
                 .setEndAngle(180)
                 .build();
 
+        setLongPressText(mapActionButton, "Places");
+        setLongPressText(mapItemButton1, "Hospitals");
+        setLongPressText(mapItemButton2, "Eateries");
+        setLongPressText(mapItemButton3, "Restrooms");
+        setLongPressText(mapItemButton4, "ATMs");
+        setLongPressText(mapItemButton5, "Petrol/Gas pumps");
+        setLongPressText(mapItemButton6, "Cabs");
+
+        setClickAction(mapItemButton1, PlacesGetArgs.Type.TYPE_HOSPITAL);
+        setClickAction(mapItemButton2, PlacesGetArgs.Type.TYPE_RESTAURANT);
+        setClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
+        setClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
+
 
 
 
@@ -92,6 +115,14 @@ public class MainMapsActivity extends FragmentActivity
                 .setStartAngle(0)
                 .setEndAngle(-180)
                 .build();
+
+        setLongPressText(heatActionButton, "Heat Maps");
+        setLongPressText(heatItemButton1, "Crime rate");
+        setLongPressText(heatItemButton2, "Water Supply");
+        setLongPressText(heatItemButton3, "Disaster Safety");
+        setLongPressText(heatItemButton4, "Healthcare");
+        setLongPressText(heatItemButton5, "Pollution");
+        setLongPressText(heatItemButton6, "Population");
 
     }
 
@@ -183,6 +214,45 @@ public class MainMapsActivity extends FragmentActivity
         FrameLayout.LayoutParams newParams = new FrameLayout.LayoutParams(mySubActionButtonSize, mySubActionButtonSize);
         sBuilder.setLayoutParams(newParams);
         return sBuilder.setContentView(icon).build();
+    }
+
+    private void setLongPressText (FrameLayout button, final String text) {
+        button.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+    }
+
+    private void setClickAction (FrameLayout button, final PlacesGetArgs.Type type) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                putMapMarkers(type);
+            }
+        });
+    }
+
+    private void putMapMarkers (PlacesGetArgs.Type pType) {
+        PlacesGetArgs argBungle = new PlacesGetArgs(
+                mMap.getCameraPosition().target.latitude,
+                mMap.getCameraPosition().target.longitude,
+                pType
+        );
+        PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask() {
+            @Override
+            protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
+                super.onPostExecute(placeObjects);
+                for (Iterator<PlaceObject> iterator = placeObjects.iterator(); iterator.hasNext(); ) {
+                    PlaceObject placeObject = iterator.next();
+                    mMap.addMarker(new MarkerOptions()
+                            .position(new LatLng(placeObject.latitude, placeObject.longitude))
+                            .title(placeObject.name));
+                }
+            }
+        }.execute(argBungle);
     }
 
 

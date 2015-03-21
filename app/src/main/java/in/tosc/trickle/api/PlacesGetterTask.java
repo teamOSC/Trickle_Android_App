@@ -1,6 +1,7 @@
 package in.tosc.trickle.api;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -14,22 +15,26 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /**
  * Created by championswimmer on 22/3/15.
  */
-public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, PlaceObject[]> {
+public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<PlaceObject>> {
 
-    PlaceObject[] pObjs;
+    public static final String TAG = "Trickle PlacesGetter";
+
+    ArrayList<PlaceObject> pObjs;
 
 
     @Override
-    protected PlaceObject[] doInBackground(PlacesGetArgs... params) {
+    protected ArrayList<PlaceObject> doInBackground(PlacesGetArgs... params) {
         PlacesGetArgs argObj = params[0];
         String reqUrl = "http://tosc.in:8087/" +
                 "?lat="+ argObj.latitude +
-                "&long="+ argObj.latitude +
+                "&long="+ argObj.longitude +
                 "&type=" + argObj.placetype;
+        Log.d(TAG, "url = " + reqUrl );
 
         HttpClient client = new DefaultHttpClient();
         HttpResponse resp;
@@ -39,21 +44,29 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, PlaceObject
             InputStream iStream = resp.getEntity().getContent();
             if (iStream != null) {
                 jString = convertInputStreamToString(iStream);
+                Log.d(TAG, "resp = " + jString);
                 JSONObject jobj = new JSONObject(jString);
                 JSONArray jArr = jobj.getJSONArray("data");
-                pObjs = new PlaceObject[jArr.length()];
+                pObjs = new ArrayList<>(jArr.length());
                 for (int i = 0; i < jArr.length(); i++) {
                     JSONObject mJobj = jArr.getJSONObject(i);
-                    pObjs[i].latitude =
+                    Log.d(TAG, "mJobj = " + mJobj.toString());
+                    Log.d(TAG, "mJobj.coords = " + mJobj.getJSONObject("coords").toString());
+                    PlaceObject pobj = new PlaceObject();
+                    pobj.latitude =
                             mJobj.getJSONObject("coords")
                             .getDouble("lat");
-                    pObjs[i].longitude =
+                    pobj.longitude =
                             mJobj.getJSONObject("coords")
                                     .getDouble("lng");
-                    pObjs[i].name =
+                    pobj.name =
                             mJobj.getString("name");
-                    pObjs[i].rating =
-                            (float) mJobj.getDouble("rating");
+                    if (mJobj.getString("rating") != null) {
+                        pobj.rating =
+                                (float) mJobj.getDouble("rating");
+                    } else pobj.rating = 3;
+
+                    pObjs.add(i, pobj);
                 }
             } else {
                 throw new IOException();
@@ -70,7 +83,7 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, PlaceObject
     }
 
     @Override
-    protected void onPostExecute(PlaceObject[] placeObjects) {
+    protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
         super.onPostExecute(placeObjects);
     }
 
