@@ -4,7 +4,7 @@
     "district": "Thane",
     "percent": 1.0,
     "state": "Maharashtra",
-    "growth": "36.01 %",
+    "growth": "36.01",
     "coords": {
       "lat": 19.2183307,
       "lng": 72.9780897
@@ -17,7 +17,7 @@
     "district": "North Twenty Four Parganas",
     "percent": 0.9050313793269312,
     "state": "West Bengal",
-    "growth": "12.04 %",
+    "growth": "12.04",
     "coords": {
       "lat": 22.5690243,
       "lng": 88.3469609
@@ -30,7 +30,7 @@
     "district": "Bangalore",
     "percent": 0.8699296790603526,
     "state": "Karnataka",
-    "growth": "47.18 %",
+    "growth": "47.18",
     "coords": {
       "lat": 12.9715987,
       "lng": 77.5945627
@@ -43,7 +43,7 @@
     "district": "Pune",
     "percent": 0.8525571267219932,
     "state": "Maharashtra",
-    "growth": "30.37 %",
+    "growth": "30.37",
     "coords": {
       "lat": 18.5204303,
       "lng": 73.8567437
@@ -56,7 +56,7 @@
     "district": "Mumbai Suburban",
     "percent": 0.8460069431258966,
     "state": "Maharashtra",
-    "growth": "8.29 %",
+    "growth": "8.29",
     "coords": {
       "lat": 19.1538231,
       "lng": 72.8751786
@@ -69,7 +69,7 @@
     "district": "South Twenty Four Parganas",
     "percent": 0.7379612822540892,
     "state": "West Bengal",
-    "growth": "18.17 %",
+    "growth": "18.17",
     "coords": {
       "lat": 22.1352378,
       "lng": 88.4016041
@@ -82,7 +82,7 @@
     "district": "Barddhaman",
     "percent": 0.6977811689319167,
     "state": "West Bengal",
-    "growth": "11.92 %",
+    "growth": "11.92",
     "coords": {
       "lat": 23.2324214,
       "lng": 87.8614793
@@ -95,7 +95,7 @@
     "district": "Ahmadabad",
     "percent": 0.6522720129965711,
     "state": "Gujarat",
-    "growth": "24.03 %",
+    "growth": "24.03",
     "coords": {
       "lat": 23.022505,
       "lng": 72.5713621
@@ -108,7 +108,7 @@
     "district": "Murshidabad",
     "percent": 0.6422886022863347,
     "state": "West Bengal",
-    "growth": "21.09 %",
+    "growth": "21.09",
     "coords": {
       "lat": 24.1759039,
       "lng": 88.2801785
@@ -121,7 +121,7 @@
     "district": "Jaipur",
     "percent": 0.5991039179584216,
     "state": "Rajasthan",
-    "growth": "26.19 %",
+    "growth": "26.19",
     "coords": {
       "lat": 26.9124336,
       "lng": 75.7872709
@@ -134,7 +134,7 @@
     "district": "Nashik",
     "percent": 0.5521795006721429,
     "state": "Maharashtra",
-    "growth": "22.30 %",
+    "growth": "22.30",
     "coords": {
       "lat": 19.9974533,
       "lng": 73.78980229999999
@@ -147,7 +147,7 @@
     "district": "Surat",
     "percent": 0.549840924370994,
     "state": "Gujarat",
-    "growth": "42.24 %",
+    "growth": "42.24",
     "coords": {
       "lat": 21.1702401,
       "lng": 72.83106070000001
@@ -160,7 +160,7 @@
     "district": "Allahabad",
     "percent": 0.5383644956649767,
     "state": "Uttar Pradesh",
-    "growth": "20.63 %",
+    "growth": "20.63",
     "coords": {
       "lat": 25.4358011,
       "lng": 81.846311
@@ -173,7 +173,7 @@
     "district": "Paschim Medinipur",
     "percent": 0.5346634601996284,
     "state": "West Bengal",
-    "growth": "13.86 %",
+    "growth": "13.86",
     "coords": {
       "lat": 22.4080376,
       "lng": 87.38107269999999
@@ -186,7 +186,7 @@
     "district": "Patna",
     "percent": 0.5278830807689011,
     "state": "Bihar",
-    "growth": "23.73 %",
+    "growth": "23.73",
     "coords": {
       "lat": 25.611,
       "lng": 85.144
@@ -199,7 +199,7 @@
     "district": "Hugli",
     "percent": 0.4990118577075099,
     "state": "West Bengal",
-    "growth": "9.46 %",
+    "growth": "9.46",
     "coords": {
       "lat": 21.759098,
       "lng": 87.7634179
@@ -212,7 +212,7 @@
     "district": "Rangareddy",
     "percent": 0.47890326603224476,
     "state": "Andhra Pradesh",
-    "growth": "48.16 %",
+    "growth": "48.16",
     "coords": {
       "lat": 17.4491793,
       "lng": 78.35684429999999
@@ -225,7 +225,7 @@
     "district": "Nadia",
     "percent": 0.4672270208319093,
     "state": "West Bengal",
-    "growth": "12.22 %",
+    "growth": "12.22",
     "coords": {
       "lat": 22.7059105,
       "lng": 88.75300759999999
@@ -238,7 +238,7 @@
     "district": "East Godavari",
     "percent": 0.46602414361905464,
     "state": "Andhra Pradesh",
-    "growth": "5.16 %",
+    "growth": "5.16",
     "coords": {
       "lat": 17.32125,
       "lng": 82.0407137
@@ -251,7 +251,7 @@
     "district": "Purbi Champaran",
     "percent": 0.4610581160396769,
     "state": "Bihar",
-    "growth": "29.43 %",
+    "growth": "29.43",
     "coords": {
       "lat": 26.6098139,
       "lng": 84.8567932
@@ -264,7 +264,7 @@
     "district": "Purba Medinipur",
     "percent": 0.46074202623690025,
     "state": "West Bengal",
-    "growth": "15.36 %",
+    "growth": "15.36",
     "coords": {
       "lat": 21.9372879,
       "lng": 87.77633329999999
@@ -277,7 +277,7 @@
     "district": "Guntur",
     "percent": 0.44193016223652704,
     "state": "Andhra Pradesh",
-    "growth": "9.47 %",
+    "growth": "9.47",
     "coords": {
       "lat": 16.3066525,
       "lng": 80.4365402
@@ -290,7 +290,7 @@
     "district": "Haora",
     "percent": 0.4385139330866097,
     "state": "West Bengal",
-    "growth": "13.50 %",
+    "growth": "13.50",
     "coords": {
       "lat": 22.5957689,
       "lng": 88.26363940000002
@@ -303,7 +303,7 @@
     "district": "Muzaffarpur",
     "percent": 0.43408659630956115,
     "state": "Bihar",
-    "growth": "28.14 %",
+    "growth": "28.14",
     "coords": {
       "lat": 26.1208876,
       "lng": 85.3647201
@@ -316,7 +316,7 @@
     "district": "Belgaum",
     "percent": 0.4321516312439942,
     "state": "Karnataka",
-    "growth": "13.41 %",
+    "growth": "13.41",
     "coords": {
       "lat": 15.8496953,
       "lng": 74.4976741
@@ -329,7 +329,7 @@
     "district": "Moradabad",
     "percent": 0.43145950669014554,
     "state": "Uttar Pradesh",
-    "growth": "25.22 %",
+    "growth": "25.22",
     "coords": {
       "lat": 28.8315925,
       "lng": 78.7782764
@@ -342,7 +342,7 @@
     "district": "Ghaziabad",
     "percent": 0.42328954368422556,
     "state": "Uttar Pradesh",
-    "growth": "42.27 %",
+    "growth": "42.27",
     "coords": {
       "lat": 28.6691565,
       "lng": 77.45375779999999
@@ -355,7 +355,7 @@
     "district": "Nagpur",
     "percent": 0.4207511508887585,
     "state": "Maharashtra",
-    "growth": "14.40 %",
+    "growth": "14.40",
     "coords": {
       "lat": 21.1458004,
       "lng": 79.0881546
@@ -368,7 +368,7 @@
     "district": "Chennai",
     "percent": 0.42013289514751523,
     "state": "Tamil Nadu",
-    "growth": "6.98 %",
+    "growth": "6.98",
     "coords": {
       "lat": 13.0826802,
       "lng": 80.2707184
@@ -381,7 +381,7 @@
     "district": "Azamgarh",
     "percent": 0.4171655749995389,
     "state": "Uttar Pradesh",
-    "growth": "17.11 %",
+    "growth": "17.11",
     "coords": {
       "lat": 26.0737044,
       "lng": 83.1859458
@@ -394,7 +394,7 @@
     "district": "Lucknow",
     "percent": 0.4149888410173173,
     "state": "Uttar Pradesh",
-    "growth": "25.82 %",
+    "growth": "25.82",
     "coords": {
       "lat": 26.8465108,
       "lng": 80.9466832
@@ -407,7 +407,7 @@
     "district": "Kanpur Nagar",
     "percent": 0.4142139870099387,
     "state": "Uttar Pradesh",
-    "growth": "9.92 %",
+    "growth": "9.92",
     "coords": {
       "lat": 26.4148245,
       "lng": 80.23213129999999
@@ -420,7 +420,7 @@
     "district": "Ahmadnagar",
     "percent": 0.4107683730814452,
     "state": "Maharashtra",
-    "growth": "12.44 %",
+    "growth": "12.44",
     "coords": {
       "lat": 19.0952075,
       "lng": 74.7495916
@@ -433,7 +433,7 @@
     "district": "Krishna",
     "percent": 0.4084391999094406,
     "state": "Andhra Pradesh",
-    "growth": "7.87 %",
+    "growth": "7.87",
     "coords": {
       "lat": 16.6099914,
       "lng": 80.7214417
@@ -446,7 +446,7 @@
     "district": "Kolkata",
     "percent": 0.40656725389208176,
     "state": "West Bengal",
-    "growth": "-1.67 %",
+    "growth": "-1.67",
     "coords": {
       "lat": 22.572646,
       "lng": 88.36389500000001
@@ -459,7 +459,7 @@
     "district": "Jaunpur",
     "percent": 0.4063421212808364,
     "state": "Uttar Pradesh",
-    "growth": "14.89 %",
+    "growth": "14.89",
     "coords": {
       "lat": 25.7490034,
       "lng": 82.69870019999999
@@ -472,7 +472,7 @@
     "district": "Madhubani",
     "percent": 0.4057250409307362,
     "state": "Bihar",
-    "growth": "25.51 %",
+    "growth": "25.51",
     "coords": {
       "lat": 26.3468544,
       "lng": 86.0715474
@@ -485,7 +485,7 @@
     "district": "Sitapur",
     "percent": 0.40541880633062055,
     "state": "Uttar Pradesh",
-    "growth": "23.88 %",
+    "growth": "23.88",
     "coords": {
       "lat": 27.5839037,
       "lng": 80.66635600000001
@@ -498,7 +498,7 @@
     "district": "Bareilly",
     "percent": 0.40219705920752596,
     "state": "Uttar Pradesh",
-    "growth": "22.93 %",
+    "growth": "22.93",
     "coords": {
       "lat": 28.3670355,
       "lng": 79.4304381
@@ -511,7 +511,7 @@
     "district": "Gorakhpur",
     "percent": 0.4015222038620098,
     "state": "Uttar Pradesh",
-    "growth": "17.81 %",
+    "growth": "17.81",
     "coords": {
       "lat": 26.7605545,
       "lng": 83.3731675
@@ -524,7 +524,7 @@
     "district": "Agra",
     "percent": 0.3995242197482348,
     "state": "Uttar Pradesh",
-    "growth": "22.05 %",
+    "growth": "22.05",
     "coords": {
       "lat": 27.1766701,
       "lng": 78.00807449999999
@@ -537,7 +537,7 @@
     "district": "Gaya",
     "percent": 0.39704875558627245,
     "state": "Bihar",
-    "growth": "26.43 %",
+    "growth": "26.43",
     "coords": {
       "lat": 24.7954523,
       "lng": 84.999431
@@ -550,7 +550,7 @@
     "district": "Solapur",
     "percent": 0.39038862771094923,
     "state": "Maharashtra",
-    "growth": "12.16 %",
+    "growth": "12.16",
     "coords": {
       "lat": 17.6599188,
       "lng": 75.9063906
@@ -563,7 +563,7 @@
     "district": "Visakhapatnam",
     "percent": 0.38793233146608885,
     "state": "Andhra Pradesh",
-    "growth": "11.96 %",
+    "growth": "11.96",
     "coords": {
       "lat": 17.6868159,
       "lng": 83.2184815
@@ -576,7 +576,7 @@
     "district": "Samastipur",
     "percent": 0.3853082255318826,
     "state": "Bihar",
-    "growth": "25.53 %",
+    "growth": "25.53",
     "coords": {
       "lat": 25.8629679,
       "lng": 85.7810263
@@ -589,7 +589,7 @@
     "district": "Jalgaon",
     "percent": 0.3824466905867806,
     "state": "Maharashtra",
-    "growth": "14.86 %",
+    "growth": "14.86",
     "coords": {
       "lat": 20.997984,
       "lng": 75.566711
@@ -602,7 +602,7 @@
     "district": "Chittoor",
     "percent": 0.37739675816272983,
     "state": "Andhra Pradesh",
-    "growth": "11.43 %",
+    "growth": "11.43",
     "coords": {
       "lat": 13.217176,
       "lng": 79.1003289
@@ -615,7 +615,7 @@
     "district": "Vadodara",
     "percent": 0.37663383889618834,
     "state": "Gujarat",
-    "growth": "14.38 %",
+    "growth": "14.38",
     "coords": {
       "lat": 22.3071588,
       "lng": 73.1812187
@@ -628,7 +628,7 @@
     "district": "Muzaffarnagar",
     "percent": 0.3746344081471604,
     "state": "Uttar Pradesh",
-    "growth": "16.94 %",
+    "growth": "16.94",
     "coords": {
       "lat": 29.4726817,
       "lng": 77.7085091
@@ -641,7 +641,7 @@
     "district": "Malappuram",
     "percent": 0.37186844154345855,
     "state": "Kerala",
-    "growth": "13.45 %",
+    "growth": "13.45",
     "coords": {
       "lat": 11.041,
       "lng": 76.083
@@ -654,7 +654,7 @@
     "district": "Hardoi",
     "percent": 0.3700533663744825,
     "state": "Uttar Pradesh",
-    "growth": "20.44 %",
+    "growth": "20.44",
     "coords": {
       "lat": 27.42,
       "lng": 80.11999999999999
@@ -667,7 +667,7 @@
     "district": "Anantapur",
     "percent": 0.36899578558984925,
     "state": "Andhra Pradesh",
-    "growth": "12.10 %",
+    "growth": "12.10",
     "coords": {
       "lat": 14.6818877,
       "lng": 77.6005911
@@ -680,7 +680,7 @@
     "district": "Raipur",
     "percent": 0.3674337811754418,
     "state": "Chhattisgarh",
-    "growth": "34.70 %",
+    "growth": "34.70",
     "coords": {
       "lat": 21.2513844,
       "lng": 81.62964130000002
@@ -693,7 +693,7 @@
     "district": "Kurnool",
     "percent": 0.3664926545286736,
     "state": "Andhra Pradesh",
-    "growth": "14.85 %",
+    "growth": "14.85",
     "coords": {
       "lat": 15.8281257,
       "lng": 78.0372792
@@ -706,7 +706,7 @@
     "district": "Mahbubnagar",
     "percent": 0.3664533241327331,
     "state": "Andhra Pradesh",
-    "growth": "15.34 %",
+    "growth": "15.34",
     "coords": {
       "lat": 16.3841436,
       "lng": 78.11082789999999
@@ -719,7 +719,7 @@
     "district": "Kheri",
     "percent": 0.3635794927879808,
     "state": "Uttar Pradesh",
-    "growth": "25.38 %",
+    "growth": "25.38",
     "coords": {
       "lat": 28.16514,
       "lng": 80.6326916
@@ -732,7 +732,7 @@
     "district": "Kancheepuram",
     "percent": 0.36150076834414874,
     "state": "Tamil Nadu",
-    "growth": "38.95 %",
+    "growth": "38.95",
     "coords": {
       "lat": 12.8341735,
       "lng": 79.7036402
@@ -745,7 +745,7 @@
     "district": "Maldah",
     "percent": 0.36065023723009854,
     "state": "West Bengal",
-    "growth": "21.22 %",
+    "growth": "21.22",
     "coords": {
       "lat": 25.1785773,
       "lng": 88.24611829999999
@@ -758,7 +758,7 @@
     "district": "Saran",
     "percent": 0.3573064302575336,
     "state": "Bihar",
-    "growth": "21.64 %",
+    "growth": "21.64",
     "coords": {
       "lat": 26.0502233,
       "lng": 84.6250199
@@ -771,7 +771,7 @@
     "district": "Hyderabad",
     "percent": 0.3565343791059577,
     "state": "Andhra Pradesh",
-    "growth": "2.97 %",
+    "growth": "2.97",
     "coords": {
       "lat": 15.1283849,
       "lng": 79.1766114
@@ -784,7 +784,7 @@
     "district": "Darbhanga",
     "percent": 0.3559974965976947,
     "state": "Bihar",
-    "growth": "19.47 %",
+    "growth": "19.47",
     "coords": {
       "lat": 26.111868,
       "lng": 85.89600399999999
@@ -797,7 +797,7 @@
     "district": "West Godavari",
     "percent": 0.3559596128370072,
     "state": "Andhra Pradesh",
-    "growth": "3.51 %",
+    "growth": "3.51",
     "coords": {
       "lat": 16.9174181,
       "lng": 81.3399414
@@ -810,7 +810,7 @@
     "district": "Vellore",
     "percent": 0.3559021995004045,
     "state": "Tamil Nadu",
-    "growth": "13.20 %",
+    "growth": "13.20",
     "coords": {
       "lat": 12.9165167,
       "lng": 79.13249859999999
@@ -823,7 +823,7 @@
     "district": "Pashchim Champaran",
     "percent": 0.35578565494783615,
     "state": "Bihar",
-    "growth": "29.29 %",
+    "growth": "29.29",
     "coords": {
       "lat": 27.2590444,
       "lng": 84.0180642
@@ -836,7 +836,7 @@
     "district": "Kolhapur",
     "percent": 0.3504474804496287,
     "state": "Maharashtra",
-    "growth": "10.01 %",
+    "growth": "10.01",
     "coords": {
       "lat": 16.6913076,
       "lng": 74.24486619999999
@@ -849,7 +849,7 @@
     "district": "Jalpaiguri",
     "percent": 0.35016222206068126,
     "state": "West Bengal",
-    "growth": "13.87 %",
+    "growth": "13.87",
     "coords": {
       "lat": 26.52,
       "lng": 88.72999999999999
@@ -862,7 +862,7 @@
     "district": "Rajkot",
     "percent": 0.3439879828009535,
     "state": "Gujarat",
-    "growth": "20.02 %",
+    "growth": "20.02",
     "coords": {
       "lat": 22.3038945,
       "lng": 70.80215989999999
@@ -875,7 +875,7 @@
     "district": "Sultanpur",
     "percent": 0.34331520699361345,
     "state": "Uttar Pradesh",
-    "growth": "18.11 %",
+    "growth": "18.11",
     "coords": {
       "lat": 26.2647757,
       "lng": 82.07270609999999
@@ -888,7 +888,7 @@
     "district": "Karimnagar",
     "percent": 0.34143024125897775,
     "state": "Andhra Pradesh",
-    "growth": "8.15 %",
+    "growth": "8.15",
     "coords": {
       "lat": 18.3889254,
       "lng": 79.1396338
@@ -901,7 +901,7 @@
     "district": "Thiruvallur",
     "percent": 0.3370754170739849,
     "state": "Tamil Nadu",
-    "growth": "35.33 %",
+    "growth": "35.33",
     "coords": {
       "lat": 13.1444426,
       "lng": 79.8940078
@@ -914,7 +914,7 @@
     "district": "Aurangabad",
     "percent": 0.33465031390176697,
     "state": "Maharashtra",
-    "growth": "27.76 %",
+    "growth": "27.76",
     "coords": {
       "lat": 19.8761653,
       "lng": 75.3433139
@@ -927,7 +927,7 @@
     "district": "Jodhpur",
     "percent": 0.33337392953512013,
     "state": "Rajasthan",
-    "growth": "27.74 %",
+    "growth": "27.74",
     "coords": {
       "lat": 26.2389469,
       "lng": 73.02430939999999
@@ -940,7 +940,7 @@
     "district": "Bijnor",
     "percent": 0.33297140327597785,
     "state": "Uttar Pradesh",
-    "growth": "17.60 %",
+    "growth": "17.60",
     "coords": {
       "lat": 29.3724422,
       "lng": 78.1358472
@@ -953,7 +953,7 @@
     "district": "Budaun",
     "percent": 0.33289753446337245,
     "state": "Uttar Pradesh",
-    "growth": "19.95 %",
+    "growth": "19.95",
     "coords": {
       "lat": 28.0337088,
       "lng": 79.12054189999999
@@ -966,7 +966,7 @@
     "district": "Varanasi",
     "percent": 0.3324404881381334,
     "state": "Uttar Pradesh",
-    "growth": "17.15 %",
+    "growth": "17.15",
     "coords": {
       "lat": 25.3176452,
       "lng": 82.9739144
@@ -979,7 +979,7 @@
     "district": "Alwar",
     "percent": 0.3321998041979185,
     "state": "Rajasthan",
-    "growth": "22.78 %",
+    "growth": "22.78",
     "coords": {
       "lat": 27.5529907,
       "lng": 76.6345735
@@ -992,7 +992,7 @@
     "district": "Aligarh",
     "percent": 0.3321735839339582,
     "state": "Uttar Pradesh",
-    "growth": "22.78 %",
+    "growth": "22.78",
     "coords": {
       "lat": 27.9,
       "lng": 78.08
@@ -1005,7 +1005,7 @@
     "district": "North West Delhi",
     "percent": 0.3306048888315057,
     "state": "Delhi",
-    "growth": "27.81 %",
+    "growth": "27.81",
     "coords": {
       "lat": 28.7705774,
       "lng": 77.0794705
@@ -1018,7 +1018,7 @@
     "district": "Ghazipur",
     "percent": 0.32732545712769845,
     "state": "Uttar Pradesh",
-    "growth": "19.18 %",
+    "growth": "19.18",
     "coords": {
       "lat": 25.5840419,
       "lng": 83.57702019999999
@@ -1031,7 +1031,7 @@
     "district": "Bankura",
     "percent": 0.32519221261776965,
     "state": "West Bengal",
-    "growth": "12.65 %",
+    "growth": "12.65",
     "coords": {
       "lat": 23.2324146,
       "lng": 87.0786044
@@ -1044,7 +1044,7 @@
     "district": "Kushinagar",
     "percent": 0.3222871882003749,
     "state": "Uttar Pradesh",
-    "growth": "23.20 %",
+    "growth": "23.20",
     "coords": {
       "lat": 26.7398787,
       "lng": 83.8869698
@@ -1057,7 +1057,7 @@
     "district": "Ganjam",
     "percent": 0.3190762908416777,
     "state": "Orissa",
-    "growth": "11.66 %",
+    "growth": "11.66",
     "coords": {
       "lat": 19.387389,
       "lng": 85.0515413
@@ -1070,7 +1070,7 @@
     "district": "Warangal",
     "percent": 0.3175885168986889,
     "state": "Andhra Pradesh",
-    "growth": "8.21 %",
+    "growth": "8.21",
     "coords": {
       "lat": 17.9966202,
       "lng": 79.58901829999999
@@ -1083,7 +1083,7 @@
     "district": "Birbhum",
     "percent": 0.3166688185366055,
     "state": "West Bengal",
-    "growth": "16.15 %",
+    "growth": "16.15",
     "coords": {
       "lat": 24.3575023,
       "lng": 87.84269669999999
@@ -1096,7 +1096,7 @@
     "district": "Bulandshahar",
     "percent": 0.3163765078007998,
     "state": "Uttar Pradesh",
-    "growth": "20.12 %",
+    "growth": "20.12",
     "coords": {
       "lat": 28.4215341,
       "lng": 78.0195387
@@ -1109,7 +1109,7 @@
     "district": "Ludhiana",
     "percent": 0.31633744864896923,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.900965,
       "lng": 75.8572758
@@ -1122,7 +1122,7 @@
     "district": "Vaishali",
     "percent": 0.3160012867820575,
     "state": "Bihar",
-    "growth": "28.57 %",
+    "growth": "28.57",
     "coords": {
       "lat": 26.004444,
       "lng": 85.080556
@@ -1135,7 +1135,7 @@
     "district": "Nalgonda",
     "percent": 0.31543963064508723,
     "state": "Andhra Pradesh",
-    "growth": "7.41 %",
+    "growth": "7.41",
     "coords": {
       "lat": 17.1882998,
       "lng": 79.1999949
@@ -1148,7 +1148,7 @@
     "district": "Bahraich",
     "percent": 0.3153421635949175,
     "state": "Uttar Pradesh",
-    "growth": "46.48 %",
+    "growth": "46.48",
     "coords": {
       "lat": 27.58,
       "lng": 81.6
@@ -1161,7 +1161,7 @@
     "district": "Salem",
     "percent": 0.31482906015362544,
     "state": "Tamil Nadu",
-    "growth": "15.44 %",
+    "growth": "15.44",
     "coords": {
       "lat": 11.664325,
       "lng": 78.1460142
@@ -1174,7 +1174,7 @@
     "district": "Saharanpur",
     "percent": 0.3134119000939228,
     "state": "Uttar Pradesh",
-    "growth": "19.66 %",
+    "growth": "19.66",
     "coords": {
       "lat": 29.967079,
       "lng": 77.55101719999999
@@ -1187,7 +1187,7 @@
     "district": "Viluppuram",
     "percent": 0.3127329760867576,
     "state": "Tamil Nadu",
-    "growth": "16.84 %",
+    "growth": "16.84",
     "coords": {
       "lat": 11.941,
       "lng": 79.493
@@ -1200,7 +1200,7 @@
     "district": "Coimbatore",
     "percent": 0.3126581127124158,
     "state": "Tamil Nadu",
-    "growth": "18.56 %",
+    "growth": "18.56",
     "coords": {
       "lat": 11.0168445,
       "lng": 76.9558321
@@ -1213,7 +1213,7 @@
     "district": "Meerut",
     "percent": 0.31136011923167756,
     "state": "Uttar Pradesh",
-    "growth": "14.89 %",
+    "growth": "14.89",
     "coords": {
       "lat": 28.9844618,
       "lng": 77.7064137
@@ -1226,7 +1226,7 @@
     "district": "Gonda",
     "percent": 0.31047676758032533,
     "state": "Uttar Pradesh",
-    "growth": "24.17 %",
+    "growth": "24.17",
     "coords": {
       "lat": 27.1339913,
       "lng": 81.96189679999999
@@ -1239,7 +1239,7 @@
     "district": "Sitamarhi",
     "percent": 0.30954142747456903,
     "state": "Bihar",
-    "growth": "27.62 %",
+    "growth": "27.62",
     "coords": {
       "lat": 26.590179,
       "lng": 85.4942667
@@ -1252,7 +1252,7 @@
     "district": "Rae Bareli",
     "percent": 0.3079126065944145,
     "state": "Uttar Pradesh",
-    "growth": "18.56 %",
+    "growth": "18.56",
     "coords": {
       "lat": 26.23,
       "lng": 81.25
@@ -1265,7 +1265,7 @@
     "district": "Prakasam",
     "percent": 0.30717925293585585,
     "state": "Andhra Pradesh",
-    "growth": "11.05 %",
+    "growth": "11.05",
     "coords": {
       "lat": 15.348463,
       "lng": 79.560344
@@ -1278,7 +1278,7 @@
     "district": "Nanded",
     "percent": 0.3039102189229294,
     "state": "Maharashtra",
-    "growth": "16.86 %",
+    "growth": "16.86",
     "coords": {
       "lat": 19.149722,
       "lng": 77.333056
@@ -1291,7 +1291,7 @@
     "district": "Durg",
     "percent": 0.3023351947912451,
     "state": "Chhattisgarh",
-    "growth": "18.98 %",
+    "growth": "18.98",
     "coords": {
       "lat": 21.19,
       "lng": 81.28
@@ -1304,7 +1304,7 @@
     "district": "Siwan",
     "percent": 0.30112291444924605,
     "state": "Bihar",
-    "growth": "22.70 %",
+    "growth": "22.70",
     "coords": {
       "lat": 26.2196205,
       "lng": 84.35665929999999
@@ -1317,7 +1317,7 @@
     "district": "Nagaur",
     "percent": 0.2990686019753081,
     "state": "Rajasthan",
-    "growth": "19.20 %",
+    "growth": "19.20",
     "coords": {
       "lat": 27.1991222,
       "lng": 73.74092399999999
@@ -1330,7 +1330,7 @@
     "district": "Thiruvananthapuram",
     "percent": 0.29849754270919343,
     "state": "Kerala",
-    "growth": "2.07 %",
+    "growth": "2.07",
     "coords": {
       "lat": 8.5241391,
       "lng": 76.9366376
@@ -1343,7 +1343,7 @@
     "district": "Ernakulam",
     "percent": 0.29677613717284795,
     "state": "Kerala",
-    "growth": "5.69 %",
+    "growth": "5.69",
     "coords": {
       "lat": 9.9816358,
       "lng": 76.2998842
@@ -1356,7 +1356,7 @@
     "district": "Indore",
     "percent": 0.29626158709630285,
     "state": "Madhya Pradesh",
-    "growth": "32.88 %",
+    "growth": "32.88",
     "coords": {
       "lat": 22.7195687,
       "lng": 75.8577258
@@ -1369,7 +1369,7 @@
     "district": "Purnia",
     "percent": 0.295169558309708,
     "state": "Bihar",
-    "growth": "28.33 %",
+    "growth": "28.33",
     "coords": {
       "lat": 25.783333,
       "lng": 87.466667
@@ -1382,7 +1382,7 @@
     "district": "Barabanki",
     "percent": 0.29481513267272735,
     "state": "Uttar Pradesh",
-    "growth": "21.96 %",
+    "growth": "21.96",
     "coords": {
       "lat": 26.9400001,
       "lng": 81.19
@@ -1395,7 +1395,7 @@
     "district": "Ballia",
     "percent": 0.2929232050059366,
     "state": "Uttar Pradesh",
-    "growth": "17.31 %",
+    "growth": "17.31",
     "coords": {
       "lat": 25.7584381,
       "lng": 84.1487319
@@ -1408,7 +1408,7 @@
     "district": "Pratapgarh",
     "percent": 0.290153531399399,
     "state": "Uttar Pradesh",
-    "growth": "17.50 %",
+    "growth": "17.50",
     "coords": {
       "lat": 25.9026232,
       "lng": 81.77870209999999
@@ -1421,7 +1421,7 @@
     "district": "Thrissur",
     "percent": 0.2822023719754925,
     "state": "Kerala",
-    "growth": "4.94 %",
+    "growth": "4.94",
     "coords": {
       "lat": 10.5276416,
       "lng": 76.2144349
@@ -1434,7 +1434,7 @@
     "district": "Banaskantha",
     "percent": 0.28213962417139443,
     "state": "Gujarat",
-    "growth": "24.61 %",
+    "growth": "24.61",
     "coords": {
       "lat": 24.3070289,
       "lng": 72.3514618
@@ -1447,7 +1447,7 @@
     "district": "Unnao",
     "percent": 0.28104208008789755,
     "state": "Uttar Pradesh",
-    "growth": "15.11 %",
+    "growth": "15.11",
     "coords": {
       "lat": 26.5393449,
       "lng": 80.4878195
@@ -1460,7 +1460,7 @@
     "district": "Deoria",
     "percent": 0.28037111257462377,
     "state": "Uttar Pradesh",
-    "growth": "14.31 %",
+    "growth": "14.31",
     "coords": {
       "lat": 26.4862373,
       "lng": 83.7838214
@@ -1473,7 +1473,7 @@
     "district": "Kozhikode",
     "percent": 0.27904626592700205,
     "state": "Kerala",
-    "growth": "7.20 %",
+    "growth": "7.20",
     "coords": {
       "lat": 11.2587531,
       "lng": 75.78041
@@ -1486,7 +1486,7 @@
     "district": "Mumbai City",
     "percent": 0.2789665201586814,
     "state": "Maharashtra",
-    "growth": "-7.57 %",
+    "growth": "-7.57",
     "coords": {
       "lat": 19.0759837,
       "lng": 72.8776559
@@ -1499,7 +1499,7 @@
     "district": "Tirunelveli",
     "percent": 0.27822710871500095,
     "state": "Tamil Nadu",
-    "growth": "12.97 %",
+    "growth": "12.97",
     "coords": {
       "lat": 8.73,
       "lng": 77.7
@@ -1512,7 +1512,7 @@
     "district": "Katihar",
     "percent": 0.2776661758956571,
     "state": "Bihar",
-    "growth": "28.35 %",
+    "growth": "28.35",
     "coords": {
       "lat": 25.5335084,
       "lng": 87.583748
@@ -1525,7 +1525,7 @@
     "district": "Udaipur",
     "percent": 0.2774302839347177,
     "state": "Rajasthan",
-    "growth": "23.69 %",
+    "growth": "23.69",
     "coords": {
       "lat": 24.58,
       "lng": 73.67999999999999
@@ -1538,7 +1538,7 @@
     "district": "Madurai",
     "percent": 0.27470265316521986,
     "state": "Tamil Nadu",
-    "growth": "17.84 %",
+    "growth": "17.84",
     "coords": {
       "lat": 9.9252007,
       "lng": 78.1197754
@@ -1551,7 +1551,7 @@
     "district": "Bhagalpur",
     "percent": 0.2746587116194105,
     "state": "Bihar",
-    "growth": "25.36 %",
+    "growth": "25.36",
     "coords": {
       "lat": 25.25,
       "lng": 87
@@ -1564,7 +1564,7 @@
     "district": "Medak",
     "percent": 0.27425383457798214,
     "state": "Andhra Pradesh",
-    "growth": "13.60 %",
+    "growth": "13.60",
     "coords": {
       "lat": 17.777459,
       "lng": 78.296814
@@ -1577,7 +1577,7 @@
     "district": "Uttar Dinajpur",
     "percent": 0.2718891284275762,
     "state": "West Bengal",
-    "growth": "23.15 %",
+    "growth": "23.15",
     "coords": {
       "lat": 25.9810393,
       "lng": 88.050979
@@ -1590,7 +1590,7 @@
     "district": "Shahjahanpur",
     "percent": 0.2718352412644026,
     "state": "Uttar Pradesh",
-    "growth": "18.00 %",
+    "growth": "18.00",
     "coords": {
       "lat": 27.883744,
       "lng": 79.9122455
@@ -1603,7 +1603,7 @@
     "district": "Satara",
     "percent": 0.2715823513392407,
     "state": "Maharashtra",
-    "growth": "6.93 %",
+    "growth": "6.93",
     "coords": {
       "lat": 17.69139,
       "lng": 74.00092
@@ -1616,7 +1616,7 @@
     "district": "Mysore",
     "percent": 0.2713460073047847,
     "state": "Karnataka",
-    "growth": "13.63 %",
+    "growth": "13.63",
     "coords": {
       "lat": 12.2958104,
       "lng": 76.6393805
@@ -1629,7 +1629,7 @@
     "district": "Begusarai",
     "percent": 0.2685805831893027,
     "state": "Bihar",
-    "growth": "26.44 %",
+    "growth": "26.44",
     "coords": {
       "lat": 25.42,
       "lng": 86.13
@@ -1642,7 +1642,7 @@
     "district": "Sri Potti Sriramulu Nellore",
     "percent": 0.267949126901376,
     "state": "Andhra Pradesh",
-    "growth": "11.05 %",
+    "growth": "11.05",
     "coords": {
       "lat": 14.4425987,
       "lng": 79.98645599999999
@@ -1655,7 +1655,7 @@
     "district": "Rohtas",
     "percent": 0.26762010779602585,
     "state": "Bihar",
-    "growth": "20.78 %",
+    "growth": "20.78",
     "coords": {
       "lat": 24.6287405,
       "lng": 83.92016559999999
@@ -1668,7 +1668,7 @@
     "district": "Puruliya",
     "percent": 0.2649254783932367,
     "state": "West Bengal",
-    "growth": "15.52 %",
+    "growth": "15.52",
     "coords": {
       "lat": 23.3320779,
       "lng": 86.365208
@@ -1681,7 +1681,7 @@
     "district": "Ranchi",
     "percent": 0.2634913203693115,
     "state": "Jharkhand",
-    "growth": "23.98 %",
+    "growth": "23.98",
     "coords": {
       "lat": 23.3440997,
       "lng": 85.309562
@@ -1694,7 +1694,7 @@
     "district": "Amravati",
     "percent": 0.2611578977062513,
     "state": "Maharashtra",
-    "growth": "10.79 %",
+    "growth": "10.79",
     "coords": {
       "lat": 20.9374238,
       "lng": 77.7795513
@@ -1707,7 +1707,7 @@
     "district": "YSR",
     "percent": 0.2606175794392625,
     "state": "Andhra Pradesh",
-    "growth": "10.79 %",
+    "growth": "10.79",
     "coords": {
       "lat": 14.4673541,
       "lng": 78.82413389999999
@@ -1720,7 +1720,7 @@
     "district": "Bhavnagar",
     "percent": 0.26042734690349534,
     "state": "Gujarat",
-    "growth": "16.63 %",
+    "growth": "16.63",
     "coords": {
       "lat": 21.7644725,
       "lng": 72.15193040000001
@@ -1733,7 +1733,7 @@
     "district": "Nalanda",
     "percent": 0.26018214222811487,
     "state": "Bihar",
-    "growth": "21.39 %",
+    "growth": "21.39",
     "coords": {
       "lat": 25.1240603,
       "lng": 85.45947489999999
@@ -1746,7 +1746,7 @@
     "district": "Nagaon",
     "percent": 0.2553101459401809,
     "state": "Assam",
-    "growth": "22.00 %",
+    "growth": "22.00",
     "coords": {
       "lat": 26.3463713,
       "lng": 92.6840426
@@ -1759,7 +1759,7 @@
     "district": "Sangli",
     "percent": 0.2551632220472999,
     "state": "Maharashtra",
-    "growth": "9.24 %",
+    "growth": "9.24",
     "coords": {
       "lat": 16.867,
       "lng": 74.56700000000001
@@ -1772,7 +1772,7 @@
     "district": "Koch Bihar",
     "percent": 0.254886824299277,
     "state": "West Bengal",
-    "growth": "13.71 %",
+    "growth": "13.71",
     "coords": {
       "lat": 26.32419,
       "lng": 89.451
@@ -1785,7 +1785,7 @@
     "district": "Araria",
     "percent": 0.2542071769744853,
     "state": "Bihar",
-    "growth": "30.25 %",
+    "growth": "30.25",
     "coords": {
       "lat": 26.1311375,
       "lng": 87.445534
@@ -1798,7 +1798,7 @@
     "district": "Palakkad",
     "percent": 0.2540593489345712,
     "state": "Kerala",
-    "growth": "7.35 %",
+    "growth": "7.35",
     "coords": {
       "lat": 10.7867303,
       "lng": 76.6547932
@@ -1811,7 +1811,7 @@
     "district": "Khammam",
     "percent": 0.252923378602167,
     "state": "Andhra Pradesh",
-    "growth": "8.47 %",
+    "growth": "8.47",
     "coords": {
       "lat": 17.6350961,
       "lng": 80.6326916
@@ -1824,7 +1824,7 @@
     "district": "Yavatmal",
     "percent": 0.25066102189590955,
     "state": "Maharashtra",
-    "growth": "12.78 %",
+    "growth": "12.78",
     "coords": {
       "lat": 20.3887937,
       "lng": 78.1204073
@@ -1837,7 +1837,7 @@
     "district": "Junagadh",
     "percent": 0.24801494518879855,
     "state": "Gujarat",
-    "growth": "12.05 %",
+    "growth": "12.05",
     "coords": {
       "lat": 21.522184,
       "lng": 70.4578768
@@ -1850,7 +1850,7 @@
     "district": "Adilabad",
     "percent": 0.24784831089059567,
     "state": "Andhra Pradesh",
-    "growth": "10.18 %",
+    "growth": "10.18",
     "coords": {
       "lat": 19.4230512,
       "lng": 78.44712969999999
@@ -1863,7 +1863,7 @@
     "district": "South Delhi",
     "percent": 0.2470065500027667,
     "state": "Delhi",
-    "growth": "20.51 %",
+    "growth": "20.51",
     "coords": {
       "lat": 28.5086497,
       "lng": 77.2175223
@@ -1876,7 +1876,7 @@
     "district": "Bhojpur",
     "percent": 0.246688109417704,
     "state": "Bihar",
-    "growth": "21.63 %",
+    "growth": "21.63",
     "coords": {
       "lat": 25.466155,
       "lng": 84.5222189
@@ -1889,7 +1889,7 @@
     "district": "Tiruchirappalli",
     "percent": 0.24613504267754827,
     "state": "Tamil Nadu",
-    "growth": "12.57 %",
+    "growth": "12.57",
     "coords": {
       "lat": 10.7904833,
       "lng": 78.7046725
@@ -1902,7 +1902,7 @@
     "district": "Srikakulam",
     "percent": 0.24440125032684915,
     "state": "Andhra Pradesh",
-    "growth": "6.52 %",
+    "growth": "6.52",
     "coords": {
       "lat": 18.2969747,
       "lng": 83.8967813
@@ -1915,7 +1915,7 @@
     "district": "Maharajganj",
     "percent": 0.24273662522418327,
     "state": "Uttar Pradesh",
-    "growth": "23.50 %",
+    "growth": "23.50",
     "coords": {
       "lat": 27.1446035,
       "lng": 83.5621737
@@ -1928,7 +1928,7 @@
     "district": "Dhanbad",
     "percent": 0.242717095648268,
     "state": "Jharkhand",
-    "growth": "11.99 %",
+    "growth": "11.99",
     "coords": {
       "lat": 23.7956531,
       "lng": 86.43038589999999
@@ -1941,7 +1941,7 @@
     "district": "Tumkur",
     "percent": 0.2422191818771322,
     "state": "Karnataka",
-    "growth": "3.65 %",
+    "growth": "3.65",
     "coords": {
       "lat": 13.34,
       "lng": 77.1
@@ -1954,7 +1954,7 @@
     "district": "Sikar",
     "percent": 0.24207026886077834,
     "state": "Rajasthan",
-    "growth": "17.03 %",
+    "growth": "17.03",
     "coords": {
       "lat": 27.6094,
       "lng": 75.139911
@@ -1967,7 +1967,7 @@
     "district": "Bilaspur",
     "percent": 0.24083122576659916,
     "state": "Chhattisgarh",
-    "growth": "33.29 %",
+    "growth": "33.29",
     "coords": {
       "lat": 22.0796251,
       "lng": 82.1391412
@@ -1980,7 +1980,7 @@
     "district": "Kollam",
     "percent": 0.2382766487392393,
     "state": "Kerala",
-    "growth": "1.94 %",
+    "growth": "1.94",
     "coords": {
       "lat": 8.8932118,
       "lng": 76.6141396
@@ -1993,7 +1993,7 @@
     "district": "Raigarh",
     "percent": 0.23817041146284842,
     "state": "Maharashtra",
-    "growth": "19.31 %",
+    "growth": "19.31",
     "coords": {
       "lat": 18.5157519,
       "lng": 73.1821623
@@ -2006,7 +2006,7 @@
     "district": "Fatehpur",
     "percent": 0.23803777309309063,
     "state": "Uttar Pradesh",
-    "growth": "14.05 %",
+    "growth": "14.05",
     "coords": {
       "lat": 25.9200736,
       "lng": 80.8099941
@@ -2019,7 +2019,7 @@
     "district": "Cuttack",
     "percent": 0.23729067639962864,
     "state": "Orissa",
-    "growth": "12.10 %",
+    "growth": "12.10",
     "coords": {
       "lat": 20.462521,
       "lng": 85.8829895
@@ -2032,7 +2032,7 @@
     "district": "Cuddalore",
     "percent": 0.2356129411649826,
     "state": "Tamil Nadu",
-    "growth": "14.02 %",
+    "growth": "14.02",
     "coords": {
       "lat": 11.75,
       "lng": 79.75
@@ -2045,7 +2045,7 @@
     "district": "Barmer",
     "percent": 0.23541737416172007,
     "state": "Rajasthan",
-    "growth": "32.52 %",
+    "growth": "32.52",
     "coords": {
       "lat": 25.75,
       "lng": 71.38
@@ -2058,7 +2058,7 @@
     "district": "Buldana",
     "percent": 0.23383574975669402,
     "state": "Maharashtra",
-    "growth": "15.85 %",
+    "growth": "15.85",
     "coords": {
       "lat": 20.532778,
       "lng": 76.182778
@@ -2071,7 +2071,7 @@
     "district": "Bid",
     "percent": 0.23372643838039056,
     "state": "Maharashtra",
-    "growth": "19.61 %",
+    "growth": "19.61",
     "coords": {
       "lat": 18.9890893,
       "lng": 75.76007849999999
@@ -2084,7 +2084,7 @@
     "district": "Ajmer",
     "percent": 0.23354588021787773,
     "state": "Rajasthan",
-    "growth": "18.40 %",
+    "growth": "18.40",
     "coords": {
       "lat": 26.4498954,
       "lng": 74.6399163
@@ -2097,7 +2097,7 @@
     "district": "Gulbarga",
     "percent": 0.2320336038902915,
     "state": "Karnataka",
-    "growth": "18.01 %",
+    "growth": "18.01",
     "coords": {
       "lat": 17.329731,
       "lng": 76.8342957
@@ -2110,7 +2110,7 @@
     "district": "Gopalganj",
     "percent": 0.2316435548602062,
     "state": "Bihar",
-    "growth": "19.02 %",
+    "growth": "19.02",
     "coords": {
       "lat": 26.4685472,
       "lng": 84.4433318
@@ -2123,7 +2123,7 @@
     "district": "Siddharth Nagar",
     "percent": 0.2313980789407158,
     "state": "Uttar Pradesh",
-    "growth": "25.45 %",
+    "growth": "25.45",
     "coords": {
       "lat": 27.2715633,
       "lng": 82.82097399999999
@@ -2136,7 +2136,7 @@
     "district": "Nizamabad",
     "percent": 0.23067819707295056,
     "state": "Andhra Pradesh",
-    "growth": "8.77 %",
+    "growth": "8.77",
     "coords": {
       "lat": 18.2836461,
       "lng": 84.0140984
@@ -2149,7 +2149,7 @@
     "district": "Bharatpur",
     "percent": 0.23041843563033695,
     "state": "Rajasthan",
-    "growth": "21.29 %",
+    "growth": "21.29",
     "coords": {
       "lat": 27.216981,
       "lng": 77.489515
@@ -2162,7 +2162,7 @@
     "district": "Mathura",
     "percent": 0.23030288563950502,
     "state": "Uttar Pradesh",
-    "growth": "22.78 %",
+    "growth": "22.78",
     "coords": {
       "lat": 27.4924134,
       "lng": 77.673673
@@ -2175,7 +2175,7 @@
     "district": "West Delhi",
     "percent": 0.22994656129375485,
     "state": "Delhi",
-    "growth": "19.46 %",
+    "growth": "19.46",
     "coords": {
       "lat": 28.6663433,
       "lng": 77.067959
@@ -2188,7 +2188,7 @@
     "district": "Aurangabad",
     "percent": 0.22965994668425774,
     "state": "Bihar",
-    "growth": "26.18 %",
+    "growth": "26.18",
     "coords": {
       "lat": 24.75,
       "lng": 84.36999999999999
@@ -2201,7 +2201,7 @@
     "district": "Kannur",
     "percent": 0.22811656769873243,
     "state": "Kerala",
-    "growth": "4.73 %",
+    "growth": "4.73",
     "coords": {
       "lat": 11.8744775,
       "lng": 75.37036619999999
@@ -2214,7 +2214,7 @@
     "district": "Mayurbhanj",
     "percent": 0.22782136369242076,
     "state": "Orissa",
-    "growth": "13.33 %",
+    "growth": "13.33",
     "coords": {
       "lat": 22.0086978,
       "lng": 86.41873079999999
@@ -2227,7 +2227,7 @@
     "district": "Firozabad",
     "percent": 0.22587003356555446,
     "state": "Uttar Pradesh",
-    "growth": "21.69 %",
+    "growth": "21.69",
     "coords": {
       "lat": 27.1591006,
       "lng": 78.3957574
@@ -2240,7 +2240,7 @@
     "district": "Mirzapur",
     "percent": 0.22576280172742716,
     "state": "Uttar Pradesh",
-    "growth": "18.00 %",
+    "growth": "18.00",
     "coords": {
       "lat": 25.1336987,
       "lng": 82.5644344
@@ -2253,7 +2253,7 @@
     "district": "Amritsar",
     "percent": 0.22519192329071908,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.6339793,
       "lng": 74.8722642
@@ -2266,7 +2266,7 @@
     "district": "Tiruppur",
     "percent": 0.22414275107349377,
     "state": "Tamil Nadu",
-    "growth": "29.11 %",
+    "growth": "29.11",
     "coords": {
       "lat": 11.1085242,
       "lng": 77.3410656
@@ -2279,7 +2279,7 @@
     "district": "Faizabad",
     "percent": 0.22341437022361726,
     "state": "Uttar Pradesh",
-    "growth": "18.29 %",
+    "growth": "18.29",
     "coords": {
       "lat": 26.77,
       "lng": 82.14999999999999
@@ -2292,7 +2292,7 @@
     "district": "Tiruvannamalai",
     "percent": 0.22286094182464827,
     "state": "Tamil Nadu",
-    "growth": "12.75 %",
+    "growth": "12.75",
     "coords": {
       "lat": 12.2252841,
       "lng": 79.07469569999999
@@ -2305,7 +2305,7 @@
     "district": "Basti",
     "percent": 0.2228237813815873,
     "state": "Uttar Pradesh",
-    "growth": "18.21 %",
+    "growth": "18.21",
     "coords": {
       "lat": 26.8176796,
       "lng": 82.7633133
@@ -2318,7 +2318,7 @@
     "district": "Jabalpur",
     "percent": 0.22271754410519642,
     "state": "Madhya Pradesh",
-    "growth": "14.51 %",
+    "growth": "14.51",
     "coords": {
       "lat": 23.166667,
       "lng": 79.93333299999999
@@ -2331,7 +2331,7 @@
     "district": "Latur",
     "percent": 0.221895403207986,
     "state": "Maharashtra",
-    "growth": "17.97 %",
+    "growth": "17.97",
     "coords": {
       "lat": 18.4,
       "lng": 76.56
@@ -2344,7 +2344,7 @@
     "district": "Bellary",
     "percent": 0.2217506492679845,
     "state": "Karnataka",
-    "growth": "20.99 %",
+    "growth": "20.99",
     "coords": {
       "lat": 15.1393932,
       "lng": 76.9214428
@@ -2357,7 +2357,7 @@
     "district": "Giridih",
     "percent": 0.2211068061657041,
     "state": "Jharkhand",
-    "growth": "28.41 %",
+    "growth": "28.41",
     "coords": {
       "lat": 24.1821391,
       "lng": 86.28695069999999
@@ -2370,7 +2370,7 @@
     "district": "Sabarkantha",
     "percent": 0.2195801539002914,
     "state": "Gujarat",
-    "growth": "16.62 %",
+    "growth": "16.62",
     "coords": {
       "lat": 23.8476704,
       "lng": 72.99329689999999
@@ -2383,7 +2383,7 @@
     "district": "Bhilwara",
     "percent": 0.21776589246364514,
     "state": "Rajasthan",
-    "growth": "19.60 %",
+    "growth": "19.60",
     "coords": {
       "lat": 25.321377,
       "lng": 74.586953
@@ -2396,7 +2396,7 @@
     "district": "Thanjavur",
     "percent": 0.21752783054982627,
     "state": "Tamil Nadu",
-    "growth": "8.56 %",
+    "growth": "8.56",
     "coords": {
       "lat": 10.7869994,
       "lng": 79.13782739999999
@@ -2409,7 +2409,7 @@
     "district": "Ambedkar Nagar",
     "percent": 0.21680433209392858,
     "state": "Uttar Pradesh",
-    "growth": "18.30 %",
+    "growth": "18.30",
     "coords": {
       "lat": 26.4683952,
       "lng": 82.6915429
@@ -2422,7 +2422,7 @@
     "district": "PanchMahal",
     "percent": 0.21616130272397802,
     "state": "Gujarat",
-    "growth": "18.05 %",
+    "growth": "18.05",
     "coords": {
       "lat": 22.8011177,
       "lng": 73.55941279999999
@@ -2435,7 +2435,7 @@
     "district": "Sagar",
     "percent": 0.21504757440858838,
     "state": "Madhya Pradesh",
-    "growth": "17.63 %",
+    "growth": "17.63",
     "coords": {
       "lat": 23.838805,
       "lng": 78.7378068
@@ -2448,7 +2448,7 @@
     "district": "Bhopal",
     "percent": 0.21437877684819406,
     "state": "Madhya Pradesh",
-    "growth": "28.62 %",
+    "growth": "28.62",
     "coords": {
       "lat": 23.2599333,
       "lng": 77.412615
@@ -2461,7 +2461,7 @@
     "district": "Rewa",
     "percent": 0.21384035728997478,
     "state": "Madhya Pradesh",
-    "growth": "19.86 %",
+    "growth": "19.86",
     "coords": {
       "lat": 24.53,
       "lng": 81.3
@@ -2474,7 +2474,7 @@
     "district": "Bikaner",
     "percent": 0.21373466250180378,
     "state": "Rajasthan",
-    "growth": "41.19 %",
+    "growth": "41.19",
     "coords": {
       "lat": 28.01,
       "lng": 73.3
@@ -2487,7 +2487,7 @@
     "district": "Surguja",
     "percent": 0.21336839253868936,
     "state": "Chhattisgarh",
-    "growth": "19.66 %",
+    "growth": "19.66",
     "coords": {
       "lat": 22.9494079,
       "lng": 83.1649001
@@ -2500,7 +2500,7 @@
     "district": "Vizianagaram",
     "percent": 0.2119749211312543,
     "state": "Andhra Pradesh",
-    "growth": "4.23 %",
+    "growth": "4.23",
     "coords": {
       "lat": 18.1066576,
       "lng": 83.39555059999999
@@ -2513,7 +2513,7 @@
     "district": "Rampur",
     "percent": 0.21119238187409428,
     "state": "Uttar Pradesh",
-    "growth": "21.42 %",
+    "growth": "21.42",
     "coords": {
       "lat": 28.7893041,
       "lng": 79.0249516
@@ -2526,7 +2526,7 @@
     "district": "Baleshwar",
     "percent": 0.20980994106046322,
     "state": "Orissa",
-    "growth": "14.62 %",
+    "growth": "14.62",
     "coords": {
       "lat": 21.4949767,
       "lng": 86.942658
@@ -2539,7 +2539,7 @@
     "district": "Kheda",
     "percent": 0.207943419925303,
     "state": "Gujarat",
-    "growth": "13.62 %",
+    "growth": "13.62",
     "coords": {
       "lat": 22.750651,
       "lng": 72.68466579999999
@@ -2552,7 +2552,7 @@
     "district": "Gurdaspur",
     "percent": 0.2078021921587306,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 32.0333,
       "lng": 75.39999999999999
@@ -2565,7 +2565,7 @@
     "district": "Purbi Singhbhum",
     "percent": 0.20740400580534726,
     "state": "Jharkhand",
-    "growth": "15.68 %",
+    "growth": "15.68",
     "coords": {
       "lat": 22.4866756,
       "lng": 86.49965460000001
@@ -2578,7 +2578,7 @@
     "district": "South West Delhi",
     "percent": 0.20731711727546503,
     "state": "Delhi",
-    "growth": "30.65 %",
+    "growth": "30.65",
     "coords": {
       "lat": 28.5827577,
       "lng": 77.03341790000002
@@ -2591,7 +2591,7 @@
     "district": "Erode",
     "percent": 0.20359076569318965,
     "state": "Tamil Nadu",
-    "growth": "11.66 %",
+    "growth": "11.66",
     "coords": {
       "lat": 11.3410364,
       "lng": 77.7171642
@@ -2604,7 +2604,7 @@
     "district": "Khordha",
     "percent": 0.20358434624925453,
     "state": "Orissa",
-    "growth": "19.94 %",
+    "growth": "19.94",
     "coords": {
       "lat": 20.18,
       "lng": 85.61999999999999
@@ -2617,7 +2617,7 @@
     "district": "North East Delhi",
     "percent": 0.20267576889567843,
     "state": "Delhi",
-    "growth": "26.78 %",
+    "growth": "26.78",
     "coords": {
       "lat": 28.6965644,
       "lng": 77.2635038
@@ -2630,7 +2630,7 @@
     "district": "Supaul",
     "percent": 0.20154124519852717,
     "state": "Bihar",
-    "growth": "28.66 %",
+    "growth": "28.66",
     "coords": {
       "lat": 26.108333,
       "lng": 86.601111
@@ -2643,7 +2643,7 @@
     "district": "Satna",
     "percent": 0.20152849672536027,
     "state": "Madhya Pradesh",
-    "growth": "19.19 %",
+    "growth": "19.19",
     "coords": {
       "lat": 24.6005075,
       "lng": 80.8322428
@@ -2656,7 +2656,7 @@
     "district": "Nawada",
     "percent": 0.20064342719464515,
     "state": "Bihar",
-    "growth": "22.63 %",
+    "growth": "22.63",
     "coords": {
       "lat": 24.88,
       "lng": 85.53
@@ -2669,7 +2669,7 @@
     "district": "Mau",
     "percent": 0.1994519422344077,
     "state": "Uttar Pradesh",
-    "growth": "18.98 %",
+    "growth": "18.98",
     "coords": {
       "lat": 25.9496379,
       "lng": 83.5586445
@@ -2682,7 +2682,7 @@
     "district": "Chandrapur",
     "percent": 0.1993017634122075,
     "state": "Maharashtra",
-    "growth": "6.43 %",
+    "growth": "6.43",
     "coords": {
       "lat": 19.95,
       "lng": 79.3
@@ -2695,7 +2695,7 @@
     "district": "Jalandhar",
     "percent": 0.1983327890368194,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.3260152,
       "lng": 75.57618289999999
@@ -2708,7 +2708,7 @@
     "district": "Dhar",
     "percent": 0.19762782559510053,
     "state": "Madhya Pradesh",
-    "growth": "25.60 %",
+    "growth": "25.60",
     "coords": {
       "lat": 22.6012922,
       "lng": 75.3024655
@@ -2721,7 +2721,7 @@
     "district": "Bijapur",
     "percent": 0.1968627363756796,
     "state": "Karnataka",
-    "growth": "20.50 %",
+    "growth": "20.50",
     "coords": {
       "lat": 16.8301708,
       "lng": 75.710031
@@ -2734,7 +2734,7 @@
     "district": "Jamnagar",
     "percent": 0.19530651850228406,
     "state": "Gujarat",
-    "growth": "13.44 %",
+    "growth": "13.44",
     "coords": {
       "lat": 22.4707019,
       "lng": 70.05773
@@ -2747,7 +2747,7 @@
     "district": "Dindigul",
     "percent": 0.19527541584434494,
     "state": "Tamil Nadu",
-    "growth": "12.31 %",
+    "growth": "12.31",
     "coords": {
       "lat": 10.3673123,
       "lng": 77.98029060000002
@@ -2760,7 +2760,7 @@
     "district": "Balrampur",
     "percent": 0.19427090849055545,
     "state": "Uttar Pradesh",
-    "growth": "27.72 %",
+    "growth": "27.72",
     "coords": {
       "lat": 27.4297064,
       "lng": 82.17680179999999
@@ -2773,7 +2773,7 @@
     "district": "Jhunjhunun",
     "percent": 0.19322028963807716,
     "state": "Rajasthan",
-    "growth": "11.67 %",
+    "growth": "11.67",
     "coords": {
       "lat": 28.13,
       "lng": 75.39999999999999
@@ -2786,7 +2786,7 @@
     "district": "Alappuzha",
     "percent": 0.192383411144227,
     "state": "Kerala",
-    "growth": "0.88 %",
+    "growth": "0.88",
     "coords": {
       "lat": 9.498066699999999,
       "lng": 76.3388484
@@ -2799,7 +2799,7 @@
     "district": "Dohad",
     "percent": 0.1923198496077991,
     "state": "Gujarat",
-    "growth": "29.98 %",
+    "growth": "29.98",
     "coords": {
       "lat": 22.8379314,
       "lng": 74.2531465
@@ -2812,7 +2812,7 @@
     "district": "Sundargarh",
     "percent": 0.18927748525607432,
     "state": "Orissa",
-    "growth": "14.35 %",
+    "growth": "14.35",
     "coords": {
       "lat": 22.12,
       "lng": 84.03
@@ -2825,7 +2825,7 @@
     "district": "Anand",
     "percent": 0.18921491828138284,
     "state": "Gujarat",
-    "growth": "12.70 %",
+    "growth": "12.70",
     "coords": {
       "lat": 22.556,
       "lng": 72.951
@@ -2838,7 +2838,7 @@
     "district": "Kachchh",
     "percent": 0.1891811031823444,
     "state": "Gujarat",
-    "growth": "32.16 %",
+    "growth": "32.16",
     "coords": {
       "lat": 23.7337326,
       "lng": 69.8597406
@@ -2851,7 +2851,7 @@
     "district": "Chhindwara",
     "percent": 0.1890500922772462,
     "state": "Madhya Pradesh",
-    "growth": "13.07 %",
+    "growth": "13.07",
     "coords": {
       "lat": 22.057437,
       "lng": 78.9381729
@@ -2864,7 +2864,7 @@
     "district": "Dakshina Kannada",
     "percent": 0.1889349943599308,
     "state": "Karnataka",
-    "growth": "10.11 %",
+    "growth": "10.11",
     "coords": {
       "lat": 12.8437814,
       "lng": 75.2479061
@@ -2877,7 +2877,7 @@
     "district": "Bokaro",
     "percent": 0.1864649550801671,
     "state": "Jharkhand",
-    "growth": "16.01 %",
+    "growth": "16.01",
     "coords": {
       "lat": 23.6692956,
       "lng": 86.15111200000001
@@ -2890,7 +2890,7 @@
     "district": "Dhule",
     "percent": 0.18542807926259214,
     "state": "Maharashtra",
-    "growth": "20.08 %",
+    "growth": "20.08",
     "coords": {
       "lat": 20.9042201,
       "lng": 74.7748979
@@ -2903,7 +2903,7 @@
     "district": "Churu",
     "percent": 0.18440503689462384,
     "state": "Rajasthan",
-    "growth": "6.01 %",
+    "growth": "6.01",
     "coords": {
       "lat": 28.3,
       "lng": 74.95
@@ -2916,7 +2916,7 @@
     "district": "Pali",
     "percent": 0.18422655827028717,
     "state": "Rajasthan",
-    "growth": "11.94 %",
+    "growth": "11.94",
     "coords": {
       "lat": 25.7710893,
       "lng": 73.3234478
@@ -2929,7 +2929,7 @@
     "district": "Mahesana",
     "percent": 0.1839997077796789,
     "state": "Gujarat",
-    "growth": "10.73 %",
+    "growth": "10.73",
     "coords": {
       "lat": 23.5879607,
       "lng": 72.36932519999999
@@ -2942,7 +2942,7 @@
     "district": "Banka",
     "percent": 0.18397249295398216,
     "state": "Bihar",
-    "growth": "26.48 %",
+    "growth": "26.48",
     "coords": {
       "lat": 24.88,
       "lng": 86.92
@@ -2955,7 +2955,7 @@
     "district": "Gwalior",
     "percent": 0.18372593205805202,
     "state": "Madhya Pradesh",
-    "growth": "24.50 %",
+    "growth": "24.50",
     "coords": {
       "lat": 26.2182871,
       "lng": 78.18283079999999
@@ -2968,7 +2968,7 @@
     "district": "Pilibhit",
     "percent": 0.18363289532834462,
     "state": "Uttar Pradesh",
-    "growth": "23.45 %",
+    "growth": "23.45",
     "coords": {
       "lat": 28.63,
       "lng": 79.8
@@ -2981,7 +2981,7 @@
     "district": "Firozpur",
     "percent": 0.1834581237068437,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.9166,
       "lng": 74.6
@@ -2994,7 +2994,7 @@
     "district": "Madhepura",
     "percent": 0.18098871733000318,
     "state": "Bihar",
-    "growth": "31.12 %",
+    "growth": "31.12",
     "coords": {
       "lat": 25.9286903,
       "lng": 86.79097589999999
@@ -3007,7 +3007,7 @@
     "district": "Jhansi",
     "percent": 0.18070309728224251,
     "state": "Uttar Pradesh",
-    "growth": "14.54 %",
+    "growth": "14.54",
     "coords": {
       "lat": 25.4484257,
       "lng": 78.5684594
@@ -3020,7 +3020,7 @@
     "district": "Ujjain",
     "percent": 0.17964171908007018,
     "state": "Madhya Pradesh",
-    "growth": "16.12 %",
+    "growth": "16.12",
     "coords": {
       "lat": 23.1793013,
       "lng": 75.7849097
@@ -3033,7 +3033,7 @@
     "district": "Kottayam",
     "percent": 0.1785284428381971,
     "state": "Kerala",
-    "growth": "1.07 %",
+    "growth": "1.07",
     "coords": {
       "lat": 9.591566799999999,
       "lng": 76.5221531
@@ -3046,7 +3046,7 @@
     "district": "Ganganagar",
     "percent": 0.1780417404902719,
     "state": "Rajasthan",
-    "growth": "10.04 %",
+    "growth": "10.04",
     "coords": {
       "lat": 29.9166667,
       "lng": 73.88333329999999
@@ -3059,7 +3059,7 @@
     "district": "Morena",
     "percent": 0.1777525942690821,
     "state": "Madhya Pradesh",
-    "growth": "23.44 %",
+    "growth": "23.44",
     "coords": {
       "lat": 26.5,
       "lng": 78
@@ -3072,7 +3072,7 @@
     "district": "Jalna",
     "percent": 0.1771265628633541,
     "state": "Maharashtra",
-    "growth": "21.46 %",
+    "growth": "21.46",
     "coords": {
       "lat": 19.8296893,
       "lng": 75.88003049999999
@@ -3085,7 +3085,7 @@
     "district": "Chandauli",
     "percent": 0.17655785437952548,
     "state": "Uttar Pradesh",
-    "growth": "18.83 %",
+    "growth": "18.83",
     "coords": {
       "lat": 25.2604556,
       "lng": 83.2662673
@@ -3098,7 +3098,7 @@
     "district": "Kota",
     "percent": 0.17640035196635706,
     "state": "Rajasthan",
-    "growth": "24.39 %",
+    "growth": "24.39",
     "coords": {
       "lat": 25.2138156,
       "lng": 75.8647527
@@ -3111,7 +3111,7 @@
     "district": "Dhubri",
     "percent": 0.17624158374734225,
     "state": "Assam",
-    "growth": "24.44 %",
+    "growth": "24.44",
     "coords": {
       "lat": 26.0206982,
       "lng": 89.9743463
@@ -3124,7 +3124,7 @@
     "district": "Davanagere",
     "percent": 0.17590153404818815,
     "state": "Karnataka",
-    "growth": "8.63 %",
+    "growth": "8.63",
     "coords": {
       "lat": 14.4663438,
       "lng": 75.9238397
@@ -3137,7 +3137,7 @@
     "district": "Virudhunagar",
     "percent": 0.1756113932652619,
     "state": "Tamil Nadu",
-    "growth": "10.91 %",
+    "growth": "10.91",
     "coords": {
       "lat": 9.583333,
       "lng": 77.95
@@ -3150,7 +3150,7 @@
     "district": "Palamu",
     "percent": 0.17539268009795167,
     "state": "Jharkhand",
-    "growth": "26.17 %",
+    "growth": "26.17",
     "coords": {
       "lat": 24.1286106,
       "lng": 84.1857115
@@ -3163,7 +3163,7 @@
     "district": "Raichur",
     "percent": 0.1743929647234377,
     "state": "Karnataka",
-    "growth": "15.51 %",
+    "growth": "15.51",
     "coords": {
       "lat": 16.2,
       "lng": 77.36999999999999
@@ -3176,7 +3176,7 @@
     "district": "Sonitpur",
     "percent": 0.17396783478846756,
     "state": "Assam",
-    "growth": "15.55 %",
+    "growth": "15.55",
     "coords": {
       "lat": 26.6738851,
       "lng": 92.8577105
@@ -3189,7 +3189,7 @@
     "district": "Saharsa",
     "percent": 0.17184770041051892,
     "state": "Bihar",
-    "growth": "26.02 %",
+    "growth": "26.02",
     "coords": {
       "lat": 25.870556,
       "lng": 86.601389
@@ -3202,7 +3202,7 @@
     "district": "Patiala",
     "percent": 0.17139788726154478,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.34,
       "lng": 76.38
@@ -3215,7 +3215,7 @@
     "district": "Haridwar",
     "percent": 0.17092194426331367,
     "state": "Uttarakhand",
-    "growth": "30.63 %",
+    "growth": "30.63",
     "coords": {
       "lat": 29.9456906,
       "lng": 78.16424780000001
@@ -3228,7 +3228,7 @@
     "district": "Bagalkot",
     "percent": 0.17086136641209504,
     "state": "Karnataka",
-    "growth": "14.40 %",
+    "growth": "14.40",
     "coords": {
       "lat": 16.1817,
       "lng": 75.69579999999999
@@ -3241,7 +3241,7 @@
     "district": "Farrukhabad",
     "percent": 0.17045016034143484,
     "state": "Uttar Pradesh",
-    "growth": "20.05 %",
+    "growth": "20.05",
     "coords": {
       "lat": 27.3826126,
       "lng": 79.59405439999999
@@ -3254,7 +3254,7 @@
     "district": "Krishnagiri",
     "percent": 0.16996237301706993,
     "state": "Tamil Nadu",
-    "growth": "20.41 %",
+    "growth": "20.41",
     "coords": {
       "lat": 12.5186113,
       "lng": 78.2137365
@@ -3267,7 +3267,7 @@
     "district": "West Nimar",
     "percent": 0.16935089837857503,
     "state": "Madhya Pradesh",
-    "growth": "22.85 %",
+    "growth": "22.85",
     "coords": {
       "lat": 21.90287,
       "lng": 75.8069082
@@ -3280,7 +3280,7 @@
     "district": "Kanniyakumari",
     "percent": 0.16910931029132703,
     "state": "Tamil Nadu",
-    "growth": "11.60 %",
+    "growth": "11.60",
     "coords": {
       "lat": 8.0883064,
       "lng": 77.5384507
@@ -3293,7 +3293,7 @@
     "district": "Mainpuri",
     "percent": 0.1689424951637175,
     "state": "Uttar Pradesh",
-    "growth": "17.02 %",
+    "growth": "17.02",
     "coords": {
       "lat": 27.23,
       "lng": 79.02
@@ -3306,7 +3306,7 @@
     "district": "Sonbhadra",
     "percent": 0.16840271938494855,
     "state": "Uttar Pradesh",
-    "growth": "27.27 %",
+    "growth": "27.27",
     "coords": {
       "lat": 24.7,
       "lng": 83.07
@@ -3319,7 +3319,7 @@
     "district": "Dharwad",
     "percent": 0.1669980365543029,
     "state": "Karnataka",
-    "growth": "15.13 %",
+    "growth": "15.13",
     "coords": {
       "lat": 15.4589236,
       "lng": 75.007808
@@ -3332,7 +3332,7 @@
     "district": "Darjiling",
     "percent": 0.16697995361364062,
     "state": "West Bengal",
-    "growth": "14.77 %",
+    "growth": "14.77",
     "coords": {
       "lat": 27.0360066,
       "lng": 88.2626751
@@ -3345,7 +3345,7 @@
     "district": "Jyotiba Phule Nagar",
     "percent": 0.16638303574237887,
     "state": "Uttar Pradesh",
-    "growth": "22.76 %",
+    "growth": "22.76",
     "coords": {
       "lat": 28.7715965,
       "lng": 78.3387066
@@ -3358,7 +3358,7 @@
     "district": "Parbhani",
     "percent": 0.16600917094418627,
     "state": "Maharashtra",
-    "growth": "20.19 %",
+    "growth": "20.19",
     "coords": {
       "lat": 19.2609958,
       "lng": 76.77666500000001
@@ -3371,7 +3371,7 @@
     "district": "Jalor",
     "percent": 0.16534408038662773,
     "state": "Rajasthan",
-    "growth": "26.21 %",
+    "growth": "26.21",
     "coords": {
       "lat": 25.3444799,
       "lng": 72.6253763
@@ -3384,7 +3384,7 @@
     "district": "Jajapur",
     "percent": 0.16520502257293482,
     "state": "Orissa",
-    "growth": "12.49 %",
+    "growth": "12.49",
     "coords": {
       "lat": 20.85,
       "lng": 86.33
@@ -3397,7 +3397,7 @@
     "district": "Akola",
     "percent": 0.16400377282473977,
     "state": "Maharashtra",
-    "growth": "11.27 %",
+    "growth": "11.27",
     "coords": {
       "lat": 20.7,
       "lng": 77
@@ -3410,7 +3410,7 @@
     "district": "Faridabad",
     "percent": 0.16362647226782137,
     "state": "Haryana",
-    "growth": "32.54 %",
+    "growth": "32.54",
     "coords": {
       "lat": 28.4089123,
       "lng": 77.3177894
@@ -3423,7 +3423,7 @@
     "district": "Mandya",
     "percent": 0.16326806838389504,
     "state": "Karnataka",
-    "growth": "2.38 %",
+    "growth": "2.38",
     "coords": {
       "lat": 12.52,
       "lng": 76.89999999999999
@@ -3436,7 +3436,7 @@
     "district": "Kendujhar",
     "percent": 0.1629031546413303,
     "state": "Orissa",
-    "growth": "15.35 %",
+    "growth": "15.35",
     "coords": {
       "lat": 21.628933,
       "lng": 85.5816847
@@ -3449,7 +3449,7 @@
     "district": "Banda",
     "percent": 0.16269312128553795,
     "state": "Uttar Pradesh",
-    "growth": "17.05 %",
+    "growth": "17.05",
     "coords": {
       "lat": 25.483333,
       "lng": 80.333333
@@ -3462,7 +3462,7 @@
     "district": "Banswara",
     "percent": 0.16251907298166354,
     "state": "Rajasthan",
-    "growth": "26.53 %",
+    "growth": "26.53",
     "coords": {
       "lat": 23.55,
       "lng": 74.45
@@ -3475,7 +3475,7 @@
     "district": "Ramabai Nagar",
     "percent": 0.16240144345265542,
     "state": "Uttar Pradesh",
-    "growth": "14.89 %",
+    "growth": "14.89",
     "coords": {
       "lat": 26.526707,
       "lng": 79.8296743
@@ -3488,7 +3488,7 @@
     "district": "Hassan",
     "percent": 0.16061457767111254,
     "state": "Karnataka",
-    "growth": "3.18 %",
+    "growth": "3.18",
     "coords": {
       "lat": 13.0068142,
       "lng": 76.0995519
@@ -3501,7 +3501,7 @@
     "district": "Hanumangarh",
     "percent": 0.16045825064908714,
     "state": "Rajasthan",
-    "growth": "16.91 %",
+    "growth": "16.91",
     "coords": {
       "lat": 29.614436,
       "lng": 74.2858121
@@ -3514,7 +3514,7 @@
     "district": "Etah",
     "percent": 0.16043908273198515,
     "state": "Uttar Pradesh",
-    "growth": "13.62 %",
+    "growth": "13.62",
     "coords": {
       "lat": 27.56,
       "lng": 78.66
@@ -3527,7 +3527,7 @@
     "district": "Chhattarpur",
     "percent": 0.15934461274840084,
     "state": "Madhya Pradesh",
-    "growth": "19.51 %",
+    "growth": "19.51",
     "coords": {
       "lat": 23.0669106,
       "lng": 79.96822929999999
@@ -3540,7 +3540,7 @@
     "district": "Jamui",
     "percent": 0.15916649578287742,
     "state": "Bihar",
-    "growth": "25.85 %",
+    "growth": "25.85",
     "coords": {
       "lat": 24.9195147,
       "lng": 86.224718
@@ -3553,7 +3553,7 @@
     "district": "Surendranagar",
     "percent": 0.1587924501552782,
     "state": "Gujarat",
-    "growth": "15.91 %",
+    "growth": "15.91",
     "coords": {
       "lat": 22.7201319,
       "lng": 71.649536
@@ -3566,7 +3566,7 @@
     "district": "Shimoga",
     "percent": 0.1584746424731387,
     "state": "Karnataka",
-    "growth": "6.71 %",
+    "growth": "6.71",
     "coords": {
       "lat": 13.9299299,
       "lng": 75.568101
@@ -3579,7 +3579,7 @@
     "district": "Thoothukkudi",
     "percent": 0.15824164378270525,
     "state": "Tamil Nadu",
-    "growth": "11.32 %",
+    "growth": "11.32",
     "coords": {
       "lat": 8.764166099999999,
       "lng": 78.1348361
@@ -3592,7 +3592,7 @@
     "district": "Hisar",
     "percent": 0.15767700396052567,
     "state": "Haryana",
-    "growth": "13.45 %",
+    "growth": "13.45",
     "coords": {
       "lat": 29.1491875,
       "lng": 75.7216527
@@ -3605,7 +3605,7 @@
     "district": "Cachar",
     "percent": 0.1570157108205062,
     "state": "Assam",
-    "growth": "20.19 %",
+    "growth": "20.19",
     "coords": {
       "lat": 24.7821253,
       "lng": 92.8577105
@@ -3618,7 +3618,7 @@
     "district": "Hazaribagh",
     "percent": 0.15682385082007944,
     "state": "Jharkhand",
-    "growth": "20.65 %",
+    "growth": "20.65",
     "coords": {
       "lat": 23.9966213,
       "lng": 85.36910680000001
@@ -3631,7 +3631,7 @@
     "district": "Namakkal",
     "percent": 0.15611011715213938,
     "state": "Tamil Nadu",
-    "growth": "15.61 %",
+    "growth": "15.61",
     "coords": {
       "lat": 11.2194391,
       "lng": 78.1677236
@@ -3644,7 +3644,7 @@
     "district": "Shivpuri",
     "percent": 0.1560602986506148,
     "state": "Madhya Pradesh",
-    "growth": "22.76 %",
+    "growth": "22.76",
     "coords": {
       "lat": 25.43,
       "lng": 77.64999999999999
@@ -3657,7 +3657,7 @@
     "district": "West Tripura",
     "percent": 0.15603217967788496,
     "state": "Tripura",
-    "growth": "12.57 %",
+    "growth": "12.57",
     "coords": {
       "lat": 23.899682,
       "lng": 91.4048249
@@ -3670,7 +3670,7 @@
     "district": "Sant Kabir Nagar",
     "percent": 0.15507776206972998,
     "state": "Uttar Pradesh",
-    "growth": "20.77 %",
+    "growth": "20.77",
     "coords": {
       "lat": 26.7671755,
       "lng": 83.03613759999999
@@ -3683,7 +3683,7 @@
     "district": "East Delhi",
     "percent": 0.15455001144650143,
     "state": "Delhi",
-    "growth": "16.79 %",
+    "growth": "16.79",
     "coords": {
       "lat": 28.6195591,
       "lng": 77.2979782
@@ -3696,7 +3696,7 @@
     "district": "Buxar",
     "percent": 0.15427930982478716,
     "state": "Bihar",
-    "growth": "21.67 %",
+    "growth": "21.67",
     "coords": {
       "lat": 25.5647103,
       "lng": 83.9777482
@@ -3709,7 +3709,7 @@
     "district": "Valsad",
     "percent": 0.15421837031475527,
     "state": "Gujarat",
-    "growth": "20.92 %",
+    "growth": "20.92",
     "coords": {
       "lat": 20.5992349,
       "lng": 72.9342451
@@ -3722,7 +3722,7 @@
     "district": "Bidar",
     "percent": 0.15400336415028082,
     "state": "Karnataka",
-    "growth": "13.37 %",
+    "growth": "13.37",
     "coords": {
       "lat": 17.92,
       "lng": 77.519722
@@ -3735,7 +3735,7 @@
     "district": "Bhind",
     "percent": 0.15397669181280396,
     "state": "Madhya Pradesh",
-    "growth": "19.21 %",
+    "growth": "19.21",
     "coords": {
       "lat": 26.5642,
       "lng": 78.78829999999999
@@ -3748,7 +3748,7 @@
     "district": "Balaghat",
     "percent": 0.15385851979557597,
     "state": "Madhya Pradesh",
-    "growth": "13.60 %",
+    "growth": "13.60",
     "coords": {
       "lat": 21.812876,
       "lng": 80.18382930000001
@@ -3761,7 +3761,7 @@
     "district": "Puri",
     "percent": 0.15359016895614777,
     "state": "Orissa",
-    "growth": "13.05 %",
+    "growth": "13.05",
     "coords": {
       "lat": 19.8133822,
       "lng": 85.8314655
@@ -3774,7 +3774,7 @@
     "district": "Dehradun",
     "percent": 0.1534060846202058,
     "state": "Uttarakhand",
-    "growth": "32.33 %",
+    "growth": "32.33",
     "coords": {
       "lat": 30.3164945,
       "lng": 78.03219179999999
@@ -3787,7 +3787,7 @@
     "district": "Barpeta",
     "percent": 0.15312833065163323,
     "state": "Assam",
-    "growth": "21.43 %",
+    "growth": "21.43",
     "coords": {
       "lat": 26.3304209,
       "lng": 91.0040547
@@ -3800,7 +3800,7 @@
     "district": "Kishanganj",
     "percent": 0.15283701447756395,
     "state": "Bihar",
-    "growth": "30.40 %",
+    "growth": "30.40",
     "coords": {
       "lat": 26.079444,
       "lng": 87.93722199999999
@@ -3813,7 +3813,7 @@
     "district": "Jalaun",
     "percent": 0.1527984978139533,
     "state": "Uttar Pradesh",
-    "growth": "16.19 %",
+    "growth": "16.19",
     "coords": {
       "lat": 26.15,
       "lng": 79.35
@@ -3826,7 +3826,7 @@
     "district": "Dakshin Dinajpur",
     "percent": 0.15155999720799396,
     "state": "West Bengal",
-    "growth": "11.52 %",
+    "growth": "11.52",
     "coords": {
       "lat": 25.3715308,
       "lng": 88.55653099999999
@@ -3839,7 +3839,7 @@
     "district": "Khagaria",
     "percent": 0.15071100314390007,
     "state": "Bihar",
-    "growth": "30.19 %",
+    "growth": "30.19",
     "coords": {
       "lat": 25.506111,
       "lng": 86.471111
@@ -3852,7 +3852,7 @@
     "district": "Chitradurga",
     "percent": 0.15003922189829647,
     "state": "Karnataka",
-    "growth": "9.33 %",
+    "growth": "9.33",
     "coords": {
       "lat": 14.23,
       "lng": 76.39999999999999
@@ -3865,7 +3865,7 @@
     "district": "Osmanabad",
     "percent": 0.14986924225607107,
     "state": "Maharashtra",
-    "growth": "11.50 %",
+    "growth": "11.50",
     "coords": {
       "lat": 18.1860659,
       "lng": 76.0419409
@@ -3878,7 +3878,7 @@
     "district": "Kannauj",
     "percent": 0.14978244414089215,
     "state": "Uttar Pradesh",
-    "growth": "19.27 %",
+    "growth": "19.27",
     "coords": {
       "lat": 27.0514156,
       "lng": 79.9136731
@@ -3891,7 +3891,7 @@
     "district": "Sangrur",
     "percent": 0.14965161406520058,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.2457963,
       "lng": 75.8420716
@@ -3904,7 +3904,7 @@
     "district": "Balangir",
     "percent": 0.1490935745163627,
     "state": "Orissa",
-    "growth": "23.32 %",
+    "growth": "23.32",
     "coords": {
       "lat": 20.7074234,
       "lng": 83.4842725
@@ -3917,7 +3917,7 @@
     "district": "Udham Singh Nagar",
     "percent": 0.14908498511954812,
     "state": "Uttarakhand",
-    "growth": "33.45 %",
+    "growth": "33.45",
     "coords": {
       "lat": 28.9609653,
       "lng": 79.5153773
@@ -3930,7 +3930,7 @@
     "district": "Nandurbar",
     "percent": 0.14903010339463812,
     "state": "Maharashtra",
-    "growth": "25.66 %",
+    "growth": "25.66",
     "coords": {
       "lat": 21.3755507,
       "lng": 74.2427644
@@ -3943,7 +3943,7 @@
     "district": "Gautam Buddha Nagar",
     "percent": 0.14901382874804206,
     "state": "Uttar Pradesh",
-    "growth": "37.11 %",
+    "growth": "37.11",
     "coords": {
       "lat": 28.358983,
       "lng": 77.55076199999999
@@ -3956,7 +3956,7 @@
     "district": "Bhiwani",
     "percent": 0.14777785975377544,
     "state": "Haryana",
-    "growth": "14.70 %",
+    "growth": "14.70",
     "coords": {
       "lat": 28.7990445,
       "lng": 76.13351120000002
@@ -3969,7 +3969,7 @@
     "district": "Dausa",
     "percent": 0.14777460482445623,
     "state": "Rajasthan",
-    "growth": "24.09 %",
+    "growth": "24.09",
     "coords": {
       "lat": 26.8931931,
       "lng": 76.3375284
@@ -3982,7 +3982,7 @@
     "district": "Kaimur",
     "percent": 0.14704902683038237,
     "state": "Bihar",
-    "growth": "26.17 %",
+    "growth": "26.17",
     "coords": {
       "lat": 24.9080554,
       "lng": 83.5323391
@@ -3995,7 +3995,7 @@
     "district": "Janjgir Champa",
     "percent": 0.14644532785637226,
     "state": "Chhattisgarh",
-    "growth": "22.94 %",
+    "growth": "22.94",
     "coords": {
       "lat": 21.9705529,
       "lng": 82.4752757
@@ -4008,7 +4008,7 @@
     "district": "Pudukkottai",
     "percent": 0.14632218303046216,
     "state": "Tamil Nadu",
-    "growth": "10.88 %",
+    "growth": "10.88",
     "coords": {
       "lat": 10.379663,
       "lng": 78.8208454
@@ -4021,7 +4021,7 @@
     "district": "Nagapattinam",
     "percent": 0.1461508471676871,
     "state": "Tamil Nadu",
-    "growth": "8.57 %",
+    "growth": "8.57",
     "coords": {
       "lat": 10.7656082,
       "lng": 79.8423888
@@ -4034,7 +4034,7 @@
     "district": "Ratnagiri",
     "percent": 0.14602598446241408,
     "state": "Maharashtra",
-    "growth": "-4.82 %",
+    "growth": "-4.82",
     "coords": {
       "lat": 16.990215,
       "lng": 73.31202329999999
@@ -4047,7 +4047,7 @@
     "district": "Kaushambi",
     "percent": 0.14462699775807702,
     "state": "Uttar Pradesh",
-    "growth": "23.70 %",
+    "growth": "23.70",
     "coords": {
       "lat": 25.361054,
       "lng": 81.40317069999999
@@ -4060,7 +4060,7 @@
     "district": "Haveri",
     "percent": 0.14445267821009267,
     "state": "Karnataka",
-    "growth": "11.02 %",
+    "growth": "11.02",
     "coords": {
       "lat": 14.793889,
       "lng": 75.40388899999999
@@ -4073,7 +4073,7 @@
     "district": "Hoshiarpur",
     "percent": 0.14345422864142504,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.53,
       "lng": 75.92
@@ -4086,7 +4086,7 @@
     "district": "Etawah",
     "percent": 0.14301888184498074,
     "state": "Uttar Pradesh",
-    "growth": "18.15 %",
+    "growth": "18.15",
     "coords": {
       "lat": 26.8117116,
       "lng": 79.0046898
@@ -4099,7 +4099,7 @@
     "district": "Sant Ravidas Nagar",
     "percent": 0.1426936601571697,
     "state": "Uttar Pradesh",
-    "growth": "16.58 %",
+    "growth": "16.58",
     "coords": {
       "lat": 25.326373,
       "lng": 82.4319405
@@ -4112,7 +4112,7 @@
     "district": "Kalahandi",
     "percent": 0.14257214279591918,
     "state": "Orissa",
-    "growth": "18.07 %",
+    "growth": "18.07",
     "coords": {
       "lat": 19.9137363,
       "lng": 83.1649001
@@ -4125,7 +4125,7 @@
     "district": "Betul",
     "percent": 0.14243588783802894,
     "state": "Madhya Pradesh",
-    "growth": "12.92 %",
+    "growth": "12.92",
     "coords": {
       "lat": 21.9108031,
       "lng": 77.9011842
@@ -4138,7 +4138,7 @@
     "district": "Mahamaya Nagar",
     "percent": 0.14147260958894944,
     "state": "Uttar Pradesh",
-    "growth": "17.12 %",
+    "growth": "17.12",
     "coords": {
       "lat": 27.4985811,
       "lng": 78.0195387
@@ -4151,7 +4151,7 @@
     "district": "Dewas",
     "percent": 0.14138282778856123,
     "state": "Madhya Pradesh",
-    "growth": "19.53 %",
+    "growth": "19.53",
     "coords": {
       "lat": 22.96,
       "lng": 76.06
@@ -4164,7 +4164,7 @@
     "district": "Bharuch",
     "percent": 0.1402349227153199,
     "state": "Gujarat",
-    "growth": "13.16 %",
+    "growth": "13.16",
     "coords": {
       "lat": 21.7051358,
       "lng": 72.9958748
@@ -4177,7 +4177,7 @@
     "district": "Rajgarh",
     "percent": 0.13976431418458415,
     "state": "Madhya Pradesh",
-    "growth": "23.26 %",
+    "growth": "23.26",
     "coords": {
       "lat": 24.0078819,
       "lng": 76.7278803
@@ -4190,7 +4190,7 @@
     "district": "Chittaurgarh",
     "percent": 0.13963086208249653,
     "state": "Rajasthan",
-    "growth": "16.08 %",
+    "growth": "16.08",
     "coords": {
       "lat": 24.8887435,
       "lng": 74.6269216
@@ -4203,7 +4203,7 @@
     "district": "Rajnandgaon",
     "percent": 0.13897942414513803,
     "state": "Chhattisgarh",
-    "growth": "19.79 %",
+    "growth": "19.79",
     "coords": {
       "lat": 21.0971034,
       "lng": 81.0302222
@@ -4216,7 +4216,7 @@
     "district": "Kolar",
     "percent": 0.13891324058231408,
     "state": "Karnataka",
-    "growth": "10.77 %",
+    "growth": "10.77",
     "coords": {
       "lat": 13.1357446,
       "lng": 78.1325611
@@ -4229,7 +4229,7 @@
     "district": "Jammu",
     "percent": 0.13833069864887884,
     "state": "Jammu and Kashmir",
-    "growth": "12.74 %",
+    "growth": "12.74",
     "coords": {
       "lat": 32.7266016,
       "lng": 74.8570259
@@ -4242,7 +4242,7 @@
     "district": "Kamrup",
     "percent": 0.1372081096925647,
     "state": "Assam",
-    "growth": "15.69 %",
+    "growth": "15.69",
     "coords": {
       "lat": 26.3160819,
       "lng": 91.5983959
@@ -4255,7 +4255,7 @@
     "district": "Gurgaon",
     "percent": 0.1369269199652663,
     "state": "Haryana",
-    "growth": "73.96 %",
+    "growth": "73.96",
     "coords": {
       "lat": 28.4594965,
       "lng": 77.0266383
@@ -4268,7 +4268,7 @@
     "district": "Amreli",
     "percent": 0.13690503960706493,
     "state": "Gujarat",
-    "growth": "8.63 %",
+    "growth": "8.63",
     "coords": {
       "lat": 21.62,
       "lng": 71.22999999999999
@@ -4281,7 +4281,7 @@
     "district": "Shajapur",
     "percent": 0.13676860381976805,
     "state": "Madhya Pradesh",
-    "growth": "17.20 %",
+    "growth": "17.20",
     "coords": {
       "lat": 23.4272938,
       "lng": 76.2729839
@@ -4294,7 +4294,7 @@
     "district": "Kangra",
     "percent": 0.1365329831029386,
     "state": "Himachal Pradesh",
-    "growth": "12.77 %",
+    "growth": "12.77",
     "coords": {
       "lat": 32.0998031,
       "lng": 76.2691006
@@ -4307,7 +4307,7 @@
     "district": "Dharmapuri",
     "percent": 0.1362407627818362,
     "state": "Tamil Nadu",
-    "growth": "16.34 %",
+    "growth": "16.34",
     "coords": {
       "lat": 12.1065271,
       "lng": 78.1361409
@@ -4320,7 +4320,7 @@
     "district": "Bhadrak",
     "percent": 0.13619501294196062,
     "state": "Orissa",
-    "growth": "12.94 %",
+    "growth": "12.94",
     "coords": {
       "lat": 21.0582737,
       "lng": 86.4958396
@@ -4333,7 +4333,7 @@
     "district": "Karnal",
     "percent": 0.1361034228475062,
     "state": "Haryana",
-    "growth": "18.14 %",
+    "growth": "18.14",
     "coords": {
       "lat": 29.6856929,
       "lng": 76.9904825
@@ -4346,7 +4346,7 @@
     "district": "Pashchimi Singhbhum",
     "percent": 0.13583344454341842,
     "state": "Jharkhand",
-    "growth": "21.75 %",
+    "growth": "21.75",
     "coords": {
       "lat": 22.3650858,
       "lng": 85.4375574
@@ -4359,7 +4359,7 @@
     "district": "Raigarh",
     "percent": 0.1350781201119551,
     "state": "Chhattisgarh",
-    "growth": "18.05 %",
+    "growth": "18.05",
     "coords": {
       "lat": 21.9,
       "lng": 83.39999999999999
@@ -4372,7 +4372,7 @@
     "district": "Deoghar",
     "percent": 0.13490533761392703,
     "state": "Jharkhand",
-    "growth": "28.03 %",
+    "growth": "28.03",
     "coords": {
       "lat": 24.48,
       "lng": 86.7
@@ -4385,7 +4385,7 @@
     "district": "Bargarh",
     "percent": 0.13392723135350448,
     "state": "Orissa",
-    "growth": "10.02 %",
+    "growth": "10.02",
     "coords": {
       "lat": 21.33,
       "lng": 83.61999999999999
@@ -4398,7 +4398,7 @@
     "district": "Vidisha",
     "percent": 0.1319037502933957,
     "state": "Madhya Pradesh",
-    "growth": "20.09 %",
+    "growth": "20.09",
     "coords": {
       "lat": 23.53,
       "lng": 77.82
@@ -4411,7 +4411,7 @@
     "district": "Karauli",
     "percent": 0.13184706027441948,
     "state": "Rajasthan",
-    "growth": "20.55 %",
+    "growth": "20.55",
     "coords": {
       "lat": 26.5,
       "lng": 77.02
@@ -4424,7 +4424,7 @@
     "district": "Ratlam",
     "percent": 0.1315596319325926,
     "state": "Madhya Pradesh",
-    "growth": "19.72 %",
+    "growth": "19.72",
     "coords": {
       "lat": 23.3341696,
       "lng": 75.0376325
@@ -4437,7 +4437,7 @@
     "district": "Sonipat",
     "percent": 0.1311014102162105,
     "state": "Haryana",
-    "growth": "13.35 %",
+    "growth": "13.35",
     "coords": {
       "lat": 28.9287735,
       "lng": 77.09128100000001
@@ -4450,7 +4450,7 @@
     "district": "Tikamgarh",
     "percent": 0.13066425512569996,
     "state": "Madhya Pradesh",
-    "growth": "20.13 %",
+    "growth": "20.13",
     "coords": {
       "lat": 24.7456147,
       "lng": 78.8320779
@@ -4463,7 +4463,7 @@
     "district": "Kendrapara",
     "percent": 0.13022981247628873,
     "state": "Orissa",
-    "growth": "10.63 %",
+    "growth": "10.63",
     "coords": {
       "lat": 20.4969108,
       "lng": 86.4288534
@@ -4476,7 +4476,7 @@
     "district": "Uttara Kannada",
     "percent": 0.1299412087433188,
     "state": "Karnataka",
-    "growth": "6.17 %",
+    "growth": "6.17",
     "coords": {
       "lat": 14.7937065,
       "lng": 74.6868815
@@ -4489,7 +4489,7 @@
     "district": "Kanshiram Nagar",
     "percent": 0.12990052212682868,
     "state": "Uttar Pradesh",
-    "growth": "16.93 %",
+    "growth": "16.93",
     "coords": {
       "lat": 27.7951547,
       "lng": 78.792953
@@ -4502,7 +4502,7 @@
     "district": "Tonk",
     "percent": 0.12850876859875654,
     "state": "Rajasthan",
-    "growth": "17.30 %",
+    "growth": "17.30",
     "coords": {
       "lat": 26.17,
       "lng": 75.78
@@ -4515,7 +4515,7 @@
     "district": "Bastar",
     "percent": 0.12777396830494492,
     "state": "Chhattisgarh",
-    "growth": "17.96 %",
+    "growth": "17.96",
     "coords": {
       "lat": 19.2036769,
       "lng": 81.93438549999999
@@ -4528,7 +4528,7 @@
     "district": "Jhalawar",
     "percent": 0.12758680986909035,
     "state": "Rajasthan",
-    "growth": "19.55 %",
+    "growth": "19.55",
     "coords": {
       "lat": 24.6,
       "lng": 76.14999999999999
@@ -4541,7 +4541,7 @@
     "district": "Gandhinagar",
     "percent": 0.12583493457772899,
     "state": "Gujarat",
-    "growth": "4.29 %",
+    "growth": "4.29",
     "coords": {
       "lat": 23.2156354,
       "lng": 72.63694149999999
@@ -4554,7 +4554,7 @@
     "district": "Koppal",
     "percent": 0.1256692044265592,
     "state": "Karnataka",
-    "growth": "16.21 %",
+    "growth": "16.21",
     "coords": {
       "lat": 15.3507081,
       "lng": 76.1554311
@@ -4567,7 +4567,7 @@
     "district": "Dungarpur",
     "percent": 0.12554551711242923,
     "state": "Rajasthan",
-    "growth": "25.36 %",
+    "growth": "25.36",
     "coords": {
       "lat": 23.841668,
       "lng": 73.7146623
@@ -4580,7 +4580,7 @@
     "district": "Bathinda",
     "percent": 0.12554307591543984,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.210994,
       "lng": 74.9454745
@@ -4593,7 +4593,7 @@
     "district": "Barwani",
     "percent": 0.12530401943988453,
     "state": "Madhya Pradesh",
-    "growth": "27.57 %",
+    "growth": "27.57",
     "coords": {
       "lat": 22.03,
       "lng": 74.89999999999999
@@ -4606,7 +4606,7 @@
     "district": "Koraput",
     "percent": 0.12474037417944137,
     "state": "Orissa",
-    "growth": "16.86 %",
+    "growth": "16.86",
     "coords": {
       "lat": 18.813487,
       "lng": 82.71233269999999
@@ -4619,7 +4619,7 @@
     "district": "Auraiya",
     "percent": 0.1247311518797036,
     "state": "Uttar Pradesh",
-    "growth": "16.91 %",
+    "growth": "16.91",
     "coords": {
       "lat": 26.47,
       "lng": 79.52
@@ -4632,7 +4632,7 @@
     "district": "Seoni",
     "percent": 0.12469372019253269,
     "state": "Madhya Pradesh",
-    "growth": "18.22 %",
+    "growth": "18.22",
     "coords": {
       "lat": 22.0868691,
       "lng": 79.5434841
@@ -4645,7 +4645,7 @@
     "district": "Munger",
     "percent": 0.1236660666746955,
     "state": "Bihar",
-    "growth": "20.21 %",
+    "growth": "20.21",
     "coords": {
       "lat": 25.381,
       "lng": 86.46499999999999
@@ -4658,7 +4658,7 @@
     "district": "Ramanathapuram",
     "percent": 0.12237132812327647,
     "state": "Tamil Nadu",
-    "growth": "13.96 %",
+    "growth": "13.96",
     "coords": {
       "lat": 10.9974549,
       "lng": 76.9915961
@@ -4671,7 +4671,7 @@
     "district": "Patan",
     "percent": 0.12149331093941962,
     "state": "Gujarat",
-    "growth": "13.61 %",
+    "growth": "13.61",
     "coords": {
       "lat": 23.8493246,
       "lng": 72.1266255
@@ -4684,7 +4684,7 @@
     "district": "Mandsaur",
     "percent": 0.12119286288031589,
     "state": "Madhya Pradesh",
-    "growth": "13.24 %",
+    "growth": "13.24",
     "coords": {
       "lat": 24.076836,
       "lng": 75.06929520000001
@@ -4697,7 +4697,7 @@
     "district": "Sivaganga",
     "percent": 0.12107441961897797,
     "state": "Tamil Nadu",
-    "growth": "15.90 %",
+    "growth": "15.90",
     "coords": {
       "lat": 9.87,
       "lng": 78.47999999999999
@@ -4710,7 +4710,7 @@
     "district": "Sawai Madhopur",
     "percent": 0.12075344742222256,
     "state": "Rajasthan",
-    "growth": "19.56 %",
+    "growth": "19.56",
     "coords": {
       "lat": 25.983333,
       "lng": 76.36666699999999
@@ -4723,7 +4723,7 @@
     "district": "Jind",
     "percent": 0.12062695725228993,
     "state": "Haryana",
-    "growth": "12.13 %",
+    "growth": "12.13",
     "coords": {
       "lat": 29.316667,
       "lng": 76.316667
@@ -4736,7 +4736,7 @@
     "district": "Raisen",
     "percent": 0.12039594768532935,
     "state": "Madhya Pradesh",
-    "growth": "18.35 %",
+    "growth": "18.35",
     "coords": {
       "lat": 23.33,
       "lng": 77.8
@@ -4749,7 +4749,7 @@
     "district": "Navsari",
     "percent": 0.12022189938145493,
     "state": "Gujarat",
-    "growth": "8.15 %",
+    "growth": "8.15",
     "coords": {
       "lat": 20.9467019,
       "lng": 72.95203479999999
@@ -4762,7 +4762,7 @@
     "district": "Tinsukia",
     "percent": 0.12006430655358319,
     "state": "Assam",
-    "growth": "15.47 %",
+    "growth": "15.47",
     "coords": {
       "lat": 27.4921909,
       "lng": 95.346775
@@ -4775,7 +4775,7 @@
     "district": "Dibrugarh",
     "percent": 0.11992018551650484,
     "state": "Assam",
-    "growth": "11.92 %",
+    "growth": "11.92",
     "coords": {
       "lat": 27.4728327,
       "lng": 94.9119621
@@ -4788,7 +4788,7 @@
     "district": "Garhwa",
     "percent": 0.11959912290504612,
     "state": "Jharkhand",
-    "growth": "27.75 %",
+    "growth": "27.75",
     "coords": {
       "lat": 24.1548982,
       "lng": 83.7995617
@@ -4801,7 +4801,7 @@
     "district": "Gondiya",
     "percent": 0.11957407803222886,
     "state": "Maharashtra",
-    "growth": "10.14 %",
+    "growth": "10.14",
     "coords": {
       "lat": 21.4598,
       "lng": 80.195
@@ -4814,7 +4814,7 @@
     "district": "Dumka",
     "percent": 0.11947778637320224,
     "state": "Jharkhand",
-    "growth": "19.42 %",
+    "growth": "19.42",
     "coords": {
       "lat": 24.27,
       "lng": 87.25
@@ -4827,7 +4827,7 @@
     "district": "Godda",
     "percent": 0.1187643239493721,
     "state": "Jharkhand",
-    "growth": "25.35 %",
+    "growth": "25.35",
     "coords": {
       "lat": 24.8255215,
       "lng": 87.2135177
@@ -4840,7 +4840,7 @@
     "district": "Sehore",
     "percent": 0.11856369372272414,
     "state": "Madhya Pradesh",
-    "growth": "21.54 %",
+    "growth": "21.54",
     "coords": {
       "lat": 23.205012,
       "lng": 77.08507809999999
@@ -4853,7 +4853,7 @@
     "district": "East Nimar",
     "percent": 0.11844877663481537,
     "state": "Madhya Pradesh",
-    "growth": "21.50 %",
+    "growth": "21.50",
     "coords": {
       "lat": 21.8802526,
       "lng": 76.64127119999999
@@ -4866,7 +4866,7 @@
     "district": "Kasaragod",
     "percent": 0.118205922741721,
     "state": "Kerala",
-    "growth": "8.58 %",
+    "growth": "8.58",
     "coords": {
       "lat": 12.5102239,
       "lng": 74.9851678
@@ -4879,7 +4879,7 @@
     "district": "Baghpat",
     "percent": 0.11781469832049264,
     "state": "Uttar Pradesh",
-    "growth": "11.95 %",
+    "growth": "11.95",
     "coords": {
       "lat": 28.94,
       "lng": 77.22
@@ -4892,7 +4892,7 @@
     "district": "Wardha",
     "percent": 0.11760909528516254,
     "state": "Maharashtra",
-    "growth": "5.18 %",
+    "growth": "5.18",
     "coords": {
       "lat": 20.745319,
       "lng": 78.60219459999999
@@ -4905,7 +4905,7 @@
     "district": "Sirsa",
     "percent": 0.11710412916716847,
     "state": "Haryana",
-    "growth": "15.99 %",
+    "growth": "15.99",
     "coords": {
       "lat": 29.53359309999999,
       "lng": 75.0177029
@@ -4918,7 +4918,7 @@
     "district": "Katni",
     "percent": 0.11681959409584754,
     "state": "Madhya Pradesh",
-    "growth": "21.41 %",
+    "growth": "21.41",
     "coords": {
       "lat": 23.8308453,
       "lng": 80.4072255
@@ -4931,7 +4931,7 @@
     "district": "Anugul",
     "percent": 0.11517214778681081,
     "state": "Orissa",
-    "growth": "11.74 %",
+    "growth": "11.74",
     "coords": {
       "lat": 20.8444033,
       "lng": 85.1510818
@@ -4944,7 +4944,7 @@
     "district": "Thiruvarur",
     "percent": 0.11430922985840695,
     "state": "Tamil Nadu",
-    "growth": "8.11 %",
+    "growth": "8.11",
     "coords": {
       "lat": 10.7713187,
       "lng": 79.6369974
@@ -4957,7 +4957,7 @@
     "district": "Damoh",
     "percent": 0.11430398580561489,
     "state": "Madhya Pradesh",
-    "growth": "16.63 %",
+    "growth": "16.63",
     "coords": {
       "lat": 23.8380986,
       "lng": 79.44217309999999
@@ -4970,7 +4970,7 @@
     "district": "Chikkaballapura",
     "percent": 0.11347985578493162,
     "state": "Karnataka",
-    "growth": "9.23 %",
+    "growth": "9.23",
     "coords": {
       "lat": 13.43,
       "lng": 77.72
@@ -4983,7 +4983,7 @@
     "district": "Kamrup Metropolitan",
     "percent": 0.11337443224087056,
     "state": "Assam",
-    "growth": "18.34 %",
+    "growth": "18.34",
     "coords": {
       "lat": 26.0794316,
       "lng": 91.63721500000001
@@ -4996,7 +4996,7 @@
     "district": "Theni",
     "percent": 0.11264758844095034,
     "state": "Tamil Nadu",
-    "growth": "13.89 %",
+    "growth": "13.89",
     "coords": {
       "lat": 10.0103658,
       "lng": 77.4768115
@@ -5009,7 +5009,7 @@
     "district": "Guna",
     "percent": 0.11225157204044647,
     "state": "Madhya Pradesh",
-    "growth": "26.97 %",
+    "growth": "26.97",
     "coords": {
       "lat": 24.65,
       "lng": 77.32
@@ -5022,7 +5022,7 @@
     "district": "Hoshangabad",
     "percent": 0.11223629195558685,
     "state": "Madhya Pradesh",
-    "growth": "14.49 %",
+    "growth": "14.49",
     "coords": {
       "lat": 22.744108,
       "lng": 77.73696699999999
@@ -5035,7 +5035,7 @@
     "district": "Srinagar",
     "percent": 0.11182752708191608,
     "state": "Jammu and Kashmir",
-    "growth": "20.35 %",
+    "growth": "20.35",
     "coords": {
       "lat": 34.0836581,
       "lng": 74.7973681
@@ -5048,7 +5048,7 @@
     "district": "Karimganj",
     "percent": 0.11109128015285148,
     "state": "Assam",
-    "growth": "21.90 %",
+    "growth": "21.90",
     "coords": {
       "lat": 24.87,
       "lng": 92.35
@@ -5061,7 +5061,7 @@
     "district": "Baran",
     "percent": 0.11055503054751166,
     "state": "Rajasthan",
-    "growth": "19.68 %",
+    "growth": "19.68",
     "coords": {
       "lat": 25.1011438,
       "lng": 76.51316369999999
@@ -5074,7 +5074,7 @@
     "district": "Lalitpur",
     "percent": 0.11044987824756052,
     "state": "Uttar Pradesh",
-    "growth": "24.94 %",
+    "growth": "24.94",
     "coords": {
       "lat": 24.6878597,
       "lng": 78.41202059999999
@@ -5087,7 +5087,7 @@
     "district": "Nabarangapur",
     "percent": 0.11039147034922137,
     "state": "Orissa",
-    "growth": "19.03 %",
+    "growth": "19.03",
     "coords": {
       "lat": 19.23,
       "lng": 82.55
@@ -5100,7 +5100,7 @@
     "district": "Yamunanagar",
     "percent": 0.10978198483419932,
     "state": "Haryana",
-    "growth": "16.57 %",
+    "growth": "16.57",
     "coords": {
       "lat": 30.1290485,
       "lng": 77.2673901
@@ -5113,7 +5113,7 @@
     "district": "Korba",
     "percent": 0.1090979976036487,
     "state": "Chhattisgarh",
-    "growth": "19.25 %",
+    "growth": "19.25",
     "coords": {
       "lat": 22.3594501,
       "lng": 82.75005949999999
@@ -5126,7 +5126,7 @@
     "district": "Dhaulpur",
     "percent": 0.10908678618043809,
     "state": "Rajasthan",
-    "growth": "22.71 %",
+    "growth": "22.71",
     "coords": {
       "lat": 26.7025181,
       "lng": 77.893391
@@ -5139,7 +5139,7 @@
     "district": "Panipat",
     "percent": 0.10898922871556511,
     "state": "Haryana",
-    "growth": "24.60 %",
+    "growth": "24.60",
     "coords": {
       "lat": 29.3909464,
       "lng": 76.9635023
@@ -5152,7 +5152,7 @@
     "district": "Bhandara",
     "percent": 0.10852784248456711,
     "state": "Maharashtra",
-    "growth": "5.65 %",
+    "growth": "5.65",
     "coords": {
       "lat": 21.17,
       "lng": 79.64999999999999
@@ -5165,7 +5165,7 @@
     "district": "Pathanamthitta",
     "percent": 0.10826365072149124,
     "state": "Kerala",
-    "growth": "-2.97 %",
+    "growth": "-2.97",
     "coords": {
       "lat": 9.2647582,
       "lng": 76.78704139999999
@@ -5178,7 +5178,7 @@
     "district": "Washim",
     "percent": 0.10824086621625678,
     "state": "Maharashtra",
-    "growth": "17.34 %",
+    "growth": "17.34",
     "coords": {
       "lat": 20.1,
       "lng": 77.14999999999999
@@ -5191,7 +5191,7 @@
     "district": "Dhenkanal",
     "percent": 0.10784765267155558,
     "state": "Orissa",
-    "growth": "11.80 %",
+    "growth": "11.80",
     "coords": {
       "lat": 20.67,
       "lng": 85.6
@@ -5204,7 +5204,7 @@
     "district": "Singrauli",
     "percent": 0.10653320371481467,
     "state": "Madhya Pradesh",
-    "growth": "28.05 %",
+    "growth": "28.05",
     "coords": {
       "lat": 24.202,
       "lng": 82.666
@@ -5217,7 +5217,7 @@
     "district": "Udupi",
     "percent": 0.10645074550539468,
     "state": "Karnataka",
-    "growth": "5.85 %",
+    "growth": "5.85",
     "coords": {
       "lat": 13.3371151,
       "lng": 74.746596
@@ -5230,7 +5230,7 @@
     "district": "Hingoli",
     "percent": 0.1064492988701417,
     "state": "Maharashtra",
-    "growth": "19.27 %",
+    "growth": "19.27",
     "coords": {
       "lat": 19.7173703,
       "lng": 77.1493722
@@ -5243,7 +5243,7 @@
     "district": "Yadgir",
     "percent": 0.1061713640721625,
     "state": "Karnataka",
-    "growth": "22.81 %",
+    "growth": "22.81",
     "coords": {
       "lat": 16.7667,
       "lng": 77.13329999999999
@@ -5256,7 +5256,7 @@
     "district": "Rajsamand",
     "percent": 0.1045733746058371,
     "state": "Rajasthan",
-    "growth": "17.18 %",
+    "growth": "17.18",
     "coords": {
       "lat": 25.07,
       "lng": 73.88
@@ -5269,7 +5269,7 @@
     "district": "Sivasagar",
     "percent": 0.10407184424656886,
     "state": "Assam",
-    "growth": "9.44 %",
+    "growth": "9.44",
     "coords": {
       "lat": 26.98,
       "lng": 94.63
@@ -5282,7 +5282,7 @@
     "district": "Sahibganj",
     "percent": 0.10402817394486945,
     "state": "Jharkhand",
-    "growth": "24.01 %",
+    "growth": "24.01",
     "coords": {
       "lat": 25.2381216,
       "lng": 87.64535920000002
@@ -5295,7 +5295,7 @@
     "district": "Chikmagalur",
     "percent": 0.10288840619492615,
     "state": "Karnataka",
-    "growth": "-0.26 %",
+    "growth": "-0.26",
     "coords": {
       "lat": 13.315258,
       "lng": 75.7754018
@@ -5308,7 +5308,7 @@
     "district": "Jagatsinghapur",
     "percent": 0.10279889563864787,
     "state": "Orissa",
-    "growth": "7.50 %",
+    "growth": "7.50",
     "coords": {
       "lat": 20.1975828,
       "lng": 86.3376761
@@ -5321,7 +5321,7 @@
     "district": "Ambala",
     "percent": 0.10201943048140043,
     "state": "Haryana",
-    "growth": "11.23 %",
+    "growth": "11.23",
     "coords": {
       "lat": 30.3781788,
       "lng": 76.7766974
@@ -5334,7 +5334,7 @@
     "district": "Sidhi",
     "percent": 0.10190035431713934,
     "state": "Madhya Pradesh",
-    "growth": "23.72 %",
+    "growth": "23.72",
     "coords": {
       "lat": 24.3956038,
       "lng": 81.88252790000001
@@ -5347,7 +5347,7 @@
     "district": "Jehanabad",
     "percent": 0.10174484102744376,
     "state": "Bihar",
-    "growth": "21.68 %",
+    "growth": "21.68",
     "coords": {
       "lat": 25.216667,
       "lng": 84.983333
@@ -5360,7 +5360,7 @@
     "district": "Tarn Taran",
     "percent": 0.10123074302441523,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.4491,
       "lng": 74.92049999999999
@@ -5373,7 +5373,7 @@
     "district": "Shrawasti",
     "percent": 0.10102586330671162,
     "state": "Uttar Pradesh",
-    "growth": "-5.02 %",
+    "growth": "-5.02",
     "coords": {
       "lat": 27.5977504,
       "lng": 81.9534815
@@ -5386,7 +5386,7 @@
     "district": "Bundi",
     "percent": 0.10044223639683664,
     "state": "Rajasthan",
-    "growth": "15.40 %",
+    "growth": "15.40",
     "coords": {
       "lat": 25.44,
       "lng": 75.64
@@ -5399,7 +5399,7 @@
     "district": "Idukki",
     "percent": 0.10026755519003905,
     "state": "Kerala",
-    "growth": "-1.79 %",
+    "growth": "-1.79",
     "coords": {
       "lat": 9.813807599999999,
       "lng": 76.9297354
@@ -5412,7 +5412,7 @@
     "district": "Hamirpur",
     "percent": 0.09984360064621196,
     "state": "Uttar Pradesh",
-    "growth": "5.80 %",
+    "growth": "5.80",
     "coords": {
       "lat": 25.95,
       "lng": 80.14999999999999
@@ -5425,7 +5425,7 @@
     "district": "Jorhat",
     "percent": 0.09875600218007932,
     "state": "Assam",
-    "growth": "9.31 %",
+    "growth": "9.31",
     "coords": {
       "lat": 26.75,
       "lng": 94.22
@@ -5438,7 +5438,7 @@
     "district": "Narsimhapur",
     "percent": 0.09871965546934815,
     "state": "Madhya Pradesh",
-    "growth": "14.01 %",
+    "growth": "14.01",
     "coords": {
       "lat": 22.95,
       "lng": 79.2
@@ -5451,7 +5451,7 @@
     "district": "Mewat",
     "percent": 0.09848539097306835,
     "state": "Haryana",
-    "growth": "37.93 %",
+    "growth": "37.93",
     "coords": {
       "lat": 28.0106916,
       "lng": 77.0564464
@@ -5464,7 +5464,7 @@
     "district": "Ramanagara",
     "percent": 0.09788621273422381,
     "state": "Karnataka",
-    "growth": "5.05 %",
+    "growth": "5.05",
     "coords": {
       "lat": 12.72,
       "lng": 77.3
@@ -5477,7 +5477,7 @@
     "district": "Anantnag",
     "percent": 0.09752961714436371,
     "state": "Jammu and Kashmir",
-    "growth": "38.58 %",
+    "growth": "38.58",
     "coords": {
       "lat": 33.7311255,
       "lng": 75.14870069999999
@@ -5490,7 +5490,7 @@
     "district": "Kaithal",
     "percent": 0.09713287742623336,
     "state": "Haryana",
-    "growth": "13.55 %",
+    "growth": "13.55",
     "coords": {
       "lat": 29.8,
       "lng": 76.38
@@ -5503,7 +5503,7 @@
     "district": "Gadchiroli",
     "percent": 0.09700973260032325,
     "state": "Maharashtra",
-    "growth": "10.58 %",
+    "growth": "10.58",
     "coords": {
       "lat": 20.184871,
       "lng": 79.9947956
@@ -5516,7 +5516,7 @@
     "district": "Golaghat",
     "percent": 0.09646236198647613,
     "state": "Assam",
-    "growth": "12.75 %",
+    "growth": "12.75",
     "coords": {
       "lat": 26.52,
       "lng": 93.97
@@ -5529,7 +5529,7 @@
     "district": "Shahdol",
     "percent": 0.09638776985624424,
     "state": "Madhya Pradesh",
-    "growth": "17.39 %",
+    "growth": "17.39",
     "coords": {
       "lat": 23.3021885,
       "lng": 81.3568021
@@ -5542,7 +5542,7 @@
     "district": "Saraikela Kharsawan",
     "percent": 0.09629672225000968,
     "state": "Jharkhand",
-    "growth": "25.47 %",
+    "growth": "25.47",
     "coords": {
       "lat": 22.7023346,
       "lng": 85.92789929999999
@@ -5555,7 +5555,7 @@
     "district": "Gadag",
     "percent": 0.09625278070420035,
     "state": "Karnataka",
-    "growth": "9.54 %",
+    "growth": "9.54",
     "coords": {
       "lat": 15.4324651,
       "lng": 75.6380337
@@ -5568,7 +5568,7 @@
     "district": "Karur",
     "percent": 0.09624581877204537,
     "state": "Tamil Nadu",
-    "growth": "13.77 %",
+    "growth": "13.77",
     "coords": {
       "lat": 10.95,
       "lng": 78.08
@@ -5581,7 +5581,7 @@
     "district": "Rohtak",
     "percent": 0.09594844481285422,
     "state": "Haryana",
-    "growth": "12.88 %",
+    "growth": "12.88",
     "coords": {
       "lat": 28.8909,
       "lng": 76.5796
@@ -5594,7 +5594,7 @@
     "district": "Chandigarh",
     "percent": 0.09542819861000051,
     "state": "Chandigarh",
-    "growth": "17.19 %",
+    "growth": "17.19",
     "coords": {
       "lat": 30.7399738,
       "lng": 76.7567368
@@ -5607,7 +5607,7 @@
     "district": "Mandla",
     "percent": 0.09537892259669581,
     "state": "Madhya Pradesh",
-    "growth": "17.97 %",
+    "growth": "17.97",
     "coords": {
       "lat": 22.5979218,
       "lng": 80.3713855
@@ -5620,7 +5620,7 @@
     "district": "Chatra",
     "percent": 0.09429222827759629,
     "state": "Jharkhand",
-    "growth": "31.77 %",
+    "growth": "31.77",
     "coords": {
       "lat": 24.20451,
       "lng": 84.87704
@@ -5633,7 +5633,7 @@
     "district": "Palwal",
     "percent": 0.09427613446040686,
     "state": "Haryana",
-    "growth": "25.76 %",
+    "growth": "25.76",
     "coords": {
       "lat": 28.1487362,
       "lng": 77.3320262
@@ -5646,7 +5646,7 @@
     "district": "Lakhimpur",
     "percent": 0.09422450766481606,
     "state": "Assam",
-    "growth": "17.22 %",
+    "growth": "17.22",
     "coords": {
       "lat": 27.2063587,
       "lng": 94.15137639999999
@@ -5659,7 +5659,7 @@
     "district": "Sambalpur",
     "percent": 0.09413065720277884,
     "state": "Orissa",
-    "growth": "11.27 %",
+    "growth": "11.27",
     "coords": {
       "lat": 21.4668716,
       "lng": 83.9811665
@@ -5672,7 +5672,7 @@
     "district": "Sirohi",
     "percent": 0.09370091611793983,
     "state": "Rajasthan",
-    "growth": "21.76 %",
+    "growth": "21.76",
     "coords": {
       "lat": 24.885,
       "lng": 72.8625
@@ -5685,7 +5685,7 @@
     "district": "Mahasamund",
     "percent": 0.09337614650364534,
     "state": "Chhattisgarh",
-    "growth": "20.05 %",
+    "growth": "20.05",
     "coords": {
       "lat": 21.1091317,
       "lng": 82.0979023
@@ -5698,7 +5698,7 @@
     "district": "Gumla",
     "percent": 0.09269432922597419,
     "state": "Jharkhand",
-    "growth": "23.16 %",
+    "growth": "23.16",
     "coords": {
       "lat": 23.0441295,
       "lng": 84.53794549999999
@@ -5711,7 +5711,7 @@
     "district": "Jhabua",
     "percent": 0.09267941079992781,
     "state": "Madhya Pradesh",
-    "growth": "30.70 %",
+    "growth": "30.70",
     "coords": {
       "lat": 22.769666,
       "lng": 74.5920921
@@ -5724,7 +5724,7 @@
     "district": "Chamarajanagar",
     "percent": 0.09229451540793125,
     "state": "Karnataka",
-    "growth": "5.73 %",
+    "growth": "5.73",
     "coords": {
       "lat": 11.9261471,
       "lng": 76.9437312
@@ -5737,7 +5737,7 @@
     "district": "Panna",
     "percent": 0.09190835421008833,
     "state": "Madhya Pradesh",
-    "growth": "18.67 %",
+    "growth": "18.67",
     "coords": {
       "lat": 24.7180311,
       "lng": 80.1819268
@@ -5750,7 +5750,7 @@
     "district": "Goalpara",
     "percent": 0.09115456682858132,
     "state": "Assam",
-    "growth": "22.64 %",
+    "growth": "22.64",
     "coords": {
       "lat": 26.17,
       "lng": 90.61999999999999
@@ -5763,7 +5763,7 @@
     "district": "Baramula",
     "percent": 0.09114154711130448,
     "state": "Jammu and Kashmir",
-    "growth": "19.45 %",
+    "growth": "19.45",
     "coords": {
       "lat": 34.1990498,
       "lng": 74.3499496
@@ -5776,7 +5776,7 @@
     "district": "Lakhisarai",
     "percent": 0.09049716152080424,
     "state": "Bihar",
-    "growth": "24.77 %",
+    "growth": "24.77",
     "coords": {
       "lat": 25.167778,
       "lng": 86.09444400000001
@@ -5789,7 +5789,7 @@
     "district": "Mandi",
     "percent": 0.09039454083254582,
     "state": "Himachal Pradesh",
-    "growth": "10.92 %",
+    "growth": "10.92",
     "coords": {
       "lat": 31.7081655,
       "lng": 76.9313675
@@ -5802,7 +5802,7 @@
     "district": "Moga",
     "percent": 0.09003007916349763,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.8164603,
       "lng": 75.1717093
@@ -5815,7 +5815,7 @@
     "district": "Mohali",
     "percent": 0.08992899552519551,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.7046486,
       "lng": 76.71787259999999
@@ -5828,7 +5828,7 @@
     "district": "Chitrakoot",
     "percent": 0.08966697371499911,
     "state": "Uttar Pradesh",
-    "growth": "29.43 %",
+    "growth": "29.43",
     "coords": {
       "lat": 25.1093692,
       "lng": 81.0754657
@@ -5841,7 +5841,7 @@
     "district": "Bangalore Rural",
     "percent": 0.08959400904942683,
     "state": "Karnataka",
-    "growth": "16.45 %",
+    "growth": "16.45",
     "coords": {
       "lat": 13.2846993,
       "lng": 77.6077865
@@ -5854,7 +5854,7 @@
     "district": "Rayagada",
     "percent": 0.08751338589682525,
     "state": "Orissa",
-    "growth": "16.46 %",
+    "growth": "16.46",
     "coords": {
       "lat": 19.17,
       "lng": 83.42
@@ -5867,7 +5867,7 @@
     "district": "Kurukshetra",
     "percent": 0.08721899562284338,
     "state": "Haryana",
-    "growth": "16.86 %",
+    "growth": "16.86",
     "coords": {
       "lat": 29.9695121,
       "lng": 76.878282
@@ -5880,7 +5880,7 @@
     "district": "Nayagarh",
     "percent": 0.08705028178646435,
     "state": "Orissa",
-    "growth": "11.37 %",
+    "growth": "11.37",
     "coords": {
       "lat": 20.13,
       "lng": 85.1
@@ -5893,7 +5893,7 @@
     "district": "Jhajjar",
     "percent": 0.08665390372714724,
     "state": "Haryana",
-    "growth": "8.90 %",
+    "growth": "8.90",
     "coords": {
       "lat": 28.6079115,
       "lng": 76.6571775
@@ -5906,7 +5906,7 @@
     "district": "Morigaon",
     "percent": 0.08656511648849545,
     "state": "Assam",
-    "growth": "23.34 %",
+    "growth": "23.34",
     "coords": {
       "lat": 26.253317,
       "lng": 92.342405
@@ -5919,7 +5919,7 @@
     "district": "Karbi Anglong",
     "percent": 0.08646475616781982,
     "state": "Assam",
-    "growth": "17.58 %",
+    "growth": "17.58",
     "coords": {
       "lat": 26.186085,
       "lng": 93.5812692
@@ -5932,7 +5932,7 @@
     "district": "Nainital",
     "percent": 0.08631032785456397,
     "state": "Uttarakhand",
-    "growth": "25.13 %",
+    "growth": "25.13",
     "coords": {
       "lat": 29.3803039,
       "lng": 79.4635658
@@ -5945,7 +5945,7 @@
     "district": "Puducherry",
     "percent": 0.08592009799507204,
     "state": "Puducherry",
-    "growth": "29.23 %",
+    "growth": "29.23",
     "coords": {
       "lat": 11.9138598,
       "lng": 79.8144722
@@ -5958,7 +5958,7 @@
     "district": "Baksa",
     "percent": 0.0859007492485634,
     "state": "Assam",
-    "growth": "10.74 %",
+    "growth": "10.74",
     "coords": {
       "lat": 26.6621472,
       "lng": 91.3577749
@@ -5971,7 +5971,7 @@
     "district": "Ramgarh",
     "percent": 0.0858436071560706,
     "state": "Jharkhand",
-    "growth": "13.10 %",
+    "growth": "13.10",
     "coords": {
       "lat": 23.628333,
       "lng": 85.52111099999999
@@ -5984,7 +5984,7 @@
     "district": "Fatehabad",
     "percent": 0.0851716450810604,
     "state": "Haryana",
-    "growth": "16.85 %",
+    "growth": "16.85",
     "coords": {
       "lat": 29.52,
       "lng": 75.45
@@ -5997,7 +5997,7 @@
     "district": "Darrang",
     "percent": 0.08395005202462029,
     "state": "Assam",
-    "growth": "22.19 %",
+    "growth": "22.19",
     "coords": {
       "lat": 26.4522876,
       "lng": 92.02731899999999
@@ -6010,7 +6010,7 @@
     "district": "Mahendragarh",
     "percent": 0.08337031294698768,
     "state": "Haryana",
-    "growth": "13.48 %",
+    "growth": "13.48",
     "coords": {
       "lat": 28.28,
       "lng": 76.14999999999999
@@ -6023,7 +6023,7 @@
     "district": "Muktsar",
     "percent": 0.08154465925772422,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.475,
       "lng": 74.515
@@ -6036,7 +6036,7 @@
     "district": "Pakur",
     "percent": 0.08141138798504324,
     "state": "Jharkhand",
-    "growth": "28.33 %",
+    "growth": "28.33",
     "coords": {
       "lat": 24.63,
       "lng": 87.85
@@ -6049,7 +6049,7 @@
     "district": "Rewari",
     "percent": 0.08140325066174521,
     "state": "Haryana",
-    "growth": "17.64 %",
+    "growth": "17.64",
     "coords": {
       "lat": 28.183333,
       "lng": 76.61666699999999
@@ -6062,7 +6062,7 @@
     "district": "North Delhi",
     "percent": 0.08028626741703637,
     "state": "Delhi",
-    "growth": "13.62 %",
+    "growth": "13.62",
     "coords": {
       "lat": 28.74838939999999,
       "lng": 77.2060241
@@ -6075,7 +6075,7 @@
     "district": "Kokrajhar",
     "percent": 0.08021068072506805,
     "state": "Assam",
-    "growth": "5.21 %",
+    "growth": "5.21",
     "coords": {
       "lat": 26.4,
       "lng": 90.27
@@ -6088,7 +6088,7 @@
     "district": "South Tripura",
     "percent": 0.07920337051547592,
     "state": "Tripura",
-    "growth": "14.15 %",
+    "growth": "14.15",
     "coords": {
       "lat": 23.2317493,
       "lng": 91.55961169999999
@@ -6101,7 +6101,7 @@
     "district": "Mahoba",
     "percent": 0.07919948268323353,
     "state": "Uttar Pradesh",
-    "growth": "23.64 %",
+    "growth": "23.64",
     "coords": {
       "lat": 25.2920964,
       "lng": 79.8724168
@@ -6114,7 +6114,7 @@
     "district": "Kupwara",
     "percent": 0.07869279868587653,
     "state": "Jammu and Kashmir",
-    "growth": "33.82 %",
+    "growth": "33.82",
     "coords": {
       "lat": 34.5261786,
       "lng": 74.2546136
@@ -6127,7 +6127,7 @@
     "district": "Pratapgarh",
     "percent": 0.0784662194393782,
     "state": "Rajasthan",
-    "growth": "22.78 %",
+    "growth": "22.78",
     "coords": {
       "lat": 24.0316509,
       "lng": 74.77873869999999
@@ -6140,7 +6140,7 @@
     "district": "Jashpur",
     "percent": 0.07700339995450332,
     "state": "Chhattisgarh",
-    "growth": "14.60 %",
+    "growth": "14.60",
     "coords": {
       "lat": 22.8874202,
       "lng": 84.1382368
@@ -6153,7 +6153,7 @@
     "district": "Sindhudurg",
     "percent": 0.07682094308322095,
     "state": "Maharashtra",
-    "growth": "-2.21 %",
+    "growth": "-2.21",
     "coords": {
       "lat": 16.3492193,
       "lng": 73.55941279999999
@@ -6166,7 +6166,7 @@
     "district": "Ashoknagar",
     "percent": 0.07640684374205481,
     "state": "Madhya Pradesh",
-    "growth": "22.66 %",
+    "growth": "22.66",
     "coords": {
       "lat": 24.5775148,
       "lng": 77.7318495
@@ -6179,7 +6179,7 @@
     "district": "Udalguri",
     "percent": 0.07519501547357232,
     "state": "Assam",
-    "growth": "9.61 %",
+    "growth": "9.61",
     "coords": {
       "lat": 26.7452,
       "lng": 92.0962
@@ -6192,7 +6192,7 @@
     "district": "Neemuch",
     "percent": 0.07468860272032526,
     "state": "Madhya Pradesh",
-    "growth": "13.77 %",
+    "growth": "13.77",
     "coords": {
       "lat": 24.45,
       "lng": 74.86999999999999
@@ -6205,7 +6205,7 @@
     "district": "East Khasi Hills",
     "percent": 0.0746754925883451,
     "state": "Meghalaya",
-    "growth": "24.96 %",
+    "growth": "24.96",
     "coords": {
       "lat": 25.3681768,
       "lng": 91.7538817
@@ -6218,7 +6218,7 @@
     "district": "Kabirdham",
     "percent": 0.07436844425589965,
     "state": "Chhattisgarh",
-    "growth": "40.71 %",
+    "growth": "40.71",
     "coords": {
       "lat": 22.0990944,
       "lng": 81.2518833
@@ -6231,7 +6231,7 @@
     "district": "North Goa",
     "percent": 0.07395995062633881,
     "state": "Goa",
-    "growth": "7.84 %",
+    "growth": "7.84",
     "coords": {
       "lat": 15.5163112,
       "lng": 73.98300290000002
@@ -6244,7 +6244,7 @@
     "district": "Wayanad",
     "percent": 0.07390678678079173,
     "state": "Kerala",
-    "growth": "4.71 %",
+    "growth": "4.71",
     "coords": {
       "lat": 11.703206,
       "lng": 76.0833999
@@ -6257,7 +6257,7 @@
     "district": "Kapurthala",
     "percent": 0.07370317286893449,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.38,
       "lng": 75.38
@@ -6270,7 +6270,7 @@
     "district": "Shimla",
     "percent": 0.0735984726424999,
     "state": "Himachal Pradesh",
-    "growth": "12.67 %",
+    "growth": "12.67",
     "coords": {
       "lat": 31.1048145,
       "lng": 77.17340329999999
@@ -6283,7 +6283,7 @@
     "district": "Tapi",
     "percent": 0.07296665469575994,
     "state": "Gujarat",
-    "growth": "12.14 %",
+    "growth": "12.14",
     "coords": {
       "lat": 21.2788724,
       "lng": 73.6065223
@@ -6296,7 +6296,7 @@
     "district": "Dhamtari",
     "percent": 0.07231196182908221,
     "state": "Chhattisgarh",
-    "growth": "13.19 %",
+    "growth": "13.19",
     "coords": {
       "lat": 20.71,
       "lng": 81.55
@@ -6309,7 +6309,7 @@
     "district": "Jamtara",
     "percent": 0.07152182773684403,
     "state": "Jharkhand",
-    "growth": "21.12 %",
+    "growth": "21.12",
     "coords": {
       "lat": 23.9505496,
       "lng": 86.81701319999999
@@ -6322,7 +6322,7 @@
     "district": "Datia",
     "percent": 0.07113412948904481,
     "state": "Madhya Pradesh",
-    "growth": "18.46 %",
+    "growth": "18.46",
     "coords": {
       "lat": 25.6653262,
       "lng": 78.46093929999999
@@ -6335,7 +6335,7 @@
     "district": "Nalbari",
     "percent": 0.06976751124849324,
     "state": "Assam",
-    "growth": "11.99 %",
+    "growth": "11.99",
     "coords": {
       "lat": 26.4446185,
       "lng": 91.4410527
@@ -6348,7 +6348,7 @@
     "district": "Mansa",
     "percent": 0.06959680828864134,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 29.98,
       "lng": 75.38
@@ -6361,7 +6361,7 @@
     "district": "Burhanpur",
     "percent": 0.06852051166042263,
     "state": "Madhya Pradesh",
-    "growth": "19.37 %",
+    "growth": "19.37",
     "coords": {
       "lat": 21.3193875,
       "lng": 76.22242729999999
@@ -6374,7 +6374,7 @@
     "district": "Ariyalur",
     "percent": 0.06825351704154412,
     "state": "Tamil Nadu",
-    "growth": "8.54 %",
+    "growth": "8.54",
     "coords": {
       "lat": 11.151111,
       "lng": 79.076111
@@ -6387,7 +6387,7 @@
     "district": "Badgam",
     "percent": 0.06814963054743933,
     "state": "Jammu and Kashmir",
-    "growth": "24.14 %",
+    "growth": "24.14",
     "coords": {
       "lat": 34.0117793,
       "lng": 74.7746684
@@ -6400,7 +6400,7 @@
     "district": "Anuppur",
     "percent": 0.0677420410649116,
     "state": "Madhya Pradesh",
-    "growth": "12.30 %",
+    "growth": "12.30",
     "coords": {
       "lat": 23.1136554,
       "lng": 81.69762899999999
@@ -6413,7 +6413,7 @@
     "district": "Kanker",
     "percent": 0.06771527831273144,
     "state": "Chhattisgarh",
-    "growth": "15.06 %",
+    "growth": "15.06",
     "coords": {
       "lat": 20.27,
       "lng": 81.49
@@ -6426,7 +6426,7 @@
     "district": "Bongaigaon",
     "percent": 0.06679874446526393,
     "state": "Assam",
-    "growth": "20.59 %",
+    "growth": "20.59",
     "coords": {
       "lat": 26.48,
       "lng": 90.56
@@ -6439,7 +6439,7 @@
     "district": "The Nilgiris",
     "percent": 0.06649043032697212,
     "state": "Tamil Nadu",
-    "growth": "-3.51 %",
+    "growth": "-3.51",
     "coords": {
       "lat": 11.4916043,
       "lng": 76.7336521
@@ -6452,7 +6452,7 @@
     "district": "Kandhamal",
     "percent": 0.06628392314460892,
     "state": "Orissa",
-    "growth": "13.10 %",
+    "growth": "13.10",
     "coords": {
       "lat": 20.1342042,
       "lng": 84.01674229999999
@@ -6465,7 +6465,7 @@
     "district": "Alirajpur",
     "percent": 0.06591222829929581,
     "state": "Madhya Pradesh",
-    "growth": "19.45 %",
+    "growth": "19.45",
     "coords": {
       "lat": 22.305,
       "lng": 74.36
@@ -6478,7 +6478,7 @@
     "district": "Latehar",
     "percent": 0.0657295001839035,
     "state": "Jharkhand",
-    "growth": "29.61 %",
+    "growth": "29.61",
     "coords": {
       "lat": 23.75,
       "lng": 84.5
@@ -6491,7 +6491,7 @@
     "district": "Kodarma",
     "percent": 0.06476034497910878,
     "state": "Jharkhand",
-    "growth": "43.42 %",
+    "growth": "43.42",
     "coords": {
       "lat": 24.47,
       "lng": 85.6
@@ -6504,7 +6504,7 @@
     "district": "Dindori",
     "percent": 0.06369932843574969,
     "state": "Madhya Pradesh",
-    "growth": "21.32 %",
+    "growth": "21.32",
     "coords": {
       "lat": 22.9417931,
       "lng": 81.07684549999999
@@ -6517,7 +6517,7 @@
     "district": "Arwal",
     "percent": 0.06336651191286048,
     "state": "Bihar",
-    "growth": "18.89 %",
+    "growth": "18.89",
     "coords": {
       "lat": 25.2440189,
       "lng": 84.6662199
@@ -6530,7 +6530,7 @@
     "district": "North Tripura",
     "percent": 0.06274301211882517,
     "state": "Tripura",
-    "growth": "17.44 %",
+    "growth": "17.44",
     "coords": {
       "lat": 24.0797139,
       "lng": 92.2630393
@@ -6543,7 +6543,7 @@
     "district": "Sheopur",
     "percent": 0.06219274823447209,
     "state": "Madhya Pradesh",
-    "growth": "22.94 %",
+    "growth": "22.94",
     "coords": {
       "lat": 25.67,
       "lng": 76.7
@@ -6556,7 +6556,7 @@
     "district": "Pauri Garhwal",
     "percent": 0.06213940355951837,
     "state": "Uttarakhand",
-    "growth": "-1.41 %",
+    "growth": "-1.41",
     "coords": {
       "lat": 29.8687682,
       "lng": 78.8382644
@@ -6569,7 +6569,7 @@
     "district": "Dhemaji",
     "percent": 0.062036511627150015,
     "state": "Assam",
-    "growth": "19.97 %",
+    "growth": "19.97",
     "coords": {
       "lat": 27.4811106,
       "lng": 94.55728470000001
@@ -6582,7 +6582,7 @@
     "district": "Rupnagar",
     "percent": 0.061900347083963074,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.9659168,
       "lng": 76.5230234
@@ -6595,7 +6595,7 @@
     "district": "Jaisalmer",
     "percent": 0.06057052762765923,
     "state": "Rajasthan",
-    "growth": "31.81 %",
+    "growth": "31.81",
     "coords": {
       "lat": 26.9157487,
       "lng": 70.9083443
@@ -6608,7 +6608,7 @@
     "district": "Hailakandi",
     "percent": 0.0596100522343824,
     "state": "Assam",
-    "growth": "21.45 %",
+    "growth": "21.45",
     "coords": {
       "lat": 24.6811018,
       "lng": 92.5638055
@@ -6621,7 +6621,7 @@
     "district": "Korea",
     "percent": 0.05957578506182738,
     "state": "Chhattisgarh",
-    "growth": "12.38 %",
+    "growth": "12.38",
     "coords": {
       "lat": 24.2846314,
       "lng": 83.43500619999999
@@ -6634,7 +6634,7 @@
     "district": "Sheohar",
     "percent": 0.059334287389282675,
     "state": "Bihar",
-    "growth": "27.19 %",
+    "growth": "27.19",
     "coords": {
       "lat": 26.5145872,
       "lng": 85.29423129999999
@@ -6647,7 +6647,7 @@
     "district": "Umaria",
     "percent": 0.058295603277641495,
     "state": "Madhya Pradesh",
-    "growth": "24.96 %",
+    "growth": "24.96",
     "coords": {
       "lat": 23.5309797,
       "lng": 80.82947469999999
@@ -6660,7 +6660,7 @@
     "district": "West Garo Hills",
     "percent": 0.05816296490788369,
     "state": "Meghalaya",
-    "growth": "24.09 %",
+    "growth": "24.09",
     "coords": {
       "lat": 25.5679372,
       "lng": 90.2244662
@@ -6673,7 +6673,7 @@
     "district": "Rajouri",
     "percent": 0.05808376162778292,
     "state": "Jammu and Kashmir",
-    "growth": "32.93 %",
+    "growth": "32.93",
     "coords": {
       "lat": 33.3716143,
       "lng": 74.315191
@@ -6686,7 +6686,7 @@
     "district": "South Goa",
     "percent": 0.05791396281496414,
     "state": "Goa",
-    "growth": "8.73 %",
+    "growth": "8.73",
     "coords": {
       "lat": 15.11766,
       "lng": 74.12399599999999
@@ -6699,7 +6699,7 @@
     "district": "Sheikhpura",
     "percent": 0.05753467313457288,
     "state": "Bihar",
-    "growth": "21.09 %",
+    "growth": "21.09",
     "coords": {
       "lat": 25.1416937,
       "lng": 85.86289149999999
@@ -6712,7 +6712,7 @@
     "district": "Almora",
     "percent": 0.05628369529955657,
     "state": "Uttarakhand",
-    "growth": "-1.28 %",
+    "growth": "-1.28",
     "coords": {
       "lat": 29.5892407,
       "lng": 79.646666
@@ -6725,7 +6725,7 @@
     "district": "Tehri Garhwal",
     "percent": 0.055960462735218375,
     "state": "Uttarakhand",
-    "growth": "2.35 %",
+    "growth": "2.35",
     "coords": {
       "lat": 30.3011858,
       "lng": 78.5660852
@@ -6738,7 +6738,7 @@
     "district": "Faridkot",
     "percent": 0.05583180261240627,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.678187,
       "lng": 74.7395591
@@ -6751,7 +6751,7 @@
     "district": "Kathua",
     "percent": 0.05573478763575316,
     "state": "Jammu and Kashmir",
-    "growth": "20.53 %",
+    "growth": "20.53",
     "coords": {
       "lat": 32.3775789,
       "lng": 75.52184679999999
@@ -6764,7 +6764,7 @@
     "district": "Malkangiri",
     "percent": 0.055441572752914337,
     "state": "Orissa",
-    "growth": "21.62 %",
+    "growth": "21.62",
     "coords": {
       "lat": 18.3435863,
       "lng": 81.88252790000001
@@ -6777,7 +6777,7 @@
     "district": "Shahid Bhagat Singh Nagar",
     "percent": 0.055361826984593694,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 31.0912954,
       "lng": 76.0391909
@@ -6790,7 +6790,7 @@
     "district": "Nuapada",
     "percent": 0.05518750743660935,
     "state": "Orissa",
-    "growth": "15.02 %",
+    "growth": "15.02",
     "coords": {
       "lat": 20.8060184,
       "lng": 82.5361393
@@ -6803,7 +6803,7 @@
     "district": "Subarnapur",
     "percent": 0.055169514910650384,
     "state": "Orissa",
-    "growth": "12.61 %",
+    "growth": "12.61",
     "coords": {
       "lat": 20.8480141,
       "lng": 83.8950042
@@ -6816,7 +6816,7 @@
     "district": "Fatehgarh Sahib",
     "percent": 0.05426355958347031,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.64791739999999,
       "lng": 76.3897733
@@ -6829,7 +6829,7 @@
     "district": "Simdega",
     "percent": 0.054210666982033154,
     "state": "Jharkhand",
-    "growth": "16.58 %",
+    "growth": "16.58",
     "coords": {
       "lat": 22.61,
       "lng": 84.5
@@ -6842,7 +6842,7 @@
     "district": "Barnala",
     "percent": 0.05384439701891874,
     "state": "Punjab",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 30.3819446,
       "lng": 75.5467979
@@ -6855,7 +6855,7 @@
     "district": "Narmada",
     "percent": 0.0533715281206002,
     "state": "Gujarat",
-    "growth": "14.75 %",
+    "growth": "14.75",
     "coords": {
       "lat": 21.8757175,
       "lng": 73.55941279999999
@@ -6868,7 +6868,7 @@
     "district": "Porbandar",
     "percent": 0.052933197638946605,
     "state": "Gujarat",
-    "growth": "9.06 %",
+    "growth": "9.06",
     "coords": {
       "lat": 21.6417069,
       "lng": 69.6292654
@@ -6881,7 +6881,7 @@
     "district": "Central Delhi",
     "percent": 0.05265029003228528,
     "state": "Delhi",
-    "growth": "-9.91 %",
+    "growth": "-9.91",
     "coords": {
       "lat": 28.6400331,
       "lng": 77.21177329999999
@@ -6894,7 +6894,7 @@
     "district": "Solan",
     "percent": 0.05246946062566251,
     "state": "Himachal Pradesh",
-    "growth": "15.93 %",
+    "growth": "15.93",
     "coords": {
       "lat": 30.9044857,
       "lng": 77.0967357
@@ -6907,7 +6907,7 @@
     "district": "Jharsuguda",
     "percent": 0.052395772642463735,
     "state": "Orissa",
-    "growth": "13.69 %",
+    "growth": "13.69",
     "coords": {
       "lat": 21.85,
       "lng": 84.03
@@ -6920,7 +6920,7 @@
     "district": "Gajapati",
     "percent": 0.05224315262327412,
     "state": "Orissa",
-    "growth": "11.37 %",
+    "growth": "11.37",
     "coords": {
       "lat": 19.1912221,
       "lng": 84.1857115
@@ -6933,7 +6933,7 @@
     "district": "Harda",
     "percent": 0.051578423724528824,
     "state": "Madhya Pradesh",
-    "growth": "20.25 %",
+    "growth": "20.25",
     "coords": {
       "lat": 22.3355446,
       "lng": 77.0996085
@@ -6946,7 +6946,7 @@
     "district": "Perambalur",
     "percent": 0.051104469849770545,
     "state": "Tamil Nadu",
-    "growth": "14.50 %",
+    "growth": "14.50",
     "coords": {
       "lat": 11.23,
       "lng": 78.88
@@ -6959,7 +6959,7 @@
     "district": "Panchkula",
     "percent": 0.05074914006575681,
     "state": "Haryana",
-    "growth": "19.83 %",
+    "growth": "19.83",
     "coords": {
       "lat": 30.6942091,
       "lng": 76.860565
@@ -6972,7 +6972,7 @@
     "district": "Pulwama",
     "percent": 0.0506720163238322,
     "state": "Jammu and Kashmir",
-    "growth": "27.00 %",
+    "growth": "27.00",
     "coords": {
       "lat": 33.8716117,
       "lng": 74.89456919999999
@@ -6985,7 +6985,7 @@
     "district": "Udhampur",
     "percent": 0.05017880411726859,
     "state": "Jammu and Kashmir",
-    "growth": "20.78 %",
+    "growth": "20.78",
     "coords": {
       "lat": 32.9140588,
       "lng": 75.14296519999999
@@ -6998,7 +6998,7 @@
     "district": "Kodagu",
     "percent": 0.050136670865525486,
     "state": "Karnataka",
-    "growth": "1.09 %",
+    "growth": "1.09",
     "coords": {
       "lat": 12.3374942,
       "lng": 75.8069082
@@ -7011,7 +7011,7 @@
     "district": "Dantewada",
     "percent": 0.04824872144568047,
     "state": "Chhattisgarh",
-    "growth": "12.08 %",
+    "growth": "12.08",
     "coords": {
       "lat": 18.9,
       "lng": 81.35
@@ -7024,7 +7024,7 @@
     "district": "Khunti",
     "percent": 0.048090224470775614,
     "state": "Jharkhand",
-    "growth": "22.32 %",
+    "growth": "22.32",
     "coords": {
       "lat": 23.07,
       "lng": 85.28
@@ -7037,7 +7037,7 @@
     "district": "Sirmaur",
     "percent": 0.047906682623053504,
     "state": "Himachal Pradesh",
-    "growth": "15.54 %",
+    "growth": "15.54",
     "coords": {
       "lat": 30.5628455,
       "lng": 77.4701972
@@ -7050,7 +7050,7 @@
     "district": "Una",
     "percent": 0.047121702168904066,
     "state": "Himachal Pradesh",
-    "growth": "16.26 %",
+    "growth": "16.26",
     "coords": {
       "lat": 31.468445,
       "lng": 76.2707745
@@ -7063,7 +7063,7 @@
     "district": "Chamba",
     "percent": 0.04693246419487334,
     "state": "Himachal Pradesh",
-    "growth": "12.63 %",
+    "growth": "12.63",
     "coords": {
       "lat": 32.5533633,
       "lng": 76.1258083
@@ -7076,7 +7076,7 @@
     "district": "Imphal West",
     "percent": 0.04683409299767056,
     "state": "Manipur",
-    "growth": "16.56 %",
+    "growth": "16.56",
     "coords": {
       "lat": 24.7827837,
       "lng": 93.88589549999999
@@ -7089,7 +7089,7 @@
     "district": "Pithoragarh",
     "percent": 0.0437099937541523,
     "state": "Uttarakhand",
-    "growth": "4.58 %",
+    "growth": "4.58",
     "coords": {
       "lat": 29.5828604,
       "lng": 80.2181884
@@ -7102,7 +7102,7 @@
     "district": "Chirang",
     "percent": 0.043594534178023656,
     "state": "Assam",
-    "growth": "11.34 %",
+    "growth": "11.34",
     "coords": {
       "lat": 26.5386619,
       "lng": 90.6939122
@@ -7115,7 +7115,7 @@
     "district": "Punch",
     "percent": 0.04311289505348392,
     "state": "Jammu and Kashmir",
-    "growth": "27.97 %",
+    "growth": "27.97",
     "coords": {
       "lat": 33.7717124,
       "lng": 74.0946311
@@ -7128,7 +7128,7 @@
     "district": "Lohardaga",
     "percent": 0.041752605842164135,
     "state": "Jharkhand",
-    "growth": "26.68 %",
+    "growth": "26.68",
     "coords": {
       "lat": 23.43,
       "lng": 84.68
@@ -7141,7 +7141,7 @@
     "district": "Imphal East",
     "percent": 0.04123932157146541,
     "state": "Manipur",
-    "growth": "15.51 %",
+    "growth": "15.51",
     "coords": {
       "lat": 24.7806536,
       "lng": 93.9674371
@@ -7154,7 +7154,7 @@
     "district": "Hamirpur",
     "percent": 0.041117713795511594,
     "state": "Himachal Pradesh",
-    "growth": "10.19 %",
+    "growth": "10.19",
     "coords": {
       "lat": 31.6861745,
       "lng": 76.52130919999999
@@ -7167,7 +7167,7 @@
     "district": "Baudh",
     "percent": 0.0398875313422569,
     "state": "Orissa",
-    "growth": "18.16 %",
+    "growth": "18.16",
     "coords": {
       "lat": 20.828446,
       "lng": 84.3271305
@@ -7180,7 +7180,7 @@
     "district": "Kullu",
     "percent": 0.0395928698241651,
     "state": "Himachal Pradesh",
-    "growth": "14.76 %",
+    "growth": "14.76",
     "coords": {
       "lat": 31.957851,
       "lng": 77.1094597
@@ -7193,7 +7193,7 @@
     "district": "Kulgam",
     "percent": 0.038379504505726324,
     "state": "Jammu and Kashmir",
-    "growth": "7.73 %",
+    "growth": "7.73",
     "coords": {
       "lat": 33.6449908,
       "lng": 75.018031
@@ -7206,7 +7206,7 @@
     "district": "Thoubal",
     "percent": 0.03817019446756047,
     "state": "Manipur",
-    "growth": "15.94 %",
+    "growth": "15.94",
     "coords": {
       "lat": 24.6449243,
       "lng": 93.99929000000002
@@ -7219,7 +7219,7 @@
     "district": "Doda",
     "percent": 0.037064241816655616,
     "state": "Jammu and Kashmir",
-    "growth": "28.00 %",
+    "growth": "28.00",
     "coords": {
       "lat": 33.1457497,
       "lng": 75.5480491
@@ -7232,7 +7232,7 @@
     "district": "Aizawl",
     "percent": 0.03619381946787692,
     "state": "Mizoram",
-    "growth": "22.92 %",
+    "growth": "22.92",
     "coords": {
       "lat": 23.727107,
       "lng": 92.7176389
@@ -7245,7 +7245,7 @@
     "district": "Jaintia Hills",
     "percent": 0.0357250192312074,
     "state": "Meghalaya",
-    "growth": "32.10 %",
+    "growth": "32.10",
     "coords": {
       "lat": 25.5021272,
       "lng": 92.341887
@@ -7258,7 +7258,7 @@
     "district": "Bandipora",
     "percent": 0.03546353990923087,
     "state": "Jammu and Kashmir",
-    "growth": "28.65 %",
+    "growth": "28.65",
     "coords": {
       "lat": 34.5052269,
       "lng": 74.6868815
@@ -7271,7 +7271,7 @@
     "district": "Chamoli",
     "percent": 0.03540684989025463,
     "state": "Uttarakhand",
-    "growth": "5.74 %",
+    "growth": "5.74",
     "coords": {
       "lat": 30.4041045,
       "lng": 79.33176910000002
@@ -7284,7 +7284,7 @@
     "district": "West Khasi Hills",
     "percent": 0.03467051254648672,
     "state": "Meghalaya",
-    "growth": "29.53 %",
+    "growth": "29.53",
     "coords": {
       "lat": 25.5624625,
       "lng": 91.28910359999999
@@ -7297,7 +7297,7 @@
     "district": "Bilaspur",
     "percent": 0.034534438418003084,
     "state": "Himachal Pradesh",
-    "growth": "12.05 %",
+    "growth": "12.05",
     "coords": {
       "lat": 31.34294259999999,
       "lng": 76.7625073
@@ -7310,7 +7310,7 @@
     "district": "Dimapur",
     "percent": 0.03425008417608878,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 25.92,
       "lng": 93.72999999999999
@@ -7323,7 +7323,7 @@
     "district": "Dhalai",
     "percent": 0.03419755323346487,
     "state": "Tripura",
-    "growth": "22.85 %",
+    "growth": "22.85",
     "coords": {
       "lat": 23.8466982,
       "lng": 91.9099238
@@ -7336,7 +7336,7 @@
     "district": "Dadra and Nagar Haveli",
     "percent": 0.031076347260452573,
     "state": "Dadra and Nagar Haveli",
-    "growth": "55.88 %",
+    "growth": "55.88",
     "coords": {
       "lat": 20.2777871,
       "lng": 73.06413959999999
@@ -7349,7 +7349,7 @@
     "district": "Uttarkashi",
     "percent": 0.029844627757241584,
     "state": "Uttarakhand",
-    "growth": "11.89 %",
+    "growth": "11.89",
     "coords": {
       "lat": 30.73,
       "lng": 78.45
@@ -7362,7 +7362,7 @@
     "district": "Samba",
     "percent": 0.028833068056593816,
     "state": "Jammu and Kashmir",
-    "growth": "17.01 %",
+    "growth": "17.01",
     "coords": {
       "lat": 32.5530092,
       "lng": 75.11075269999999
@@ -7375,7 +7375,7 @@
     "district": "East Garo Hills",
     "percent": 0.02874437123264535,
     "state": "Meghalaya",
-    "growth": "26.87 %",
+    "growth": "26.87",
     "coords": {
       "lat": 25.5671692,
       "lng": 90.52578229999999
@@ -7388,7 +7388,7 @@
     "district": "Reasi",
     "percent": 0.02845052344688335,
     "state": "Jammu and Kashmir",
-    "growth": "27.04 %",
+    "growth": "27.04",
     "coords": {
       "lat": 33.090954,
       "lng": 74.8448648
@@ -7401,7 +7401,7 @@
     "district": "Debagarh",
     "percent": 0.02825640307887381,
     "state": "Orissa",
-    "growth": "14.01 %",
+    "growth": "14.01",
     "coords": {
       "lat": 21.53,
       "lng": 84.72999999999999
@@ -7414,7 +7414,7 @@
     "district": "Ganderbal",
     "percent": 0.026893491841158003,
     "state": "Jammu and Kashmir",
-    "growth": "36.50 %",
+    "growth": "36.50",
     "coords": {
       "lat": 34.2164955,
       "lng": 74.7719431
@@ -7427,7 +7427,7 @@
     "district": "Ramban",
     "percent": 0.025651826720582763,
     "state": "Jammu and Kashmir",
-    "growth": "31.99 %",
+    "growth": "31.99",
     "coords": {
       "lat": 33.2396355,
       "lng": 75.2406137
@@ -7440,7 +7440,7 @@
     "district": "East Sikkim",
     "percent": 0.025640072809152283,
     "state": "Sikkim",
-    "growth": "15.73 %",
+    "growth": "15.73",
     "coords": {
       "lat": 27.3083637,
       "lng": 88.6723578
@@ -7453,7 +7453,7 @@
     "district": "Churachandpur",
     "percent": 0.024786558009892816,
     "state": "Manipur",
-    "growth": "20.29 %",
+    "growth": "20.29",
     "coords": {
       "lat": 24.3427485,
       "lng": 93.6978264
@@ -7466,7 +7466,7 @@
     "district": "Kohima",
     "percent": 0.024230055511011244,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 25.6701,
       "lng": 94.1077
@@ -7479,7 +7479,7 @@
     "district": "Shupiyan",
     "percent": 0.02406975024204016,
     "state": "Jammu and Kashmir",
-    "growth": "25.97 %",
+    "growth": "25.97",
     "coords": {
       "lat": 33.7170033,
       "lng": 74.83609179999999
@@ -7492,7 +7492,7 @@
     "district": "Bageshwar",
     "percent": 0.023498600561222147,
     "state": "Uttarakhand",
-    "growth": "4.18 %",
+    "growth": "4.18",
     "coords": {
       "lat": 29.8403606,
       "lng": 79.769426
@@ -7505,7 +7505,7 @@
     "district": "Champawat",
     "percent": 0.023475996885394302,
     "state": "Uttarakhand",
-    "growth": "15.63 %",
+    "growth": "15.63",
     "coords": {
       "lat": 29.3360974,
       "lng": 80.0910275
@@ -7518,7 +7518,7 @@
     "district": "Ri Bhoi",
     "percent": 0.0234029418051187,
     "state": "Meghalaya",
-    "growth": "34.26 %",
+    "growth": "34.26",
     "coords": {
       "lat": 25.8431574,
       "lng": 91.985621
@@ -7531,7 +7531,7 @@
     "district": "Bijapur",
     "percent": 0.023076544726164605,
     "state": "Chhattisgarh",
-    "growth": "8.78 %",
+    "growth": "8.78",
     "coords": {
       "lat": 18.791667,
       "lng": 80.816667
@@ -7544,7 +7544,7 @@
     "district": "Mon",
     "percent": 0.022627183650707025,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.722574,
       "lng": 95.0312498
@@ -7557,7 +7557,7 @@
     "district": "Rudraprayag",
     "percent": 0.021906126391798734,
     "state": "Uttarakhand",
-    "growth": "6.53 %",
+    "growth": "6.53",
     "coords": {
       "lat": 30.2844141,
       "lng": 78.9811407
@@ -7570,7 +7570,7 @@
     "district": "South Andaman",
     "percent": 0.02153153827597967,
     "state": "Andaman And Nicobar Islands",
-    "growth": "14.23 %",
+    "growth": "14.23",
     "coords": {
       "lat": 11.7400867,
       "lng": 92.6586401
@@ -7583,7 +7583,7 @@
     "district": "Bishnupur",
     "percent": 0.021464360151419313,
     "state": "Manipur",
-    "growth": "13.93 %",
+    "growth": "13.93",
     "coords": {
       "lat": 24.6303603,
       "lng": 93.7598288
@@ -7596,7 +7596,7 @@
     "district": "Kishtwar",
     "percent": 0.020858310395123102,
     "state": "Jammu and Kashmir",
-    "growth": "20.88 %",
+    "growth": "20.88",
     "coords": {
       "lat": 33.3115906,
       "lng": 75.76621949999999
@@ -7609,7 +7609,7 @@
     "district": "The Dangs",
     "percent": 0.020640863033659224,
     "state": "Gujarat",
-    "growth": "22.26 %",
+    "growth": "22.26",
     "coords": {
       "lat": 20.8253781,
       "lng": 73.7007088
@@ -7622,7 +7622,7 @@
     "district": "Dima Hasao",
     "percent": 0.019357968808373992,
     "state": "Assam",
-    "growth": "13.84 %",
+    "growth": "13.84",
     "coords": {
       "lat": 25.3478004,
       "lng": 93.0175712
@@ -7635,7 +7635,7 @@
     "district": "Karaikal",
     "percent": 0.01810301272641198,
     "state": "Puducherry",
-    "growth": "17.23 %",
+    "growth": "17.23",
     "coords": {
       "lat": 10.9254398,
       "lng": 79.8380056
@@ -7648,7 +7648,7 @@
     "district": "Tuensang",
     "percent": 0.0177751690122049,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.2357422,
       "lng": 94.8131863
@@ -7661,7 +7661,7 @@
     "district": "Mokokchung",
     "percent": 0.01759669038786823,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.3220358,
       "lng": 94.5134629
@@ -7674,7 +7674,7 @@
     "district": "Senapati",
     "percent": 0.01751730627836083,
     "state": "Manipur",
-    "growth": "-31.69 %",
+    "growth": "-31.69",
     "coords": {
       "lat": 25.2727,
       "lng": 94.02650000000001
@@ -7687,7 +7687,7 @@
     "district": "Daman",
     "percent": 0.017284850076147263,
     "state": "Daman and Diu",
-    "growth": "67.71 %",
+    "growth": "67.71",
     "coords": {
       "lat": 20.3973736,
       "lng": 72.8327991
@@ -7700,7 +7700,7 @@
     "district": "Ukhrul",
     "percent": 0.01663612457988808,
     "state": "Manipur",
-    "growth": "30.70 %",
+    "growth": "30.70",
     "coords": {
       "lat": 25.0953858,
       "lng": 94.36165160000002
@@ -7713,7 +7713,7 @@
     "district": "Papumpare",
     "percent": 0.015964795407801054,
     "state": "Arunachal Pradesh",
-    "growth": "44.73 %",
+    "growth": "44.73",
     "coords": {
       "lat": 27.1719019,
       "lng": 93.7029002
@@ -7726,7 +7726,7 @@
     "district": "Wokha",
     "percent": 0.015039852992925592,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.0910351,
       "lng": 94.25897379999999
@@ -7739,7 +7739,7 @@
     "district": "Phek",
     "percent": 0.014775389985739793,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 25.6994918,
       "lng": 94.46123
@@ -7752,7 +7752,7 @@
     "district": "Lunglei",
     "percent": 0.014595464726150139,
     "state": "Mizoram",
-    "growth": "17.64 %",
+    "growth": "17.64",
     "coords": {
       "lat": 22.8670691,
       "lng": 92.7655358
@@ -7765,7 +7765,7 @@
     "district": "Changlang",
     "percent": 0.013401809813033244,
     "state": "Arunachal Pradesh",
-    "growth": "18.18 %",
+    "growth": "18.18",
     "coords": {
       "lat": 27.1305856,
       "lng": 95.73423729999999
@@ -7778,7 +7778,7 @@
     "district": "South Sikkim",
     "percent": 0.013277399181276779,
     "state": "Sikkim",
-    "growth": "11.65 %",
+    "growth": "11.65",
     "coords": {
       "lat": 27.28584,
       "lng": 88.3945669
@@ -7791,7 +7791,7 @@
     "district": "Lohit",
     "percent": 0.013175773054754782,
     "state": "Arunachal Pradesh",
-    "growth": "16.59 %",
+    "growth": "16.59",
     "coords": {
       "lat": 27.9039651,
       "lng": 96.17391160000001
@@ -7804,7 +7804,7 @@
     "district": "Chandel",
     "percent": 0.013036172752842006,
     "state": "Manipur",
-    "growth": "21.85 %",
+    "growth": "21.85",
     "coords": {
       "lat": 24.3262003,
       "lng": 94.0006003
@@ -7817,7 +7817,7 @@
     "district": "South Garo Hills",
     "percent": 0.012869086381122568,
     "state": "Meghalaya",
-    "growth": "40.95 %",
+    "growth": "40.95",
     "coords": {
       "lat": 25.3300969,
       "lng": 90.563609
@@ -7830,7 +7830,7 @@
     "district": "New Delhi",
     "percent": 0.01283924952902981,
     "state": "Delhi",
-    "growth": "-20.72 %",
+    "growth": "-20.72",
     "coords": {
       "lat": 28.6139391,
       "lng": 77.2090212
@@ -7843,7 +7843,7 @@
     "district": "Kargil",
     "percent": 0.012730571055649526,
     "state": "Jammu and Kashmir",
-    "growth": "18.02 %",
+    "growth": "18.02",
     "coords": {
       "lat": 34.5538522,
       "lng": 76.1348944
@@ -7856,7 +7856,7 @@
     "district": "Zunheboto",
     "percent": 0.012726502394000513,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.0092831,
       "lng": 94.5237707
@@ -7869,7 +7869,7 @@
     "district": "Tamenglong",
     "percent": 0.012716918435449507,
     "state": "Manipur",
-    "growth": "26.15 %",
+    "growth": "26.15",
     "coords": {
       "lat": 24.9879342,
       "lng": 93.49529199999999
@@ -7882,7 +7882,7 @@
     "district": "Narayanpur",
     "percent": 0.012641783816997747,
     "state": "Chhattisgarh",
-    "growth": "19.16 %",
+    "growth": "19.16",
     "coords": {
       "lat": 19.723535,
       "lng": 81.2424108
@@ -7895,7 +7895,7 @@
     "district": "West Sikkim",
     "percent": 0.012335730046288712,
     "state": "Sikkim",
-    "growth": "10.69 %",
+    "growth": "10.69",
     "coords": {
       "lat": 27.3031986,
       "lng": 88.2071598
@@ -7908,7 +7908,7 @@
     "district": "Leh",
     "percent": 0.01206918750092675,
     "state": "Jammu and Kashmir",
-    "growth": "13.87 %",
+    "growth": "13.87",
     "coords": {
       "lat": 34.1525864,
       "lng": 77.57705349999999
@@ -7921,7 +7921,7 @@
     "district": "Champhai",
     "percent": 0.011369196867890013,
     "state": "Mizoram",
-    "growth": "16.01 %",
+    "growth": "16.01",
     "coords": {
       "lat": 23.4565708,
       "lng": 93.32819289999999
@@ -7934,7 +7934,7 @@
     "district": "Lawngtlai",
     "percent": 0.010659351032192337,
     "state": "Mizoram",
-    "growth": "60.14 %",
+    "growth": "60.14",
     "coords": {
       "lat": 22.5284445,
       "lng": 92.89263419999999
@@ -7947,7 +7947,7 @@
     "district": "West Siang",
     "percent": 0.010151220399582356,
     "state": "Arunachal Pradesh",
-    "growth": "8.04 %",
+    "growth": "8.04",
     "coords": {
       "lat": 28.147254,
       "lng": 94.7484518
@@ -7960,7 +7960,7 @@
     "district": "Tirap",
     "percent": 0.010124186403292252,
     "state": "Arunachal Pradesh",
-    "growth": "11.61 %",
+    "growth": "11.61",
     "coords": {
       "lat": 26.9942703,
       "lng": 95.5407299
@@ -7973,7 +7973,7 @@
     "district": "North And Middle Andaman",
     "percent": 0.009547521425572244,
     "state": "Andaman And Nicobar Islands",
-    "growth": "-0.02 %",
+    "growth": "-0.02",
     "coords": {
       "lat": 12.6518832,
       "lng": 92.8976254
@@ -7986,7 +7986,7 @@
     "district": "East Siang",
     "percent": 0.008970404374335678,
     "state": "Arunachal Pradesh",
-    "growth": "13.52 %",
+    "growth": "13.52",
     "coords": {
       "lat": 28.1097051,
       "lng": 95.1432068
@@ -7999,7 +7999,7 @@
     "district": "Peren",
     "percent": 0.008609197634606698,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 25.5124772,
       "lng": 93.73906579999999
@@ -8012,7 +8012,7 @@
     "district": "Kurung Kumey",
     "percent": 0.008325024222099017,
     "state": "Arunachal Pradesh",
-    "growth": "116.56 %",
+    "growth": "116.56",
     "coords": "",
     "literacy": "48.75",
     "population": "92,076"
@@ -8022,7 +8022,7 @@
     "district": "Mamit",
     "percent": 0.00780857543678439,
     "state": "Mizoram",
-    "growth": "37.56 %",
+    "growth": "37.56",
     "coords": {
       "lat": 23.9294441,
       "lng": 92.49057069999999
@@ -8035,7 +8035,7 @@
     "district": "Kinnaur",
     "percent": 0.007605775257256956,
     "state": "Himachal Pradesh",
-    "growth": "7.39 %",
+    "growth": "7.39",
     "coords": {
       "lat": 31.65095759999999,
       "lng": 78.4751945
@@ -8048,7 +8048,7 @@
     "district": "Kolasib",
     "percent": 0.007590766416507266,
     "state": "Mizoram",
-    "growth": "27.28 %",
+    "growth": "27.28",
     "coords": {
       "lat": 24.231111,
       "lng": 92.67611099999999
@@ -8061,7 +8061,7 @@
     "district": "West Kameng",
     "percent": 0.0075900430988807745,
     "state": "Arunachal Pradesh",
-    "growth": "12.53 %",
+    "growth": "12.53",
     "coords": {
       "lat": 27.3427633,
       "lng": 92.30244599999999
@@ -8074,7 +8074,7 @@
     "district": "Upper Subansiri",
     "percent": 0.007544926161928394,
     "state": "Arunachal Pradesh",
-    "growth": "50.78 %",
+    "growth": "50.78",
     "coords": {
       "lat": 27.786802,
       "lng": 94.33596349999999
@@ -8087,7 +8087,7 @@
     "district": "Lower Subansiri",
     "percent": 0.0075071328159442355,
     "state": "Arunachal Pradesh",
-    "growth": "49.00 %",
+    "growth": "49.00",
     "coords": {
       "lat": 27.6138852,
       "lng": 93.8451731
@@ -8100,7 +8100,7 @@
     "district": "East Kameng",
     "percent": 0.007114733003572828,
     "state": "Arunachal Pradesh",
-    "growth": "37.62 %",
+    "growth": "37.62",
     "coords": {
       "lat": 27.4231261,
       "lng": 93.0175712
@@ -8113,7 +8113,7 @@
     "district": "Kiphire",
     "percent": 0.0066910497038556805,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 25.8689085,
       "lng": 94.78534119999999
@@ -8126,7 +8126,7 @@
     "district": "Serchhip",
     "percent": 0.00587125958893136,
     "state": "Mizoram",
-    "growth": "20.56 %",
+    "growth": "20.56",
     "coords": {
       "lat": 23.308996,
       "lng": 92.85670100000002
@@ -8139,7 +8139,7 @@
     "district": "Lakshadweep",
     "percent": 0.005829307166594877,
     "state": "Lakshadweep",
-    "growth": "6.30 %",
+    "growth": "6.30",
     "coords": {
       "lat": 10.8117241,
       "lng": 73.6814335
@@ -8152,7 +8152,7 @@
     "district": "Saiha",
     "percent": 0.005115121425138253,
     "state": "Mizoram",
-    "growth": "-7.34 %",
+    "growth": "-7.34",
     "coords": {
       "lat": 22.489734,
       "lng": 92.979269
@@ -8165,7 +8165,7 @@
     "district": "Yanam",
     "percent": 0.005029408286399061,
     "state": "Puducherry",
-    "growth": "77.19 %",
+    "growth": "77.19",
     "coords": {
       "lat": 16.733333,
       "lng": 82.216667
@@ -8178,7 +8178,7 @@
     "district": "Lower Dibang Valley",
     "percent": 0.004889627155079661,
     "state": "Arunachal Pradesh",
-    "growth": "7.20 %",
+    "growth": "7.20",
     "coords": {
       "lat": 28.1428728,
       "lng": 95.8431018
@@ -8191,7 +8191,7 @@
     "district": "Diu",
     "percent": 0.004708255260237024,
     "state": "Daman and Diu",
-    "growth": "17.77 %",
+    "growth": "17.77",
     "coords": {
       "lat": 20.7144094,
       "lng": 70.9873719
@@ -8204,7 +8204,7 @@
     "district": "Longleng",
     "percent": 0.004564495881971923,
     "state": "Nagaland",
-    "growth": "0.00 %",
+    "growth": "0.00",
     "coords": {
       "lat": 26.4901992,
       "lng": 94.81966399999999
@@ -8217,7 +8217,7 @@
     "district": "Tawang",
     "percent": 0.0045186556273930515,
     "state": "Arunachal Pradesh",
-    "growth": "28.40 %",
+    "growth": "28.40",
     "coords": {
       "lat": 27.5780678,
       "lng": 91.87574219999999
@@ -8230,7 +8230,7 @@
     "district": "North Sikkim",
     "percent": 0.003951936267037295,
     "state": "Sikkim",
-    "growth": "6.53 %",
+    "growth": "6.53",
     "coords": {
       "lat": 27.8236356,
       "lng": 88.55653099999999
@@ -8243,7 +8243,7 @@
     "district": "Mahe",
     "percent": 0.0037807812336688442,
     "state": "Puducherry",
-    "growth": "13.54 %",
+    "growth": "13.54",
     "coords": {
       "lat": 11.7,
       "lng": 75.533333
@@ -8256,7 +8256,7 @@
     "district": "Nicobars",
     "percent": 0.003331058499398019,
     "state": "Andaman And Nicobar Islands",
-    "growth": "-12.42 %",
+    "growth": "-12.42",
     "coords": {
       "lat": 7.1205395,
       "lng": 93.7841503
@@ -8269,7 +8269,7 @@
     "district": "Upper Siang",
     "percent": 0.003193447320958092,
     "state": "Arunachal Pradesh",
-    "growth": "5.87 %",
+    "growth": "5.87",
     "coords": {
       "lat": 28.7588781,
       "lng": 95.22666749999999
@@ -8282,7 +8282,7 @@
     "district": "Lahul and Spiti",
     "percent": 0.002853849695320533,
     "state": "Himachal Pradesh",
-    "growth": "-5.00 %",
+    "growth": "-5.00",
     "coords": {
       "lat": 32.6192107,
       "lng": 77.3783789
@@ -8295,7 +8295,7 @@
     "district": "Anjaw",
     "percent": 0.0019138080249920706,
     "state": "Arunachal Pradesh",
-    "growth": "14.19 %",
+    "growth": "14.19",
     "coords": "",
     "literacy": "56.46",
     "population": "21,167"
@@ -8305,7 +8305,7 @@
     "district": "Dibang Valley",
     "percent": 0.0007236792853043196,
     "state": "Arunachal Pradesh",
-    "growth": "10.07 %",
+    "growth": "10.07",
     "coords": {
       "lat": 28.8128767,
       "lng": 96.15269850000001

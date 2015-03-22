@@ -21,6 +21,7 @@ import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
 
+import in.tosc.trickle.api.DistStatsLoader;
 import in.tosc.trickle.api.HotelGetArgs;
 import in.tosc.trickle.api.HotelGetterTask;
 import in.tosc.trickle.api.PlacesGetArgs;
@@ -112,6 +113,8 @@ public class MainMapsActivity extends FragmentActivity
         setLongPressText(statItemButton2, "Population");
         setLongPressText(statItemButton3, "Literacy");
         setLongPressText(statItemButton4, "Growth");
+
+        setStatsClickAction(statItemButton1, DistStatsLoader.STATS_SEXRATIO);
 
 
         // ====================================================================== //
@@ -256,6 +259,19 @@ public class MainMapsActivity extends FragmentActivity
             }
         });
     }
+
+    private void setStatsClickAction(FrameLayout button, final int statType) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mMap.clear();
+                DistStatsLoader task
+                        = (DistStatsLoader) new DistStatsLoader
+                        (getApplicationContext(), mMap).execute(statType);
+            }
+        });
+    }
+
 
     private void setHotelClickAction(FrameLayout button) {
         button.setOnClickListener(new View.OnClickListener() {
