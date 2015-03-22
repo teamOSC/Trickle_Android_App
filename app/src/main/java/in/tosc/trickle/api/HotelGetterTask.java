@@ -29,26 +29,25 @@ import java.util.List;
 /**
  * Created by championswimmer on 22/3/15.
  */
-public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<PlaceObject>> {
+public class HotelGetterTask extends AsyncTask<HotelGetArgs, Void, ArrayList<HotelObject>> {
 
-    public PlacesGetterTask (GoogleMap map) {
+    public HotelGetterTask (GoogleMap map) {
         mMap = map;
     }
 
-    public static final String TAG = "Trickle PlacesGetter";
+    public static final String TAG = "Trickle HotelGetter";
 
-    ArrayList<PlaceObject> pObjs;
+    ArrayList<HotelObject> hObjs;
     GoogleMap mMap;
 
 
     @Override
-    protected ArrayList<PlaceObject> doInBackground(PlacesGetArgs... params) {
-        PlacesGetArgs argObj = params[0];
+    protected ArrayList<HotelObject> doInBackground(HotelGetArgs... params) {
+        HotelGetArgs argObj = params[0];
         String reqUrl ="http://tosc.in:8087/" +
                 "?lat="+ argObj.latitude +
                 "&long="+ argObj.longitude +
-                "&type=" + argObj.placetype +
-                "&radius=" + getRadiusFromZoom(argObj.zoom);
+                "&type=" + "hotels";
 
         Log.d(TAG, "url = " + reqUrl );
 
@@ -62,27 +61,26 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
                 jString = convertInputStreamToString(iStream);
                 Log.d(TAG, "resp = " + jString);
                 JSONObject jobj = new JSONObject(jString);
-                JSONArray jArr = jobj.getJSONArray("data");
-                pObjs = new ArrayList<>(jArr.length());
+                JSONArray jArr = jobj.getJSONArray("hotels");
+                hObjs = new ArrayList<>(jArr.length());
                 for (int i = 0; i < jArr.length(); i++) {
                     JSONObject mJobj = jArr.getJSONObject(i);
                     Log.d(TAG, "mJobj = " + mJobj.toString());
                     Log.d(TAG, "mJobj.coords = " + mJobj.getJSONObject("coords").toString());
-                    PlaceObject pobj = new PlaceObject();
-                    pobj.latitude =
+                    HotelObject hobj = new HotelObject();
+                    hobj.latitude =
                             mJobj.getJSONObject("coords")
-                            .getDouble("lat");
-                    pobj.longitude =
+                                    .getDouble("lat");
+                    hobj.longitude =
                             mJobj.getJSONObject("coords")
                                     .getDouble("lng");
-                    pobj.name =
+                    hobj.name =
                             mJobj.getString("name");
-                    if (mJobj.getString("rating") != null) {
-                        pobj.rating =
-                                (float) mJobj.getDouble("rating");
-                    } else pobj.rating = 3;
+                    hobj.meta =
+                            mJobj.getString("meta");
+                    
 
-                    pObjs.add(i, pobj);
+                    hObjs.add(i, hobj);
                 }
             } else {
                 throw new IOException();
@@ -95,31 +93,32 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
         }
 
 
-        return pObjs;
+        return hObjs;
     }
 
     @Override
-    protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
-        super.onPostExecute(placeObjects);
+    protected void onPostExecute(ArrayList<HotelObject> hotelObjects) {
+        super.onPostExecute(hotelObjects);
 
         if (mMap.getCameraPosition().zoom > 11) {
-            for (Iterator<PlaceObject> iterator = placeObjects.iterator(); iterator.hasNext(); ) {
-                PlaceObject placeObject = iterator.next();
+            for (HotelObject hotelObject : hotelObjects) {
                 mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(placeObject.latitude, placeObject.longitude))
-                        .title(placeObject.name)
-                        .icon(BitmapDescriptorFactory.defaultMarker(setMarkerColor(placeObject.rating))));
+                        .position(new LatLng(hotelObject.latitude, hotelObject.longitude))
+                        .snippet(hotelObject.meta)
+                        .title(hotelObject.name));
             }
         } else {
             // make heatmap otherwise
             List<LatLng> pointList = new ArrayList<LatLng>();
-            for (PlaceObject placeObject : placeObjects) {
-                pointList.add(new LatLng(placeObject.latitude, placeObject.longitude));
+            for (HotelObject hotelObject : hotelObjects) {
+                pointList.add(new LatLng(hotelObject.latitude, hotelObject.longitude));
             }
             if (!pointList.isEmpty()) {
                 HeatmapTileProvider provider =
                         new HeatmapTileProvider.Builder()
                                 .data(pointList) //FIXME: this comes to be null sometimes
+                                .opacity(1)
+                                .radius(40)
                                 .build();
                 mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
             }
@@ -143,38 +142,4 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
 
     }
 
-    private float setMarkerColor (float rating) {
-        switch ((int) rating) {
-            case 1: return BitmapDescriptorFactory.HUE_RED;
-            case 2: return BitmapDescriptorFactory.HUE_ROSE;
-            case 3:default: return BitmapDescriptorFactory.HUE_ORANGE;
-            case 4: return BitmapDescriptorFactory.HUE_YELLOW;
-            case 5: return BitmapDescriptorFactory.HUE_GREEN;
-        }
-    }
-
-    private int getRadiusFromZoom (float zoom) {
-        switch ((int) zoom) {
-            case 2:
-            case 3:
-            case 4: return 1000000;
-            case 5: return 600000;
-            case 6: return 350000;
-            case 7: return 200000;
-            case 8: return 150000;
-            case 9: return 100000;
-            case 10:default: return 75000;
-            case 11: return 50000;
-            case 12: return 10000;
-            case 13: return 7500;
-            case 14: return 6000;
-            case 15: return 5000;
-            case 16: return 4000;
-            case 17: return 3000;
-            case 18: return 2000;
-            case 19:
-            case 20:
-            case 21: return 1000;
-        }
-    }
 }

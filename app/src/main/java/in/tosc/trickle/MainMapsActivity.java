@@ -3,10 +3,7 @@ package in.tosc.trickle;
 import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.location.Criteria;
 import android.location.Location;
-import android.location.LocationManager;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -15,10 +12,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -27,6 +24,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
+
+import in.tosc.trickle.api.HotelGetArgs;
+import in.tosc.trickle.api.HotelGetterTask;
+import in.tosc.trickle.api.PlacesGetArgs;
+import in.tosc.trickle.api.PlacesGetterTask;
 
 public class MainMapsActivity extends FragmentActivity
         implements
@@ -54,7 +56,7 @@ public class MainMapsActivity extends FragmentActivity
 
         SubActionButton mapItemButton1 = makeSAB(R.drawable.ic_hospital, this, mapItemBuilder);
         SubActionButton mapItemButton2 = makeSAB(R.drawable.ic_restaurant, this, mapItemBuilder);
-        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restroom, this, mapItemBuilder);
+        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_hotels, this, mapItemBuilder);
         SubActionButton mapItemButton4 = makeSAB(R.drawable.ic_atm, this, mapItemBuilder);
         SubActionButton mapItemButton5 = makeSAB(R.drawable.ic_pump, this, mapItemBuilder);
         SubActionButton mapItemButton6 = makeSAB(R.drawable.ic_taxi, this, mapItemBuilder);
@@ -72,12 +74,26 @@ public class MainMapsActivity extends FragmentActivity
                 .setEndAngle(180)
                 .build();
 
+        setLongPressText(mapActionButton, "Places");
+        setLongPressText(mapItemButton1, "Hospitals");
+        setLongPressText(mapItemButton2, "Eateries");
+        setLongPressText(mapItemButton3, "Restrooms");
+        setLongPressText(mapItemButton4, "ATMs");
+        setLongPressText(mapItemButton5, "Petrol/Gas pumps");
+        setLongPressText(mapItemButton6, "Cabs");
+
+        setPlacesClickAction(mapItemButton1, PlacesGetArgs.Type.TYPE_HOSPITAL);
+        setPlacesClickAction(mapItemButton2, PlacesGetArgs.Type.TYPE_RESTAURANT);
+        setHotelClickAction(mapItemButton3);
+        setPlacesClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
+        setPlacesClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
+        setPlacesClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
+
         startChatActivityButton = (Button) findViewById(R.id.button_start_chat);
         startChatActivityButton.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String transitionName = getString(R.string.chat_common_transition);
-
                 Intent i = new Intent(MainMapsActivity.this, ChatActivity.class);
 
                 ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
@@ -116,6 +132,14 @@ public class MainMapsActivity extends FragmentActivity
                 .setStartAngle(0)
                 .setEndAngle(-180)
                 .build();
+
+        setLongPressText(heatActionButton, "Heat Maps");
+        setLongPressText(heatItemButton1, "Crime rate");
+        setLongPressText(heatItemButton2, "Water Supply");
+        setLongPressText(heatItemButton3, "Disaster Safety");
+        setLongPressText(heatItemButton4, "Healthcare");
+        setLongPressText(heatItemButton5, "Pollution");
+        setLongPressText(heatItemButton6, "Population");
 
     }
 
@@ -208,6 +232,51 @@ public class MainMapsActivity extends FragmentActivity
         sBuilder.setLayoutParams(newParams);
         return sBuilder.setContentView(icon).build();
     }
+
+    private void setLongPressText (FrameLayout button, final String text) {
+        button.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+    }
+
+    private void setPlacesClickAction(FrameLayout button, final PlacesGetArgs.Type type) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                putMapMarkers(type);
+            }
+        });
+    }
+
+    private void setHotelClickAction(FrameLayout button) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HotelGetArgs hotelArgBundle = new HotelGetArgs(
+                        mMap.getCameraPosition().target.latitude,
+                        mMap.getCameraPosition().target.longitude
+                );
+                mMap.clear();
+                HotelGetterTask hTask = (HotelGetterTask) new HotelGetterTask(mMap).execute(hotelArgBundle);
+            }
+        });
+    }
+
+    private void putMapMarkers (PlacesGetArgs.Type pType) {
+        PlacesGetArgs argBungle = new PlacesGetArgs(
+                mMap.getCameraPosition().target.latitude,
+                mMap.getCameraPosition().target.longitude,
+                pType,
+                mMap.getCameraPosition().zoom
+        );
+        mMap.clear();
+        PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask(mMap).execute(argBungle);
+    }
+
 
 
     protected synchronized void buildGoogleApiClient() {

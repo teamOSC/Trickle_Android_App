@@ -5,10 +5,11 @@ package in.tosc.trickle.api;
  */
 public class PlacesGetArgs {
     public enum Type {
-        TYPE_ATM("atm"),
-        TYPE_RESTAURANT("restaurant|food|cafe"),
+        TYPE_ATM("atm,bank"),
+        TYPE_RESTAURANT("restaurant,food,cafe"),
         TYPE_GAS_STATION("gas_station"),
-        TYPE_HOSPITAL("hospital|doctor");
+        TYPE_TAXI("taxi_stand"),
+        TYPE_HOSPITAL("hospital,doctor");
 
         private final String text;
 
@@ -28,15 +29,17 @@ public class PlacesGetArgs {
         }
     }
 
-    public PlacesGetArgs (double lat, double lng, Type t) {
+    public PlacesGetArgs (double lat, double lng, Type t, float z) {
         latitude = lat;
         longitude = lng;
         placetype = t;
+        zoom = z;
     }
 
 
     public double latitude;
     public double longitude;
     public Type placetype;
+    public float zoom;
 
 }
