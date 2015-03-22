@@ -117,8 +117,6 @@ public class HotelGetterTask extends AsyncTask<HotelGetArgs, Void, ArrayList<Hot
                 HeatmapTileProvider provider =
                         new HeatmapTileProvider.Builder()
                                 .data(pointList) //FIXME: this comes to be null sometimes
-                                .opacity(1)
-                                .radius(40)
                                 .build();
                 mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
             }

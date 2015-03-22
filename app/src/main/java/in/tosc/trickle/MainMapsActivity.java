@@ -141,6 +141,9 @@ public class MainMapsActivity extends FragmentActivity
         setLongPressText(statItemButton4, "Growth");
 
         setStatsClickAction(statItemButton1, DistStatsLoader.STATS_SEXRATIO);
+        setStatsClickAction(statItemButton2, DistStatsLoader.STATS_POPULATION);
+        setStatsClickAction(statItemButton3, DistStatsLoader.STATS_LITERACY);
+        setStatsClickAction(statItemButton4, DistStatsLoader.STATS_GROWTH);
 
 
         // ====================================================================== //
