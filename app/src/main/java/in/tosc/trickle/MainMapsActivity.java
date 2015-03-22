@@ -1,11 +1,15 @@
 package in.tosc.trickle;
 
+import android.app.ActivityOptions;
 import android.content.Context;
+import android.content.Intent;
 import android.location.Location;
+import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -37,6 +41,7 @@ public class MainMapsActivity extends FragmentActivity
     private Location mLastLocation;
     LatLng mLatLng;
 
+    private Button startChatActivityButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +50,28 @@ public class MainMapsActivity extends FragmentActivity
         buildGoogleApiClient();
         setUpMapIfNeeded();
 
+
+        startChatActivityButton = (Button) findViewById(R.id.button_start_chat);
+        startChatActivityButton.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String transitionName = getString(R.string.chat_common_transition);
+                Intent i = new Intent(MainMapsActivity.this, ChatActivity.class);
+
+                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
+                startActivity(i, transitionActivityOptions.toBundle());
+
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        finish();
+                    }
+                }, 3000);
+            }
+        });
+
+
+        // =============================================================================//
         FloatingActionButton mapActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_TOP_CENTER, this);
 
         SubActionButton.Builder mapItemBuilder = new SubActionButton.Builder(this);
@@ -84,7 +111,6 @@ public class MainMapsActivity extends FragmentActivity
         setPlacesClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
         setPlacesClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
         setPlacesClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
-
 
         // ====================================================================== //
         FloatingActionButton statActionButton = makeFAB(R.drawable.ic_stats, FloatingActionButton.POSITION_BOTTOM_LEFT, this);
