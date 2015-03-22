@@ -1,15 +1,21 @@
 package in.tosc.trickle;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Point;
 import android.location.Location;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
+import android.view.ViewAnimationUtils;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -41,6 +47,8 @@ public class MainMapsActivity extends FragmentActivity
     LatLng mLatLng;
 
     private Button startChatActivityButton;
+    private Button showSearchButton;
+    private EditText searchEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +56,60 @@ public class MainMapsActivity extends FragmentActivity
         setContentView(R.layout.activity_main_maps);
         buildGoogleApiClient();
         setUpMapIfNeeded();
+
+
+        startChatActivityButton = (Button) findViewById(R.id.button_start_chat);
+        startChatActivityButton.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String transitionName = getString(R.string.chat_common_transition);
+                Intent i = new Intent(MainMapsActivity.this, ChatActivity.class);
+
+                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
+                startActivity(i, transitionActivityOptions.toBundle());
+
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        finish();
+                    }
+                }, 3000);
+            }
+        });
+
+        showSearchButton = (Button) findViewById(R.id.button_search);
+        searchEditText = (EditText) findViewById(R.id.edit_text_search);
+        searchEditText.setVisibility(View.VISIBLE);
+        showSearchButton.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                int cx = (showSearchButton.getLeft() + showSearchButton.getRight()) / 2;
+                int cy = (showSearchButton.getTop() + showSearchButton.getBottom()) / 2;
+
+                Display display = getWindowManager().getDefaultDisplay();
+                Point size = new Point();
+                display.getSize(size);
+                final int width = size.x;
+                int height = size.y;
+
+                int initialRadius = showSearchButton.getWidth();
+                Animator anim =
+                        ViewAnimationUtils.createCircularReveal(showSearchButton, cx, cy,
+                                initialRadius, height/2);
+                anim.addListener(new AnimatorListenerAdapter() {
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
+                        super.onAnimationEnd(animation);
+                        showSearchButton.setVisibility(View.INVISIBLE);
+                        searchEditText.setVisibility(View.VISIBLE);
+                        searchEditText.setWidth(width);
+                        searchEditText.setHeight(20);
+                    }
+                });
+                anim.start();
+            }
+        });
+
 
         FloatingActionButton mapActionButton = makeFAB(R.drawable.ic_places, FloatingActionButton.POSITION_TOP_CENTER, this);
 
@@ -88,25 +150,6 @@ public class MainMapsActivity extends FragmentActivity
         setPlacesClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
         setPlacesClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
         setPlacesClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
-
-        startChatActivityButton = (Button) findViewById(R.id.button_start_chat);
-        startChatActivityButton.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String transitionName = getString(R.string.chat_common_transition);
-                Intent i = new Intent(MainMapsActivity.this, ChatActivity.class);
-
-                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
-                startActivity(i, transitionActivityOptions.toBundle());
-
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        finish();
-                    }
-                }, 3000);
-            }
-        });
 
 
         FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_heatmap, FloatingActionButton.POSITION_BOTTOM_CENTER, this);
