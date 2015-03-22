@@ -57,6 +57,7 @@ public class ChatActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        chatList.add(new Chat(false, "Hi! I'm Adler. I'm here to assist you through your journey."));
         chatEditText = (EditText) findViewById(R.id.new_chat_message);
         newMessageLayout = (LinearLayout) findViewById(R.id.parent_edit_message);
 
@@ -66,6 +67,7 @@ public class ChatActivity extends Activity {
         mLayoutManager = new LinearLayoutManager(this);
         chatRecyclerView.setLayoutManager(mLayoutManager);
         mAdapter = new ChatAdapter();
+        chatRecyclerView.addItemDecoration(new DividerItemDecoration(ChatActivity.this, DividerItemDecoration.VERTICAL_LIST));
         chatRecyclerView.setAdapter(mAdapter);
     }
 
@@ -173,7 +175,7 @@ public class ChatActivity extends Activity {
 
             } else {
                 holder.mLinearLayout.setGravity(Gravity.LEFT);
-                holder.mLinearLayout.setPadding(40,40,100,40);
+                holder.mLinearLayout.setPadding(40, 40, 100, 40);
                 holder.chatTextVew.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Material_Inverse);
             }
             holder.chatTextVew.setText(chatList.get(position).getMessage());
