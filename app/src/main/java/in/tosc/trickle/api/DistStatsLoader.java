@@ -107,8 +107,8 @@ public class DistStatsLoader extends AsyncTask<Integer, Void, ArrayList<DistStat
         super.onPostExecute(distStatsObjects);
         switch (statChoice) {
             case STATS_SEXRATIO: loadSexRatioOnMap(); break;
-            case STATS_GROWTH:
-            case STATS_LITERACY:
+            case STATS_GROWTH: loadGrowthOnMap(); break;
+            case STATS_LITERACY: loadLiteracyOnMap(); break;
             case STATS_POPULATION: loadPopulationOnMap(); break;
         }
     }
@@ -189,6 +189,93 @@ public class DistStatsLoader extends AsyncTask<Integer, Void, ArrayList<DistStat
                                 new LatLng(distStatsObject.latitude,
                                         distStatsObject.longitude),
                                 (distStatsObject.population)));
+            }
+            if (!pointList.isEmpty()) {
+                HeatmapTileProvider provider =
+                        new HeatmapTileProvider.Builder()
+                                .weightedData(pointList) //FIXME: this comes to be null sometimes
+                                .build();
+                mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+            }
+        }
+    }
+    private void loadLiteracyOnMap () {
+        if (mMap.getCameraPosition().zoom > 8) {
+            for (DistStatsObject distStatsObject : distStatsObjects) {
+                float distance[] = new float[3];
+                Location.distanceBetween(
+                        distStatsObject.latitude,
+                        distStatsObject.longitude,
+                        mMap.getCameraPosition().target.latitude,
+                        mMap.getCameraPosition().target.longitude,
+                        distance
+                );
+                if (distance[0] > 100000) continue;
+                IconGenerator ig = new IconGenerator(mContext);
+                if (distStatsObject.literacy > 85) ig.setStyle(IconGenerator.STYLE_GREEN);
+                else if (distStatsObject.literacy > 75) ig.setStyle(IconGenerator.STYLE_ORANGE);
+                else ig.setStyle(IconGenerator.STYLE_RED);
+
+//                mMap.addCircle(new CircleOptions()
+//                        .center(new LatLng(distStatsObject.latitude, distStatsObject.longitude)));
+                mMap.addMarker(new MarkerOptions()
+                        .position(new LatLng(distStatsObject.latitude, distStatsObject.longitude))
+                        .icon(BitmapDescriptorFactory
+                                .fromBitmap(ig.makeIcon(String.valueOf(distStatsObject.literacy) + "%"))));
+            }
+        } else {
+            // make heatmap otherwise
+            List<WeightedLatLng> pointList = new ArrayList<WeightedLatLng>();
+            for (DistStatsObject distStatsObject : distStatsObjects) {
+                pointList.add(
+                        new WeightedLatLng(
+                                new LatLng(distStatsObject.latitude,
+                                        distStatsObject.longitude),
+                                (-distStatsObject.literacy)));
+            }
+            if (!pointList.isEmpty()) {
+                HeatmapTileProvider provider =
+                        new HeatmapTileProvider.Builder()
+                                .weightedData(pointList) //FIXME: this comes to be null sometimes
+                                .build();
+                mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+            }
+        }
+    }
+
+    private void loadGrowthOnMap () {
+        if (mMap.getCameraPosition().zoom > 8) {
+            for (DistStatsObject distStatsObject : distStatsObjects) {
+                float distance[] = new float[3];
+                Location.distanceBetween(
+                        distStatsObject.latitude,
+                        distStatsObject.longitude,
+                        mMap.getCameraPosition().target.latitude,
+                        mMap.getCameraPosition().target.longitude,
+                        distance
+                );
+                if (distance[0] > 100000) continue;
+                IconGenerator ig = new IconGenerator(mContext);
+                if (distStatsObject.growth > 40) ig.setStyle(IconGenerator.STYLE_GREEN);
+                else if (distStatsObject.growth > 20) ig.setStyle(IconGenerator.STYLE_ORANGE);
+                else ig.setStyle(IconGenerator.STYLE_RED);
+
+//                mMap.addCircle(new CircleOptions()
+//                        .center(new LatLng(distStatsObject.latitude, distStatsObject.longitude)));
+                mMap.addMarker(new MarkerOptions()
+                        .position(new LatLng(distStatsObject.latitude, distStatsObject.longitude))
+                        .icon(BitmapDescriptorFactory
+                                .fromBitmap(ig.makeIcon(String.valueOf(distStatsObject.growth) + "%"))));
+            }
+        } else {
+            // make heatmap otherwise
+            List<WeightedLatLng> pointList = new ArrayList<WeightedLatLng>();
+            for (DistStatsObject distStatsObject : distStatsObjects) {
+                pointList.add(
+                        new WeightedLatLng(
+                                new LatLng(distStatsObject.latitude,
+                                        distStatsObject.longitude),
+                                (-distStatsObject.growth)));
             }
             if (!pointList.isEmpty()) {
                 HeatmapTileProvider provider =

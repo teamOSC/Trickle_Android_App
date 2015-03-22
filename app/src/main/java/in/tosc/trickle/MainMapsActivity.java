@@ -154,14 +154,12 @@ public class MainMapsActivity extends FragmentActivity
         SubActionButton.Builder heatItemBuilder = new SubActionButton.Builder(this);
 
         SubActionButton heatItemButton1 = makeSAB(R.drawable.ic_crime, this, heatItemBuilder);
-        SubActionButton heatItemButton2 = makeSAB(R.drawable.ic_water, this, heatItemBuilder);
         SubActionButton heatItemButton3 = makeSAB(R.drawable.ic_disaster, this, heatItemBuilder);
         SubActionButton heatItemButton4 = makeSAB(R.drawable.ic_healthcare, this, heatItemBuilder);
-        SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_population, this, heatItemBuilder);
+        SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_pollution, this, heatItemBuilder);
 
         FloatingActionMenu heatActionMenu = new FloatingActionMenu.Builder(this)
                 .addSubActionView(heatItemButton1)
-                .addSubActionView(heatItemButton2)
                 .addSubActionView(heatItemButton3)
                 .addSubActionView(heatItemButton4)
                 .addSubActionView(heatItemButton5)
@@ -173,7 +171,6 @@ public class MainMapsActivity extends FragmentActivity
 
         setLongPressText(heatActionButton, "Heat Maps");
         setLongPressText(heatItemButton1, "Crime rate");
-        setLongPressText(heatItemButton2, "Water Supply");
         setLongPressText(heatItemButton3, "Disaster Safety");
         setLongPressText(heatItemButton4, "Healthcare");
         setLongPressText(heatItemButton5, "Pollution");
