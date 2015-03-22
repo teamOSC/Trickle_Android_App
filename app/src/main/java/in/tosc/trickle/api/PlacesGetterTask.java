@@ -77,10 +77,12 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
                                     .getDouble("lng");
                     pobj.name =
                             mJobj.getString("name");
-                    if (mJobj.getString("rating") != null) {
+                    try {
                         pobj.rating =
                                 (float) mJobj.getDouble("rating");
-                    } else pobj.rating = 3;
+                    } catch (Exception e) {
+                        pobj.rating = 3;
+                    }
 
                     pObjs.add(i, pobj);
                 }
@@ -157,13 +159,13 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
         switch ((int) zoom) {
             case 2:
             case 3:
-            case 4: return 1000000;
-            case 5: return 600000;
-            case 6: return 350000;
-            case 7: return 200000;
-            case 8: return 150000;
-            case 9: return 100000;
-            case 10:default: return 75000;
+            case 4: return 2000000;
+            case 5: return 1200000;
+            case 6: return 700000;
+            case 7: return 400000;
+            case 8: return 300000;
+            case 9: return 200000;
+            case 10:default: return 150000;
             case 11: return 50000;
             case 12: return 10000;
             case 13: return 7500;

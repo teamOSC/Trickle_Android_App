@@ -5,11 +5,11 @@ package in.tosc.trickle.api;
  */
 public class PlacesGetArgs {
     public enum Type {
-        TYPE_ATM("atm,bank"),
-        TYPE_RESTAURANT("restaurant,food,cafe"),
+        TYPE_ATM("atm,bank,finance"),
+        TYPE_RESTAURANT("restaurant,food,cafe,lodging,meal_delivery,meal_takeaway"),
         TYPE_GAS_STATION("gas_station"),
-        TYPE_TAXI("taxi_stand"),
-        TYPE_HOSPITAL("hospital,doctor");
+        TYPE_TAXI("taxi_stand,bus_station,car_rental,subway_station,train_station,travel_agency,airport"),
+        TYPE_HOSPITAL("hospital,doctor,pharmacy,dentist");
 
         private final String text;
 
