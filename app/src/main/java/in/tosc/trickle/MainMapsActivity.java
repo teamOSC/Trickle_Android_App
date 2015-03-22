@@ -85,9 +85,39 @@ public class MainMapsActivity extends FragmentActivity
         setPlacesClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
 
 
+        // ====================================================================== //
+        FloatingActionButton statActionButton = makeFAB(R.drawable.ic_stats, FloatingActionButton.POSITION_BOTTOM_LEFT, this);
+
+        SubActionButton.Builder statItemBuilder = new SubActionButton.Builder(this);
+        // repeat many times:
+
+        SubActionButton statItemButton1 = makeSAB(R.drawable.ic_sexratio, this, statItemBuilder);
+        SubActionButton statItemButton2 = makeSAB(R.drawable.ic_population, this, statItemBuilder);
+        SubActionButton statItemButton3 = makeSAB(R.drawable.ic_literacy, this, statItemBuilder);
+        SubActionButton statItemButton4 = makeSAB(R.drawable.ic_growth, this, statItemBuilder);
+
+        FloatingActionMenu statActionMenu = new FloatingActionMenu.Builder(this)
+                .addSubActionView(statItemButton1)
+                .addSubActionView(statItemButton2)
+                .addSubActionView(statItemButton3)
+                .addSubActionView(statItemButton4)
+                .attachTo(statActionButton)
+                .setRadius(250)
+                .setStartAngle(-90)
+                .setEndAngle(0)
+                .build();
+
+        setLongPressText(statActionButton, "District stats");
+        setLongPressText(statItemButton1, "Sex ratio");
+        setLongPressText(statItemButton2, "Population");
+        setLongPressText(statItemButton3, "Literacy");
+        setLongPressText(statItemButton4, "Growth");
 
 
-        FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_heatmap, FloatingActionButton.POSITION_BOTTOM_CENTER, this);
+        // ====================================================================== //
+
+
+        FloatingActionButton heatActionButton = makeFAB(R.drawable.ic_heatmap, FloatingActionButton.POSITION_BOTTOM_RIGHT, this);
 
         SubActionButton.Builder heatItemBuilder = new SubActionButton.Builder(this);
 
@@ -95,8 +125,7 @@ public class MainMapsActivity extends FragmentActivity
         SubActionButton heatItemButton2 = makeSAB(R.drawable.ic_water, this, heatItemBuilder);
         SubActionButton heatItemButton3 = makeSAB(R.drawable.ic_disaster, this, heatItemBuilder);
         SubActionButton heatItemButton4 = makeSAB(R.drawable.ic_healthcare, this, heatItemBuilder);
-        SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_pollution, this, heatItemBuilder);
-        SubActionButton heatItemButton6 = makeSAB(R.drawable.ic_population, this, heatItemBuilder);
+        SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_population, this, heatItemBuilder);
 
         FloatingActionMenu heatActionMenu = new FloatingActionMenu.Builder(this)
                 .addSubActionView(heatItemButton1)
@@ -104,11 +133,10 @@ public class MainMapsActivity extends FragmentActivity
                 .addSubActionView(heatItemButton3)
                 .addSubActionView(heatItemButton4)
                 .addSubActionView(heatItemButton5)
-                .addSubActionView(heatItemButton6)
                 .attachTo(heatActionButton)
                 .setRadius(250)
-                .setStartAngle(0)
-                .setEndAngle(-180)
+                .setStartAngle(-180)
+                .setEndAngle(-90)
                 .build();
 
         setLongPressText(heatActionButton, "Heat Maps");
@@ -117,7 +145,6 @@ public class MainMapsActivity extends FragmentActivity
         setLongPressText(heatItemButton3, "Disaster Safety");
         setLongPressText(heatItemButton4, "Healthcare");
         setLongPressText(heatItemButton5, "Pollution");
-        setLongPressText(heatItemButton6, "Population");
 
     }
 
