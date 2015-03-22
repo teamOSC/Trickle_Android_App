@@ -1,10 +1,7 @@
 package in.tosc.trickle;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.location.Criteria;
 import android.location.Location;
-import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,26 +12,17 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptor;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.TileOverlayOptions;
-import com.google.maps.android.heatmaps.HeatmapTileProvider;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
-import in.tosc.trickle.api.PlaceObject;
+import in.tosc.trickle.api.HotelGetArgs;
+import in.tosc.trickle.api.HotelGetterTask;
 import in.tosc.trickle.api.PlacesGetArgs;
 import in.tosc.trickle.api.PlacesGetterTask;
 
@@ -63,7 +51,7 @@ public class MainMapsActivity extends FragmentActivity
 
         SubActionButton mapItemButton1 = makeSAB(R.drawable.ic_hospital, this, mapItemBuilder);
         SubActionButton mapItemButton2 = makeSAB(R.drawable.ic_restaurant, this, mapItemBuilder);
-        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_restroom, this, mapItemBuilder);
+        SubActionButton mapItemButton3 = makeSAB(R.drawable.ic_hotels, this, mapItemBuilder);
         SubActionButton mapItemButton4 = makeSAB(R.drawable.ic_atm, this, mapItemBuilder);
         SubActionButton mapItemButton5 = makeSAB(R.drawable.ic_pump, this, mapItemBuilder);
         SubActionButton mapItemButton6 = makeSAB(R.drawable.ic_taxi, this, mapItemBuilder);
@@ -89,11 +77,12 @@ public class MainMapsActivity extends FragmentActivity
         setLongPressText(mapItemButton5, "Petrol/Gas pumps");
         setLongPressText(mapItemButton6, "Cabs");
 
-        setClickAction(mapItemButton1, PlacesGetArgs.Type.TYPE_HOSPITAL);
-        setClickAction(mapItemButton2, PlacesGetArgs.Type.TYPE_RESTAURANT);
-        setClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
-        setClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
-        setClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
+        setPlacesClickAction(mapItemButton1, PlacesGetArgs.Type.TYPE_HOSPITAL);
+        setPlacesClickAction(mapItemButton2, PlacesGetArgs.Type.TYPE_RESTAURANT);
+        setHotelClickAction(mapItemButton3);
+        setPlacesClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
+        setPlacesClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
+        setPlacesClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
 
 
 
@@ -232,11 +221,25 @@ public class MainMapsActivity extends FragmentActivity
         });
     }
 
-    private void setClickAction (FrameLayout button, final PlacesGetArgs.Type type) {
+    private void setPlacesClickAction(FrameLayout button, final PlacesGetArgs.Type type) {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 putMapMarkers(type);
+            }
+        });
+    }
+
+    private void setHotelClickAction(FrameLayout button) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HotelGetArgs hotelArgBundle = new HotelGetArgs(
+                        mMap.getCameraPosition().target.latitude,
+                        mMap.getCameraPosition().target.longitude
+                );
+                mMap.clear();
+                HotelGetterTask hTask = (HotelGetterTask) new HotelGetterTask(mMap).execute(hotelArgBundle);
             }
         });
     }
@@ -249,46 +252,9 @@ public class MainMapsActivity extends FragmentActivity
                 mMap.getCameraPosition().zoom
         );
         mMap.clear();
-        PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask() {
-            @Override
-            protected void onPostExecute(ArrayList<PlaceObject> placeObjects) {
-                super.onPostExecute(placeObjects);
-
-                if (mMap.getCameraPosition().zoom > 11) {
-                    for (Iterator<PlaceObject> iterator = placeObjects.iterator(); iterator.hasNext(); ) {
-                        PlaceObject placeObject = iterator.next();
-                        mMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(placeObject.latitude, placeObject.longitude))
-                                .title(placeObject.name)
-                                .icon(BitmapDescriptorFactory.defaultMarker(setMarkerColor(placeObject.rating))));
-                    }
-                } else {
-                    // make heatmap otherwise
-                    List<LatLng> pointList = new ArrayList<LatLng>();
-                    for (PlaceObject placeObject : placeObjects) {
-                        pointList.add(new LatLng(placeObject.latitude, placeObject.longitude));
-                    }
-                    if (!pointList.isEmpty()) {
-                        HeatmapTileProvider provider =
-                                new HeatmapTileProvider.Builder()
-                                        .data(pointList) //FIXME: this comes to be null sometimes
-                                        .build();
-                        mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
-                    }
-                }
-            }
-        }.execute(argBungle);
+        PlacesGetterTask newTask = (PlacesGetterTask) new PlacesGetterTask(mMap).execute(argBungle);
     }
 
-    private float setMarkerColor (float rating) {
-            switch ((int) rating) {
-                case 1: return BitmapDescriptorFactory.HUE_RED;
-                case 2: return BitmapDescriptorFactory.HUE_ROSE;
-                case 3:default: return BitmapDescriptorFactory.HUE_ORANGE;
-                case 4: return BitmapDescriptorFactory.HUE_YELLOW;
-                case 5: return BitmapDescriptorFactory.HUE_GREEN;
-            }
-    }
 
 
     protected synchronized void buildGoogleApiClient() {
