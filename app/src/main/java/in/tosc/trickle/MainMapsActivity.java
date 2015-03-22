@@ -93,6 +93,7 @@ public class MainMapsActivity extends FragmentActivity
         setClickAction(mapItemButton2, PlacesGetArgs.Type.TYPE_RESTAURANT);
         setClickAction(mapItemButton4, PlacesGetArgs.Type.TYPE_ATM);
         setClickAction(mapItemButton5, PlacesGetArgs.Type.TYPE_GAS_STATION);
+        setClickAction(mapItemButton6, PlacesGetArgs.Type.TYPE_TAXI);
 
 
 
@@ -267,12 +268,13 @@ public class MainMapsActivity extends FragmentActivity
                     for (PlaceObject placeObject : placeObjects) {
                         pointList.add(new LatLng(placeObject.latitude, placeObject.longitude));
                     }
-                    HeatmapTileProvider provider =
-                            new HeatmapTileProvider.Builder()
-                            .data(pointList)
-                            .build();
-                    mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
-
+                    if (!pointList.isEmpty()) {
+                        HeatmapTileProvider provider =
+                                new HeatmapTileProvider.Builder()
+                                        .data(pointList) //FIXME: this comes to be null sometimes
+                                        .build();
+                        mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+                    }
                 }
             }
         }.execute(argBungle);

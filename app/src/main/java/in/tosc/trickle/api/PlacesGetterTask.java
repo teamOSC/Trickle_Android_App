@@ -113,24 +113,24 @@ public class PlacesGetterTask extends AsyncTask<PlacesGetArgs, Void, ArrayList<P
         switch ((int) zoom) {
             case 2:
             case 3:
-            case 4: return 40000;
-            case 5: return 25000;
-            case 6: return 20000;
-            case 7: return 15000;
-            case 8: return 10000;
-            case 9: return 7500;
-            case 10:default: return 6000;
-            case 11: return 5000;
-            case 12: return 3500;
-            case 13: return 3000;
-            case 14: return 2500;
-            case 15: return 2000;
-            case 16: return 1800;
-            case 17: return 1500;
-            case 18: return 1250;
+            case 4: return 75000;
+            case 5: return 50000;
+            case 6: return 30000;
+            case 7: return 25000;
+            case 8: return 22000;
+            case 9: return 20000;
+            case 10:default: return 18000;
+            case 11: return 15000;
+            case 12: return 12000;
+            case 13: return 9000;
+            case 14: return 7000;
+            case 15: return 6000;
+            case 16: return 5000;
+            case 17: return 4000;
+            case 18: return 3000;
             case 19:
             case 20:
-            case 21: return 1000;
+            case 21: return 2000;
         }
     }
 }
