@@ -36,10 +36,20 @@
         </activity>
         <activity
             android:name=".ChatActivity"
-            android:windowSoftInputMode="stateHidden"
-            android:label="@string/title_activity_chat" >
+            android:label="@string/title_activity_chat"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
