@@ -89,6 +89,7 @@ public class DistStatsLoader extends AsyncTask<Integer, Void, ArrayList<DistStat
                             ));
                 }
                 statChoice = params[0];
+                loadedOnce = true;
                 return distStatsObjects;
 
             } catch (JSONException e) {

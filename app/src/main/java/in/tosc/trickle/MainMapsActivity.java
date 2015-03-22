@@ -25,11 +25,14 @@ import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
 import com.oguzdev.circularfloatingactionmenu.library.SubActionButton;
 
+import in.tosc.trickle.api.CrimeChildrenLoader;
+import in.tosc.trickle.api.CrimeWomenLoader;
 import in.tosc.trickle.api.DistStatsLoader;
 import in.tosc.trickle.api.HotelGetArgs;
 import in.tosc.trickle.api.HotelGetterTask;
 import in.tosc.trickle.api.PlacesGetArgs;
 import in.tosc.trickle.api.PlacesGetterTask;
+import in.tosc.trickle.api.StatePollutionLoader;
 
 public class MainMapsActivity extends FragmentActivity
         implements
@@ -154,8 +157,8 @@ public class MainMapsActivity extends FragmentActivity
         SubActionButton.Builder heatItemBuilder = new SubActionButton.Builder(this);
 
         SubActionButton heatItemButton1 = makeSAB(R.drawable.ic_crime, this, heatItemBuilder);
-        SubActionButton heatItemButton3 = makeSAB(R.drawable.ic_disaster, this, heatItemBuilder);
-        SubActionButton heatItemButton4 = makeSAB(R.drawable.ic_healthcare, this, heatItemBuilder);
+        SubActionButton heatItemButton3 = makeSAB(R.drawable.ic_crime_women, this, heatItemBuilder);
+        SubActionButton heatItemButton4 = makeSAB(R.drawable.ic_disaster, this, heatItemBuilder);
         SubActionButton heatItemButton5 = makeSAB(R.drawable.ic_pollution, this, heatItemBuilder);
 
         FloatingActionMenu heatActionMenu = new FloatingActionMenu.Builder(this)
@@ -170,10 +173,15 @@ public class MainMapsActivity extends FragmentActivity
                 .build();
 
         setLongPressText(heatActionButton, "Heat Maps");
-        setLongPressText(heatItemButton1, "Crime rate");
-        setLongPressText(heatItemButton3, "Disaster Safety");
-        setLongPressText(heatItemButton4, "Healthcare");
+        setLongPressText(heatItemButton1, "Crime against children");
+        setLongPressText(heatItemButton3, "Crime against women");
+        setLongPressText(heatItemButton4, "Disaster Safety");
         setLongPressText(heatItemButton5, "Pollution");
+
+        setPollutionClickAction(heatItemButton5);
+        setCrimeWomenClickAction(heatItemButton3);
+        setCrimeChildrenClickAction(heatItemButton1);
+
 
     }
 
@@ -294,6 +302,42 @@ public class MainMapsActivity extends FragmentActivity
                 DistStatsLoader task
                         = (DistStatsLoader) new DistStatsLoader
                         (getApplicationContext(), mMap).execute(statType);
+            }
+        });
+    }
+
+    private void setPollutionClickAction (FrameLayout button) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mMap.clear();
+                StatePollutionLoader task
+                        = (StatePollutionLoader) new StatePollutionLoader
+                        (getApplicationContext(), mMap).execute(1);
+            }
+        });
+    }
+
+    private void setCrimeChildrenClickAction (FrameLayout button) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mMap.clear();
+                CrimeChildrenLoader task
+                        = (CrimeChildrenLoader) new CrimeChildrenLoader
+                        (getApplicationContext(), mMap).execute(1);
+            }
+        });
+    }
+
+    private void setCrimeWomenClickAction(FrameLayout button) {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mMap.clear();
+                CrimeWomenLoader task
+                        = (CrimeWomenLoader) new CrimeWomenLoader
+                        (getApplicationContext(), mMap).execute(1);
             }
         });
     }

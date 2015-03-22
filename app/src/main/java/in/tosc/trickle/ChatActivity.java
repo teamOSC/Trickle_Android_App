@@ -50,7 +50,7 @@ public class ChatActivity extends Activity {
 
     private LinearLayout newMessageLayout;
 
-    private String url = "http://tosc.in:8087/adler?q=%s";
+    private String url = "http://derp.mybluemix.net/assist?questionText=%s&dataset=travel";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,12 +93,10 @@ public class ChatActivity extends Activity {
 
         @Override
         protected void onPostExecute(String result) {
-            try {
-                JSONObject object = new JSONObject(result);
-                chatList.add(new Chat(false, object.getString("response")));
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                JSONObject object = new JSONObject(result);
+                chatList.add(new Chat(false, result));
+
             mAdapter.notifyDataSetChanged();
             gotToLast();
         }
@@ -170,11 +168,13 @@ public class ChatActivity extends Activity {
             Chat chat = chatList.get(position);
             if (chat.isMine()) {
                 holder.mLinearLayout.setGravity(Gravity.RIGHT);
-                holder.mRelativeLayout.setBackgroundResource(R.drawable.speech_bubble_green);
+                holder.mLinearLayout.setPadding(100,40,40,40);
+                holder.chatTextVew.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Holo_Inverse);
 
             } else {
                 holder.mLinearLayout.setGravity(Gravity.LEFT);
-                holder.mRelativeLayout.setBackgroundResource(R.drawable.speech_bubble_orange);
+                holder.mLinearLayout.setPadding(40,40,100,40);
+                holder.chatTextVew.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Material_Inverse);
             }
             holder.chatTextVew.setText(chatList.get(position).getMessage());
         }
@@ -191,6 +191,8 @@ public class ChatActivity extends Activity {
         chatList.add(new Chat(true, message));
         mAdapter.notifyDataSetChanged();
         gotToLast();
+        chatEditText.clearComposingText();
+        chatEditText.setText("");
         new AdlerResponse(message).execute();
     }
 

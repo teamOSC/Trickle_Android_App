@@ -27,6 +27,7 @@
 
         <activity
             android:name=".MainMapsActivity"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/title_activity_main_maps" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +37,7 @@
         </activity>
         <activity
             android:name=".ChatActivity"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/title_activity_chat"
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
@@ -46,6 +48,7 @@
         </activity>
         <activity
             android:name=".SplashScreen"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/title_activity_splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
