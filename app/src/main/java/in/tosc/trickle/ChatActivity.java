@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -223,10 +224,13 @@ public class ChatActivity extends Activity {
 
         Intent i = new Intent(ChatActivity.this, MainMapsActivity.class);
 
-        ActivityOptions transitionActivityOptions = ActivityOptions
-                .makeSceneTransitionAnimation(ChatActivity.this, newMessageLayout, transitionName);
-        startActivity(i, transitionActivityOptions.toBundle());
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            ActivityOptions transitionActivityOptions = ActivityOptions
+                    .makeSceneTransitionAnimation(ChatActivity.this, newMessageLayout, transitionName);
+            startActivity(i, transitionActivityOptions.toBundle());
+        } else {
+            startActivity(i);
+        }
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

@@ -55,6 +55,7 @@ public class DistStatsLoader extends AsyncTask<Integer, Void, ArrayList<DistStat
 
     @Override
     protected ArrayList<DistStatsObject> doInBackground(Integer... params) {
+        statChoice = params[0];
 
         if (loadedOnce && (distStatsObjects != null)) {
             return distStatsObjects;
@@ -88,7 +89,6 @@ public class DistStatsLoader extends AsyncTask<Integer, Void, ArrayList<DistStat
                             growth
                             ));
                 }
-                statChoice = params[0];
                 loadedOnce = true;
                 return distStatsObjects;
 

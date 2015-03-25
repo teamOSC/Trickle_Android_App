@@ -4,6 +4,7 @@ import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -61,8 +62,13 @@ public class MainMapsActivity extends FragmentActivity
                 String transitionName = getString(R.string.chat_common_transition);
                 Intent i = new Intent(MainMapsActivity.this, ChatActivity.class);
 
-                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
-                startActivity(i, transitionActivityOptions.toBundle());
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainMapsActivity.this, v, transitionName);
+                    startActivity(i, transitionActivityOptions.toBundle());
+                } else {
+                    startActivity(i);
+                }
+
 
                 new Handler().postDelayed(new Runnable() {
                     @Override
